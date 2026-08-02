@@ -1,0 +1,376 @@
+law_id,law_name,domain_code,law_type_code,ministry_name
+5a4d136d-3c51-4038-ab1f-1c0912464afa,(식품의약품안전처) 의료기관 조제실제제 관리기준,BUILDING,NOTICE,식품의약품안전처
+f01d951f-8e47-4bbd-9136-a8a12190b8f5,(한국전통문화대학교) 제3종시설물의 지정고시,BUILDING,NOTICE,한국전통문화대학교
+35374853-e07a-451b-9f8f-50b89b06dc21,2025년 재외한국학교안전공제료 산정기준 고시,BUILDING,NOTICE,교육부
+3db5f5d5-29ce-4775-8d19-bfda9d86d180,2025년 학교안전공제료 산정기준 고시,BUILDING,NOTICE,교육부
+5448f136-8cd5-4676-9ddc-8c744e887ac6,건축물 안전영향평가 세부기준,BUILDING,NOTICE,국토교통부
+8f0ad3db-2e6f-4047-9520-36023acd4e3f,공동주택 바닥충격음 차단구조 인정 및 검사기준,BUILDING,NOTICE,국토교통부
+a43f2c69-34cf-486e-aef4-880c54f4f4cf,공중보건 위기대응 의료제품 안전관리·공급위원회 운영세칙,BUILDING,NOTICE,식품의약품안전처
+d296a593-74a1-4e14-a007-d58c388d592c,"공중보건 위기대응 의료제품의 긴급 생산·수입명령, 유통개선조치에 관한 규정",BUILDING,NOTICE,식품의약품안전처
+9cfcb5b1-4c03-4a82-b48e-3701c145c79b,공중보건 위기대응 의료제품의 안전사용 조치 및 부작용 보고 등에 관한 규정,BUILDING,NOTICE,식품의약품안전처
+ff582080-9bd4-4730-b122-540f78313898,단지내도로 교통안전시설의 설치·관리기준,BUILDING,NOTICE,국토교통부
+48298f63-f078-4245-b25d-56aebec36a69,보건의료인국가시험 응시자격 관련 외국 학교 등 인정기준,BUILDING,NOTICE,보건복지부
+943b35fc-9c8f-492b-93e0-a5fa65c3eb0b,상급종합병원의 지정 및 평가 규정,BUILDING,NOTICE,보건복지부
+344cfe5b-25f8-4122-8e77-cb80e65dadb2,수직증축형 리모델링 전문기관 안전성 검토기준,BUILDING,NOTICE,국토교통부
+97d9ef5a-bc66-4ca3-aeba-aab8540d4aca,승강기안전부품 및 승강기의 안전인증에 관한 운영규정,BUILDING,NOTICE,행정안전부
+bdb0acbd-c7d7-438a-9590-ab761e933213,승강기안전부품 안전기준 및 승강기 안전기준,BUILDING,NOTICE,행정안전부
+053f04b6-5ff7-4e6f-832e-76e5e56ff6e1,어린이놀이시설 안전검사 수수료,BUILDING,NOTICE,행정안전부
+ffa78fb6-fd1b-48f9-95a3-6bda8ce23538,어린이놀이시설 안전관리자 사이버교육 운용에 관한 고시,BUILDING,NOTICE,행정안전부
+58b96598-513f-4151-8330-873531c1d45e,의료기기 임상시험 기본문서 관리에 관한 규정,BUILDING,NOTICE,식품의약품안전처
+ffae9a6b-dc24-4ab6-9e83-ca8e9427a73c,의료기기의 생물학적 안전에 관한 공통기준규격,BUILDING,NOTICE,식품의약품안전처
+4c913b56-8093-45c1-b454-7c5ca65f40e1,의료기기의 안정성시험 기준,BUILDING,NOTICE,식품의약품안전처
+f286e20f-ce02-4b2a-881c-5eb02c1d9f81,의료기기의 전자파안전에 관한 공통기준규격,BUILDING,NOTICE,식품의약품안전처
+a73d92b4-34e7-467f-9f17-6129b8d15492,의료분야의 방사선안전관리에 관한 기술기준,BUILDING,NOTICE,원자력안전위원회
+308cf2d0-e481-47c4-a592-9f515699d176,제로에너지건축물 인증 기준,BUILDING,NOTICE,"국토교통부,산업통상부"
+e80d26d2-f7ef-4dde-8743-8a60b74f2b66,"종합병원, 병원, 요양병원 내진설계 기준",BUILDING,NOTICE,보건복지부
+a285056a-b8df-48b0-ab5b-b85d0ad06c2c,주택 재건축 판정을 위한 재건축진단 기준,BUILDING,NOTICE,국토교통부
+ad743791-ddfa-4102-8a41-20b7710d8802,증축형 리모델링 안전진단기준,BUILDING,NOTICE,국토교통부
+2a2cdfb4-8a4e-438f-b68a-cac80de68d18,진료권역별 상급종합병원의 소요병상수,BUILDING,NOTICE,보건복지부
+6ca4befe-8113-4b58-b663-ac7245885035,탄소흡수원 특성화 학교 운영을 위한 지정기준,BUILDING,NOTICE,산림청
+28e20359-2ff7-4406-8c88-7ff2e07e7c08,터널설계기준(KDS 27 00 00) 및 터널공사 표준시방서(KCS 27 00 00),BUILDING,NOTICE,국토교통부
+0cb81d42-d1cc-4452-925b-b738011378d0,테마파크시설 안전성검사 등의 기준 및 절차,BUILDING,NOTICE,문화체육관광부
+318a0bc0-4e28-47e3-bee8-69385ceb792e,판독업무 등록기준 및 검사에 관한 규정,BUILDING,NOTICE,원자력안전위원회
+60175ebe-8dc1-42a7-b2ee-e9effd393236,학교복합시설 전문기관 지정 및 운영에 관한 규정,BUILDING,NOTICE,교육부
+b1b702cb-34e9-425a-b364-e1e7501bf760,학교시설 내진설계 기준 고시,BUILDING,NOTICE,교육부
+982360ec-ec5d-4a97-b77b-fd5eb0c3ab52,학교안전교육 실시 기준 등에 관한 고시,BUILDING,NOTICE,교육부
+7cdcbe03-955c-4eec-8928-5736f8cf55c8,학교안전법 상 장해등급 판정 세부기준,BUILDING,NOTICE,교육부
+3748738a-9d36-45d7-94de-3488998de380,항만시설장비검사기준,BUILDING,NOTICE,해양수산부
+8a2769ac-8b85-472e-92a6-d3c86a99ca9e,반도체·디스플레이 제조업종 유해화학물질 취급시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+19ee17c7-1822-4017-96ed-8b979a64e836,방사선 안전관리 등의 기술기준에 관한 규칙,CHEMICAL,OTHER,원자력안전위원회
+3aa83d76-6100-4a63-b7bb-531a27e3fe2e,방사선기기의 설계승인 및 검사에 관한 기준,CHEMICAL,NOTICE,원자력안전위원회
+0f4b3543-4a00-40a0-9562-518b0d22d57e,신규화학물질의 유해성·위험성 조사 등에 관한 고시,CHEMICAL,NOTICE,고용노동부
+8503067c-3598-4eb3-990b-d4a0a37ceb86,안전확인대상생활화학제품 시험·검사 기준 및 방법 등에 관한 규정,CHEMICAL,NOTICE,화학물질안전원
+25780afc-a4db-4708-be30-e2019c193d8a,안전확인대상생활화학제품 지정 및 안전·표시기준,CHEMICAL,NOTICE,기후에너지환경부
+529029cf-b154-4ead-94df-2a190a827310,염색업종 유해화학물질 취급시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+5c8e729c-fcbe-4c0b-a470-d30efd9e71d0,위험물검사원 선임인가 및 교육 등에 관한 기준,CHEMICAL,NOTICE,해양수산부
+70d98b1d-3741-4a02-8799-8afa0d8325b0,유해화학물질 보관시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+b9e482e2-66ec-49a6-87b1-f1d98216f143,유해화학물질 사외배관 이송시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+997e4c24-afee-4bb7-b33d-be0243e7f3d3,유해화학물질 소량 취급시설에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+0efcdbb1-b923-498a-b417-a44f3ac909a5,유해화학물질 시약 등 택배 안전용기 및 포장 등에 관한 규정,CHEMICAL,NOTICE,화학물질안전원
+e24a20ee-eea6-4316-831f-0044ed73d222,유해화학물질 안전교육 전문기관 지정 및 운영 등에 관한 규정,CHEMICAL,NOTICE,화학물질안전원
+caa97ce9-4b8a-4a3e-84e9-07802a374da9,유해화학물질 안전교육 전문기관의 지정,CHEMICAL,NOTICE,화학물질안전원
+b92a7b47-73c1-4824-8b95-6ea287814b70,유해화학물질 안전교육경비,CHEMICAL,NOTICE,기후에너지환경부
+84ed3780-70b0-49a1-8ac0-898b56f80f72,유해화학물질 안전교육과 유사하다고 인정하는 교육에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+0a2ad7ca-8d24-4464-a11e-e117ca58e0b5,유해화학물질 예외적 사용 수산부산물 재활용시 환경오염방지 기준에 관한 고시,CHEMICAL,NOTICE,해양수산부
+cb3eaa9c-4f6f-4b85-971d-592832729f9b,유해화학물질 운반용기 관리 등에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+d6e44465-78f9-4386-99af-c1ede1e4c850,유해화학물질 운반용기 사용연장검사에 관한 세부지침,CHEMICAL,NOTICE,화학물질안전원
+37f7cc98-6127-4c93-8c6f-5fb5535ac9e6,유해화학물질 제조·사용·저장시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+af4de04c-5093-42ba-acff-49cb1135ea83,유해화학물질 차량 운반시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+7dc96895-1f1a-4287-aff7-71b9c1105d0d,유해화학물질 차량 운송시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+8e456ac6-2df8-4ea3-b166-468c70f63f75,유해화학물질 취급시설 검사 및 안전진단 수수료에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+d7aaf6d1-6bf4-4632-a2df-79880a7823f9,유해화학물질 취급시설 검사기관 관리 등에 관한 규정,CHEMICAL,NOTICE,기후에너지환경부
+2b4b8b48-b240-4acb-96ad-89813eecac8f,유해화학물질 취급시설 외벽으로부터 보호대상까지의 안전거리 고시,CHEMICAL,NOTICE,기후에너지환경부
+e5b28afd-2273-4e75-b19c-f5447db13e51,유해화학물질 취급시설의 설치·정기·수시검사 및 안전진단의 방법 등에 관한 규정,CHEMICAL,NOTICE,기후에너지환경부
+c3835e07-8c93-4e0a-9e3b-56943915ddd6,유해화학물질 취급자의 개인보호장구 착용에 관한 규정,CHEMICAL,NOTICE,화학물질안전원
+35c426c1-0245-4e7e-86a8-8982fbaafb16,유해화학물질공정시험기준,CHEMICAL,NOTICE,국립환경과학원
+51f90e99-cba3-4724-ab16-faa3c7aac395,유해화학물질별 구체적인 취급기준에 관한 규정,CHEMICAL,NOTICE,화학물질안전원
+86631679-e86f-4145-ba4f-0b049c863b81,유해화학물질의 교역시 사전통보승인절차에 관한 협약에 따른 화학물질의 수출에 관한 규정,CHEMICAL,NOTICE,기후에너지환경부
+e298663a-407d-4cb8-85d8-af7db9e39e59,유해화학물질의 규정수량에 관한 규정,CHEMICAL,NOTICE,화학물질안전원
+45423605-a021-48a7-8c91-0eb4a5b238be,유해화학물질의 영업 및 관리 등에 관한 업무처리 규정,CHEMICAL,NOTICE,기후에너지환경부
+d5a6ad5e-d8b7-4ee2-8478-d93b3eceee3f,유해화학물질의 영업허가 등에 관한 규정,CHEMICAL,NOTICE,기후에너지환경부
+a5c1fd6c-5efa-4901-8614-30d5608d5d43,표면처리업종 유해화학물질 취급시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+d293977d-5226-4483-9149-10b4313431d6,항만구역 내 유해화학물질 보관시설 설치 및 관리에 관한 고시,CHEMICAL,NOTICE,화학물질안전원
+93ccf497-4982-4b21-98ac-2640c338e078,화학물질 및 물리적 인자의 노출기준,CHEMICAL,NOTICE,고용노동부
+753f0d0a-6716-4a68-8d0a-c1365c57bb4d,화학물질 시험기관의 지정기준 및 관리기준 등에 관한 규정,CHEMICAL,NOTICE,기후에너지환경부
+449ca799-1076-42e5-8465-6bfd55135197,화학물질 자료 등의 보호에 관한 규정,CHEMICAL,NOTICE,기후에너지환경부
+0e4f7978-85dc-443f-b182-d983906b9e92,화학물질의 분류 및 표시 등에 관한 규정,CHEMICAL,NOTICE,화학물질안전원
+a8c5434d-2281-4f28-bf51-07891f010e3a,화학물질의 유해성·위험성 평가에 관한 규정,CHEMICAL,NOTICE,고용노동부
+d143d5a2-6e19-49d8-86a4-1c18ec7fb159,화학물질의 유해성심사결과,CHEMICAL,NOTICE,화학물질안전원
+8999802f-b83e-405a-9f07-4ba9e3a02c64,화학물질확인 제외기준,CHEMICAL,NOTICE,기후에너지환경부
+ab72677c-476a-4bb4-8875-73bff864c35f,건설기계 안전기준 시행세칙,CONSTRUCTION,NOTICE,국토교통부
+6a526a91-33b5-4702-b31f-874af303caff,건축물 에너지효율등급 인증기관 지정 고시,CONSTRUCTION,NOTICE,국토교통부
+0a44843c-905e-4642-8f38-fa17ce9cfb34,건축물의 에너지절약설계기준,CONSTRUCTION,NOTICE,국토교통부
+cce032d2-6f3a-43ac-afc9-6fa6be8f0fdd,에너지절약형 친환경주택의 건설기준,CONSTRUCTION,NOTICE,국토교통부
+ca01c1f5-746e-4090-a432-289d51ab2abf,(행정안전부) 자연재난 복구비용 산정기준,DISASTER,NOTICE,행정안전부
+302f02ba-bceb-44d9-b023-9da08ddaee90,(행정안전부) 재난지원금 선지급 비율ㆍ절차 등에 관한 기준,DISASTER,NOTICE,행정안전부
+214e0a24-557e-418d-ba30-8a7bf7081c34,교량 내진설계기준(케이블교량)(KDS 24 17 12),DISASTER,NOTICE,국토교통부
+e4199c3d-ef79-4583-93f3-04e2df7dd7b4,교량 내진설계기준(한계상태설계법)(KDS 24 17 11),DISASTER,NOTICE,국토교통부
+b32e4343-d925-4bc1-9b1f-ff756c4fbf23,급경사지 계측기기 성능검사 기준에 관한 규정,DISASTER,NOTICE,행정안전부
+c988c2bd-a89b-434b-a033-4d7f2926ad1a,기초 내진 설계기준(KDS 11 50 25),DISASTER,NOTICE,국토교통부
+e6b7e7a9-7512-4bf9-a6af-bad5a8952764,내진설계 일반(KDS 17 10 00),DISASTER,NOTICE,국토교통부
+a03304e7-6648-40a2-9a58-b8a06ce44160,방재관리대책 업무 대행비용의 산정기준,DISASTER,NOTICE,행정안전부
+2d876084-42e6-47da-a5dd-de081b8a881a,재난안전산업 전문인력 양성기관 지정 세부기준,DISASTER,NOTICE,행정안전부
+dbf46d77-f1cf-4df4-b877-21778026cf46,재난안전의무보험의 관리ㆍ운용 등에 관한 업무기준,DISASTER,NOTICE,행정안전부
+db1ee588-9b65-4760-8797-27264fd09b0a,가정용 섬유제품인 방한대 중 부직포 마스크 제품의 예비안전기준,ELECTRIC,NOTICE,국가기술표준원
+7468b7da-53f5-4457-b550-58d6c5984ff8,공급자적합성확인대상 생활용품의 안전기준,ELECTRIC,NOTICE,국가기술표준원
+7209d73a-4a91-4584-ba47-022a97d1a591,공작기계 안전기준 일반에 관한 기술상의 지침,ELECTRIC,NOTICE,고용노동부
+8fadcc5d-96d2-4017-a87f-4536ad9e29ef,그 밖에 음용을 목적으로 위생안전기준 인증을 받아야 하는 수도용 자재와 제품,ELECTRIC,NOTICE,기후에너지환경부
+5dc0b479-c983-41f7-87e8-9998d573f04a,기계식주차장치의 안전기준 및 검사기준 등에 관한 규정,ELECTRIC,NOTICE,국토교통부
+f67b6c43-4300-4a64-b654-c1c0634d4e68,무인비행장치 특별비행을 위한 안전기준 및 승인절차에 관한 기준,ELECTRIC,NOTICE,국토교통부
+d8c99729-f94a-49d4-ad6d-ebb1a7a54c97,방송통신설비의 기술기준 적합시험 결과 기록·관리 대상 방송통신설비에 관한 고시,ELECTRIC,NOTICE,과학기술정보통신부
+64124729-03a5-4580-afa3-d733cc119cdf,방호장치 자율안전기준 고시,ELECTRIC,NOTICE,고용노동부
+ef1fb92d-b611-4bae-b94f-24a76b6347b4,생산단계 농수산물 등의 유해물질 안전기준,ELECTRIC,NOTICE,식품의약품안전처
+078ce3be-d0fe-4663-af86-bddb06afef1d,생활용품 안전기준 부적합시 처리기준,ELECTRIC,NOTICE,국가기술표준원
+f847853b-9bde-46ff-893a-b0a02bbe8103,수도용 자재 및 제품의 위생안전기준 공정시험방법,ELECTRIC,NOTICE,기후에너지환경부
+fcf0e129-9e9a-40e8-bca9-5715d259baac,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+605140de-1e33-45f5-bbe0-1e97322547ac,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+0cd4c992-3430-48f5-bca6-d760dd00f06d,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+a8d1fc68-6038-4b2a-a267-7961335f7cfe,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+25353d5a-707f-46c3-9c8f-7a8b91289de5,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+01022e9d-ae28-41c3-b8e5-82741c4eec85,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+8fb7639c-b351-4754-a930-5366a3124701,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+1d02731d-97a0-47d1-8127-df8f6c0b7f3c,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+465a3ee7-2231-40e1-9684-2c195c439c3d,안전기준 등록,ELECTRIC,NOTICE,행정안전부
+2beb6544-913a-4b90-b826-92c371f1a793,안전기준심의회 운영규정,ELECTRIC,NOTICE,행정안전부
+5072e093-9293-4530-a662-fcddef53d4f1,안전기준준수대상생활용품의 안전기준,ELECTRIC,NOTICE,국가기술표준원
+e07f55d8-596d-4efe-a9b1-2db76c38eea1,안전인증대상생활용품의 안전기준,ELECTRIC,NOTICE,국가기술표준원
+9609c330-cb25-4898-85c5-4596985078a6,안전확인대상생활용품의 안전기준,ELECTRIC,NOTICE,국가기술표준원
+eafc8489-af36-404c-b201-aa2eb13a1080,의료기기의 전기·기계적 안전에 관한 공통기준규격,ELECTRIC,NOTICE,식품의약품안전처
+a78922e4-df1f-4920-b3e8-0b8ad1718501,자유무역협정체결로 인정되는 자동차 안전기준,ELECTRIC,NOTICE,국토교통부
+849a8675-ac7c-43cd-97c8-6c1ab0e92706,전기기기 공인시험 기준 및 방법에 관한 요령,ELECTRIC,NOTICE,산업통상부
+65115a9c-c3f7-4f7e-88ca-2a882a396697,전기설비기술기준,ELECTRIC,STANDARD,산업통상부
+570d6015-d026-417b-93ef-8fc1ef4f8205,전기설비기술기준 운영요령,ELECTRIC,NOTICE,기후에너지환경부
+2a32487f-95b0-4489-9dfc-f19d2e24c87b,전기용품 안전기준 부적합시 처리기준,ELECTRIC,NOTICE,국가기술표준원
+eefd7d97-6251-45ec-9ac7-4e5d55e4faba,전기용품 안전기준(K 10020),ELECTRIC,NOTICE,국가기술표준원
+4fda425a-0af5-42b0-bc07-73812bea46ea,전기용품 안전기준(K 10021),ELECTRIC,NOTICE,국가기술표준원
+5993aa0f-8bf6-43d5-8ce4-be174219a299,전기용품 안전기준(KC 10018),ELECTRIC,NOTICE,국가기술표준원
+b074a4af-4f23-4c61-9149-633bdfa284d2,전기용품 안전기준(KC 10023),ELECTRIC,NOTICE,국가기술표준원
+28a520a1-adc2-4e7f-866e-ae23beea3de8,전기용품 안전기준(KC 10025),ELECTRIC,NOTICE,국가기술표준원
+0208b77e-7d2b-4eac-a375-5842594b7ae5,전기용품 안전기준(KC 60335-1),ELECTRIC,NOTICE,국가기술표준원
+ddbc13b3-5299-453a-b421-becc24c3b284,전기용품 안전기준(KC 60335-2-100),ELECTRIC,NOTICE,국가기술표준원
+ea971f6a-dc9a-43c9-b945-cfafc75aaf54,전기용품 안전기준(KC 60335-2-102),ELECTRIC,NOTICE,국가기술표준원
+a175ef0c-22b9-4ede-974c-85a52e3d9fa3,전기용품 안전기준(KC 60335-2-11),ELECTRIC,NOTICE,국가기술표준원
+fd77c930-ffe4-4c71-b81a-d5df7c9bcab3,전기용품 안전기준(KC 60335-2-15),ELECTRIC,NOTICE,국가기술표준원
+74395b40-6528-4728-9496-cd099618f76a,전기용품 안전기준(KC 60335-2-17),ELECTRIC,NOTICE,국가기술표준원
+6c6bc2e9-55b3-4441-9267-4d7262ebc75c,전기용품 안전기준(KC 60335-2-21),ELECTRIC,NOTICE,국가기술표준원
+d891c66b-eb53-41fe-b616-8c74998c1243,전기용품 안전기준(KC 60335-2-23),ELECTRIC,NOTICE,국가기술표준원
+1af62962-0c3e-4223-94e4-60a2dfe5a48a,전기용품 안전기준(KC 60335-2-24),ELECTRIC,NOTICE,국가기술표준원
+6dab1c77-b47c-4d4f-940e-cfb4f0b7dbcc,전기용품 안전기준(KC 60335-2-25),ELECTRIC,NOTICE,국가기술표준원
+7e8208a1-3ab8-4b95-9bc3-aed8a70b0458,전기용품 안전기준(KC 60335-2-29),ELECTRIC,NOTICE,국가기술표준원
+f4d2d0ed-059c-4570-8426-b73b8a84030b,전기용품 안전기준(KC 60335-2-31),ELECTRIC,NOTICE,국가기술표준원
+29b09655-aa30-4e4c-8318-ddfcfef54e1b,전기용품 안전기준(KC 60335-2-35),ELECTRIC,NOTICE,국가기술표준원
+b65b91db-c43d-40d9-9d43-253b03906b46,전기용품 안전기준(KC 60335-2-40),ELECTRIC,NOTICE,국가기술표준원
+dadffe80-a386-4b8e-b2f1-84ee67689cfc,전기용품 안전기준(KC 60335-2-43),ELECTRIC,NOTICE,국가기술표준원
+53d2cde0-8f43-4b6a-9724-066c11b3bdb2,전기용품 안전기준(KC 60335-2-44),ELECTRIC,NOTICE,국가기술표준원
+07d6868f-8634-4ac3-a721-45209e8a97e1,전기용품 안전기준(KC 60335-2-58),ELECTRIC,NOTICE,국가기술표준원
+a9f3abbd-0f9d-4a80-8aa2-e3b1a473d4b5,전기용품 안전기준(KC 60335-2-6),ELECTRIC,NOTICE,국가기술표준원
+73048bd4-891c-479c-882a-4577354c2164,전기용품 안전기준(KC 60335-2-60),ELECTRIC,NOTICE,국가기술표준원
+fee800c6-a218-4f87-b830-ab0459f356e7,전기용품 안전기준(KC 60335-2-65),ELECTRIC,NOTICE,국가기술표준원
+31e97bde-7644-4156-ac35-f80c9e2f8290,전기용품 안전기준(KC 60335-2-7),ELECTRIC,NOTICE,국가기술표준원
+bbbe1ea3-5f85-40c8-a282-26bbefb626fa,전기용품 안전기준(KC 60335-2-70),ELECTRIC,NOTICE,국가기술표준원
+9e4385cb-fd93-4d93-9b16-9765a9fee4db,전기용품 안전기준(KC 60335-2-71),ELECTRIC,NOTICE,국가기술표준원
+24b005bd-6db1-4da1-89e6-c7d813afdca1,전기용품 안전기준(KC 60335-2-79),ELECTRIC,NOTICE,국가기술표준원
+ff4ab2d7-4df4-4286-a52c-99dac4d59043,전기용품 안전기준(KC 60335-2-80),ELECTRIC,NOTICE,국가기술표준원
+abe90a0b-d2d9-47b6-afa3-c4a304614578,전기용품 안전기준(KC 60335-2-82),ELECTRIC,NOTICE,국가기술표준원
+04172abe-b576-454f-a073-d0f91443bd18,전기용품 안전기준(KC 60335-2-84),ELECTRIC,NOTICE,국가기술표준원
+b9c0e870-b85d-414a-a36b-84eb60e80d01,전기용품 안전기준(KC 60400),ELECTRIC,NOTICE,국가기술표준원
+ffb375e6-2848-4012-8311-63997cbd3025,전기용품 안전기준(KC 60598-1),ELECTRIC,NOTICE,국가기술표준원
+9882dc4d-523e-4deb-b432-7021cdf6b69b,전기용품 안전기준(KC 60598-2-1),ELECTRIC,NOTICE,국가기술표준원
+f3fcb27e-03f4-459b-97a7-0af9cf4f3c64,전기용품 안전기준(KC 60598-2-2),ELECTRIC,NOTICE,국가기술표준원
+ca43dd3d-8dab-4980-a2d7-b6eb96ef4ca6,전기용품 안전기준(KC 60598-2-20),ELECTRIC,NOTICE,국가기술표준원
+ce9e644b-df05-41f9-88d5-6174affe1049,전기용품 안전기준(KC 60598-2-21),ELECTRIC,NOTICE,국가기술표준원
+4840bc57-d59b-45c8-bffa-29cbfbf22c97,전기용품 안전기준(KC 60598-2-4),ELECTRIC,NOTICE,국가기술표준원
+80aab918-bb46-42d1-b558-b162aaee452d,전기용품 안전기준(KC 60598-2-5),ELECTRIC,NOTICE,국가기술표준원
+3725c97b-a3d1-4deb-b78a-ebb893f74e8d,전기용품 안전기준(KC 60598-2-8),ELECTRIC,NOTICE,국가기술표준원
+83f487c0-1162-4810-ac2b-46c36a2dac97,전기용품 안전기준(KC 60745-1),ELECTRIC,NOTICE,국가기술표준원
+88751720-2b5b-4dec-aef3-9efd335a639e,전기용품 안전기준(KC 60745-2-1),ELECTRIC,NOTICE,국가기술표준원
+960c2c72-3fec-4fd5-a69f-f1ccf2d24ba8,전기용품 안전기준(KC 60745-2-13),ELECTRIC,NOTICE,국가기술표준원
+c79c7375-a5b2-4130-bd9f-249406d442aa,전기용품 안전기준(KC 60745-2-14),ELECTRIC,NOTICE,국가기술표준원
+1cc825ba-a121-465f-b5aa-04721c02b13b,전기용품 안전기준(KC 60745-2-15),ELECTRIC,NOTICE,국가기술표준원
+816a986e-6b91-4177-9d99-a95fb71545e0,전기용품 안전기준(KC 60745-2-16),ELECTRIC,NOTICE,국가기술표준원
+6c88126e-1d81-4c03-9801-5481a7f80f96,전기용품 안전기준(KC 60745-2-17),ELECTRIC,NOTICE,국가기술표준원
+1a216975-d6e8-4450-ac06-d2aa8732e81d,전기용품 안전기준(KC 60745-2-2),ELECTRIC,NOTICE,국가기술표준원
+8b6c608a-8f89-4d40-adee-fa48ce47cdab,전기용품 안전기준(KC 60745-2-6),ELECTRIC,NOTICE,국가기술표준원
+17b239a9-b05b-42cb-8fb3-36198639c803,전기용품 안전기준(KC 60745-2-8),ELECTRIC,NOTICE,국가기술표준원
+5baa232a-f4b2-4840-9d52-922d0b6ec0bd,전기용품 안전기준(KC 60745-2-9),ELECTRIC,NOTICE,국가기술표준원
+8dea0f11-a81d-4b10-b462-a9eb82cc6860,전기용품 안전기준(KC 60838-2-2),ELECTRIC,NOTICE,국가기술표준원
+f2b38d90-b13c-4c23-87e8-442845c7b189,전기용품 안전기준(KC 60884-1),ELECTRIC,NOTICE,국가기술표준원
+3e3305d3-8259-409a-95d8-001fc0ff9b6f,전기용품 안전기준(KC 60927),ELECTRIC,NOTICE,국가기술표준원
+51f0285d-b6e3-49a6-9e62-4edd07318f6f,전기용품 안전기준(KC 60929),ELECTRIC,NOTICE,국가기술표준원
+67804b7d-1bec-4b47-a410-d4efe8551141,전기용품 안전기준(KC 60947-2),ELECTRIC,NOTICE,국가기술표준원
+dbfded1f-1cfb-4808-83fe-5a2d5a481e8e,전기용품 안전기준(KC 60968),ELECTRIC,NOTICE,국가기술표준원
+0b4b9d17-40f3-4308-aba1-daebb71501d3,전기용품 안전기준(KC 61050),ELECTRIC,NOTICE,국가기술표준원
+51391a31-5922-42cf-b418-9895bc85c33b,전기용품 안전기준(KC 61195),ELECTRIC,NOTICE,국가기술표준원
+ad3d8b14-b65a-4b9d-849e-204ddd9530df,전기용품 안전기준(KC 61199),ELECTRIC,NOTICE,국가기술표준원
+f12549e4-f112-4b7b-a8b3-fa33eca70f8e,전기용품 안전기준(KC 61347-1),ELECTRIC,NOTICE,국가기술표준원
+e87695e5-bb65-4069-99ed-a96de7ba69b6,전기용품 안전기준(KC 61347-2-12),ELECTRIC,NOTICE,국가기술표준원
+b3cbed8b-6543-4c5c-b4f4-e45ab8d83c55,전기용품 안전기준(KC 61347-2-13),ELECTRIC,NOTICE,국가기술표준원
+91f7d388-cd3e-4409-9dc5-dc252af8feb6,전기용품 안전기준(KC 61347-2-8),ELECTRIC,NOTICE,국가기술표준원
+8f408e81-ae40-4443-a620-17f9feca200a,전기용품 안전기준(KC 61347-2-9),ELECTRIC,NOTICE,국가기술표준원
+64f6e725-4d62-4eb5-b1fc-47505dee312a,전기용품 안전기준(KC 61851-1),ELECTRIC,NOTICE,국가기술표준원
+b0e2d526-935c-46bd-832a-96034ed7f625,전기용품 안전기준(KC 62031),ELECTRIC,NOTICE,국가기술표준원
+1e0b695a-02f9-4f74-896a-40eb6d8ac1be,전기용품 안전기준(KC 62035),ELECTRIC,NOTICE,국가기술표준원
+92eed318-c344-4f77-b2f5-d198bb477503,전기용품 안전기준(KC 62133-2),ELECTRIC,NOTICE,국가기술표준원
+0e1afa55-7cd3-4bad-a2ce-ead625139ef5,전기용품 안전기준(KC 62196-2),ELECTRIC,NOTICE,국가기술표준원
+6b88b3f9-8366-444f-9f0c-fb4cecd6f4f6,전기용품 안전기준(KC 62368-1),ELECTRIC,NOTICE,국가기술표준원
+f469c1b5-4a02-4a5e-a644-6881c7518d3a,전기용품 안전기준(KC 62619),ELECTRIC,NOTICE,국가기술표준원
+a89eb6c7-0b8c-4fa2-9716-64dccf19b191,전기용품 안전기준(KC 62752),ELECTRIC,NOTICE,국가기술표준원
+a7b2021e-e211-423d-90ec-c1dfd633f5f6,전기통신사업용 무선설비의 기술기준,ELECTRIC,NOTICE,국립전파연구원
+eedd996c-70bf-4342-a97d-f21306d43fdc,화장품 안전기준 등에 관한 규정,ELECTRIC,NOTICE,식품의약품안전처
+d5781ebf-1e17-4bfe-8f9a-980ee2c0fa4b,(국토교통부) 건축용 고효율에너지기자재 보급촉진에 관한 규정,ENERGY,NOTICE,국토교통부
+58ca6991-471c-4118-b2ad-674e685982d0,(산업통상자원부) 건축용 고효율에너지기자재 보급촉진에 관한 규정,ENERGY,NOTICE,산업통상부
+0466beb5-fce8-4924-aca6-91d45044ee7c,건축물의 에너지원단위 목표관리 등에 관한 고시,ENERGY,NOTICE,산업통상부
+896ec597-20c5-4264-9381-f47c29952603,고효율에너지기자재 보급 촉진에 관한 규정,ENERGY,NOTICE,기후에너지환경부
+3de8ca23-f5d2-4329-9548-3dd7d0654c8d,기존 건축물의 에너지성능 개선기준,ENERGY,NOTICE,국토교통부
+fab03064-bf82-4856-af3c-59a3f786ac65,에너지 절약계획서 검토 전문기관 지정 고시,ENERGY,NOTICE,국토교통부
+d5136422-0cf9-4dca-9112-da0ff6349236,에너지 회수효율 측정·산정 방법 및 절차 등에 관한 고시,ENERGY,NOTICE,기후에너지환경부
+968cb24e-ac71-468a-837d-3dc4290fc80f,에너지절약전문기업 관리규정,ENERGY,OTHER,기후에너지환경부
+0940213c-fce0-4751-9c89-66124d278fbe,에코이노베이션 기술에 의한 자동차 온실가스 배출 저감 및 에너지소비관련 개선 효과 인정 지침,ENERGY,NOTICE,기후에너지환경부
+f022d696-80c5-4436-b9a9-e0cfb90b67d3,열공급시설의 검사기준,ENERGY,NOTICE,산업통상부
+cf52bb1c-2bd8-46e1-87a1-ecabef5a5cb6,열사용기자재의 검사 및 검사면제에 관한 기준,ENERGY,NOTICE,산업통상부
+1e5716e5-3db6-408d-ad81-c03361aa59b6,자동차 평균에너지소비효율기준·온실가스 배출허용기준 및 기준의 적용·관리 등에 관한 고시,ENERGY,NOTICE,기후에너지환경부
+89e988d3-848a-4e4b-a8d5-5f2a89a6a641,자동차의 에너지소비효율 및 온실가스 배출량 시험방법 등에 관한 고시,ENERGY,NOTICE,"국토교통부,산업통상부,기후에너지환경부"
+b91cf360-a46c-4aa4-9bd5-f1ed9599c5ab,중·대형 상용차 평균에너지소비효율기준 및 온실가스 기준의 적용·관리 등에 관한 지침,ENERGY,NOTICE,기후에너지환경부
+306d8128-c1ea-44ae-bf0c-38486f1f2e0e,집단에너지 안전관리기준,ENERGY,NOTICE,산업통상부
+d2a7244f-8d6a-4010-b049-39dc10ac6cc3,대기오염 방지시설(연소보조장치)의 성능기준 및 검사방법,ENVIRONMENT,NOTICE,기후에너지환경부
+fdf75b2f-4012-41fe-8c4c-d59bf8941b40,대기오염공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+abcf15f9-e440-42b6-8833-98524d972251,먹는물수질공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+97b94c46-5d61-47a7-9c4e-2ffbce3c759f,배출가스저감장치의 성능유지확인 검사기준 및 검사방법 등에 관한 규정,ENVIRONMENT,NOTICE,기후에너지환경부
+eb58af5c-dcbc-4792-becd-9594462b3794,빛공해공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+04e544ae-68d7-466d-9cee-972a288d5e69,소음·진동공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+c5a77700-f37c-4f6b-9ae8-04315946c911,소음도 검사수수료 산정기준,ENVIRONMENT,NOTICE,기후에너지환경부
+2e2592db-bd90-48b8-87a1-b0ba49d605d6,수질오염공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+6a857a0c-add1-403c-8261-8b162d98b271,실내공기질공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+ca3fbdf2-d771-4d5b-bc0f-f7162c15ccdb,악취공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+b277ebb7-0bbb-4d1f-a21c-dac1dc1a3f3c,온실가스공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+11fea646-0b00-4f0e-8d2d-9a3715e45c30,의료폐기물 전용용기의 구조·규격·품질·표시 및 검사방법에 관한 고시,ENVIRONMENT,NOTICE,기후에너지환경부
+8c8e45ce-c290-4259-9313-bf3463b7b453,잔류성유기오염물질공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+f5618da9-b805-4bc1-9c94-15133ab0ac25,정수장의 위생안전 인증 세부 운영기준,ENVIRONMENT,NOTICE,기후에너지환경부
+7f547f42-cec1-41cc-aa34-e4d5abbc9268,친환경주택 에너지절약계획 전문기관 변경 지정 고시,ENVIRONMENT,NOTICE,국토교통부
+9a9ad309-3757-46bd-bd84-e368d0289b4e,토양오염공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+a5789a37-f436-4a43-a31e-685e349d0c04,폐기물공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+69b50566-2f4d-4781-829b-f3e9e1766c22,폐기물매립시설 내진설계 기준 등에 관한 고시,ENVIRONMENT,NOTICE,기후에너지환경부
+605ce00e-95b9-48d7-924f-dd0561cf4b33,폐기물저장시설 중 콘크리트구조물 안전기준에 관한 지침,ENVIRONMENT,NOTICE,해양수산부
+c9a242d8-001c-4b79-a4a6-57f494ecb48f,학교환경위생정화구역 내 관광숙박시설의 학교환경위생을 저해하는 영업행위 기준,ENVIRONMENT,NOTICE,문화체육관광부
+49ad10af-4b1d-4e43-b64b-fdc2fe66269b,해양환경공정시험기준 고시,ENVIRONMENT,NOTICE,국립수산과학원
+cf793bfc-c777-41ef-ab39-2a31592b8d50,환경오염공정시험기준 심의위원회 운영규정,ENVIRONMENT,NOTICE,국립환경과학원
+c167ef73-ebbf-4132-9983-a01f453c3115,환경오염공정시험기준 제·개정 절차에 관한 업무처리 지침,ENVIRONMENT,NOTICE,기후에너지환경부
+d2c6d65d-980b-4f2e-97e9-4ec8136119e6,환경유해인자공정시험기준,ENVIRONMENT,NOTICE,국립환경과학원
+a408249e-ec6d-4109-9ccc-8d7010452946,가스·분말자동소화장치의 형식승인 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+a9b2e832-86c5-4717-b730-37da27f276cb,가스계소화설비 설계프로그램의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+4c449c0c-2154-42f6-a1c7-356aa4fc3d6b,가스계소화설비용 수동식 기동장치의 성능인증 및 제품검사 기술기준,FIRE,NOTICE,소방청
+88160fa6-bc6c-44f6-9c68-4fb9a75f7539,가스관선택밸브의 형식승인 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+5d64e37d-ca4b-4823-bbdd-add15c25c984,가스누설경보기의 형식승인 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+eccfbe7d-42eb-4fce-ba86-1c40f1839748,가스누설경보기의 화재안전기술기준(NFTC 206),FIRE,STANDARD,국립소방연구원
+ec97e6e4-59d1-4daa-a12d-d98325689ae6,가스누설경보기의 화재안전성능기준(NFPC 206),FIRE,NOTICE,소방청
+76f2d646-4dc0-4db4-b3f5-6bbabb2a8f23,간이스프링클러설비의 화재안전기술기준(NFTC 103A),FIRE,STANDARD,국립소방연구원
+66e7abda-32c8-42b8-800c-d2aa4c28c027,건설현장의 화재안전기술기준(NFTC 606),FIRE,STANDARD,국립소방연구원
+58363f69-c625-497f-b59f-ab96a0729f39,건설현장의 화재안전성능기준(NFPC 606),FIRE,NOTICE,소방청
+4a0c704d-c941-400a-ab94-b90d27af656e,건축물의 화재안전성능보강 방법 등에 관한 기준,FIRE,NOTICE,국토교통부
+50b5bf4b-0ac1-42cd-914d-496e46060399,고체에어로졸소화설비의 화재안전기술기준(NFTC 110),FIRE,STANDARD,국립소방연구원
+bf4cb19d-9681-453b-8cce-8f8e92badfbb,고체에어로졸소화설비의 화재안전성능기준(NFPC 110),FIRE,NOTICE,소방청
+cb7173eb-fce5-41a4-9636-f4fc7f11cff4,고층건축물의 화재안전기술기준(NFTC 604),FIRE,STANDARD,국립소방연구원
+ee3e9ed3-3f9d-42c4-86b6-f05bdb2ee688,공동주택의 화재안전기술기준(NFTC 608),FIRE,STANDARD,국립소방연구원
+3c25fdf3-e0de-468c-8bd7-ae155895a063,누전경보기의 화재안전기술기준(NFTC 205),FIRE,STANDARD,국립소방연구원
+230b4bde-c38f-4d21-80d0-2eeb5f7be09b,도로터널의 화재안전기술기준(NFTC 603),FIRE,STANDARD,국립소방연구원
+de656dda-7cc9-431b-b17e-9ace906f3168,무선통신보조설비의 화재안전기술기준(NFTC 505),FIRE,STANDARD,국립소방연구원
+569f5105-bf00-432a-a4af-053eefb242dd,무선통신보조설비의 화재안전성능기준(NFPC 505),FIRE,NOTICE,소방청
+10e28b59-9e4c-40e9-b936-a86f4ead71c3,물분무소화설비의 화재안전기술기준(NFTC 104),FIRE,STANDARD,국립소방연구원
+1e8faebf-8f70-479a-b04b-4bb7e485819d,물분무소화설비의 화재안전성능기준(NFPC 104),FIRE,NOTICE,소방청
+37ecade2-5aac-48bc-8e16-1c094f9d7d76,미분무소화설비의 화재안전기술기준(NFTC 104A),FIRE,STANDARD,국립소방연구원
+a8e5a44b-179c-4ca9-adb9-2d2b2c6e7a35,분말소화설비의 화재안전기술기준(NFTC 108),FIRE,STANDARD,국립소방연구원
+a1dd92a1-568c-4760-b076-97cebffce5ab,비상경보설비 및 단독경보형감지기의 화재안전기술기준(NFTC 201),FIRE,STANDARD,국립소방연구원
+ae3e40e0-542f-41e8-87ff-234dfeabde75,비상방송설비의 화재안전기술기준(NFTC 202),FIRE,STANDARD,국립소방연구원
+44fb1acd-0ec6-4250-80c0-71027485599b,비상방송설비의 화재안전성능기준(NFPC202),FIRE,NOTICE,소방청
+f16c72b9-86f2-4760-84bc-239f3e82c307,비상조명등의 화재안전기술기준(NFTC 304),FIRE,STANDARD,국립소방연구원
+2c8fd9b8-47b4-40bd-83ca-dfdd7461d39c,비상콘센트설비의 화재안전기술기준(NFTC 504),FIRE,STANDARD,국립소방연구원
+f8777adb-4636-4678-a0a4-13d568b92324,상수도소화용수설비의 화재안전기술기준(NFTC 401),FIRE,STANDARD,국립소방연구원
+8b8fe0fd-47fd-4d96-b144-1822c012fdd0,생활숙박시설의 오피스텔 용도변경을 위한 화재안전성 인정기준,FIRE,NOTICE,"국토교통부,소방청"
+9d239806-dc5b-443c-a235-e959bc3f5798,소방기술자 실무교육 기준 고시,FIRE,NOTICE,소방청
+001808ec-e4fc-47a8-9a28-04a966b1d055,소방시설용 비상전원수전설비의 화재안전기술기준(NFTC 602),FIRE,STANDARD,국립소방연구원
+9445b953-0b21-42ab-8f37-aeb81a2bdb05,소방시설의 내진설계 기준,FIRE,NOTICE,소방청
+ab6a9523-61f7-44b6-8b07-671a264bc727,소방안전 관련 교과목·소방안전 관련 학과 및 소방관련 학과 등에 관한 기준,FIRE,NOTICE,소방청
+268cb2e7-8c7f-4f51-b5c0-2b473ff9514f,소방용 압력스위치의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+6e411007-7c0e-4613-b5f1-c59c64024d94,소방용 행가의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+d7e76624-1c30-45bb-b5a3-9edf536cf235,소방용 흡수관의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+3a29088f-b6c6-40a6-accc-5042de760998,소방용밸브의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+8a3424d8-5410-4888-a0fb-11ac49d5a440,소방용스트레이너의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+bb669886-f33a-4532-92ce-3aaab2aee8aa,소방용전선의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+5283c7e4-42ed-4db1-a11f-74a3e499fd32,소방용품의 세부시험시설 기준,FIRE,NOTICE,소방청
+b69a491e-b900-41ab-b0e5-e3db4c0c7df3,소방용합성수지배관의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+5211f5ee-dbff-4285-bc75-55c8948e0090,소방전원공급장치의 성능인증 및 제품검사 기술기준,FIRE,NOTICE,소방청
+8698b88c-f28c-4bd5-9236-ba07a9af31cc,소방호스의 형식승인 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+6e3827fb-e836-40bf-9db1-3709e1b81ef1,소화기가압용가스용기의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+0698fae3-a37b-43d8-953f-7af2c9a4472e,소화기구 및 자동소화장치의 화재안전기술기준(NFTC 101),FIRE,STANDARD,국립소방연구원
+3a9a0361-c7a7-4032-8557-482374ba49cb,소화기구 및 자동소화장치의 화재안전성능기준(NFPC 101),FIRE,NOTICE,소방청
+b7d4ec06-00ce-4d7d-b578-4e7e26aa1b74,소화수조 및 저수조의 화재안전기술기준(NFTC 402),FIRE,STANDARD,국립소방연구원
+5a89e93a-81eb-4ab9-be12-373a0f7afc4d,소화수조 및 저수조의 화재안전성능기준(NFPC 402),FIRE,NOTICE,소방청
+1c72bf25-68b7-4f39-a375-3f101d78006f,스프링클러설비의 화재안전기술기준(NFTC 103),FIRE,STANDARD,국립소방연구원
+0dfe1f33-6af4-4edb-8ffa-ea25ea5175f3,연결살수설비의 화재안전기술기준(NFTC 503),FIRE,STANDARD,국립소방연구원
+35338780-f6a5-42ba-b9d6-38c35582b93c,연결살수설비의 화재안전성능기준(NFPC 503),FIRE,NOTICE,소방청
+3568cc98-0f12-472d-9b93-6297513f42d9,연결송수관설비의 화재안전기술기준(NFTC 502),FIRE,STANDARD,국립소방연구원
+e287bdbc-a4b7-4374-9b7b-7763398730ec,옥내소화전설비의 화재안전기술기준(NFTC 102),FIRE,STANDARD,국립소방연구원
+be0bc3a5-e140-468f-a39e-aa3eee08f321,옥외소화전설비의 화재안전기술기준(NFTC 109),FIRE,STANDARD,국립소방연구원
+3d6c956c-314a-4c54-8d0d-d581aa0c2551,옥외소화전설비의 화재안전성능기준(NFPC 109),FIRE,NOTICE,소방청
+77b5205c-38c9-41f3-bb1a-f7fe0c0f34ac,위험물안전관리에 관한 세부기준,FIRE,NOTICE,소방청
+afda69bb-94c3-4b0b-9537-ebda5a036a38,유도등 및 유도표지의 화재안전기술기준(NFTC 303),FIRE,STANDARD,국립소방연구원
+c4fe916f-ff98-4065-bc28-d4cdbec5e75f,이산화탄소소화설비의 화재안전기술기준(NFTC 106),FIRE,STANDARD,국립소방연구원
+8a1e3d16-0c3a-4172-816a-e1c22e700169,인명구조기구의 화재안전기술기준(NFTC 302),FIRE,STANDARD,국립소방연구원
+355d28d2-0d06-4508-9949-179f7b451349,자동화재속보설비의 속보기의 성능인증 및 제품검사의 기술기준,FIRE,NOTICE,소방청
+aff8d6fb-c401-4850-949f-83c6cef270a0,자동화재속보설비의 화재안전기술기준(NFTC 204),FIRE,STANDARD,국립소방연구원
+a7e26e49-6cd6-4be5-ab36-4a8732377657,자동화재속보설비의 화재안전성능기준(NFPC 204),FIRE,NOTICE,소방청
+4c58261e-440b-4911-8fee-8860e00084f8,자동화재탐지설비 및 시각경보장치의 화재안전기술기준(NFTC 203),FIRE,STANDARD,국립소방연구원
+2ab8a487-75ab-41b3-a778-e37824cf395d,전기저장시설의 화재안전기술기준(NFTC 607),FIRE,STANDARD,국립소방연구원
+ef49816b-9c44-43af-8b51-6f8038b97f1d,전기저장시설의 화재안전성능기준(NFPC 607),FIRE,NOTICE,소방청
+ccd757d6-f5ec-43c1-9141-9e2cb0333252,제연설비의 화재안전기술기준(NFTC 501),FIRE,STANDARD,국립소방연구원
+5dba6889-1e26-4545-acda-8d50725dc8e5,제연설비의 화재안전성능기준(NFPC 501),FIRE,NOTICE,소방청
+078859b9-7899-40e6-a7a3-68029823b67b,중앙소방학교 시설물 관리 및 사용료 징수규정,FIRE,NOTICE,중앙소방학교
+469df261-ba07-4efa-a4d4-658d2963ac6d,지하구의 화재안전기술기준(NFTC 605),FIRE,STANDARD,국립소방연구원
+e4ec4e7e-5762-4960-9b10-515e82070ef9,지하구의 화재안전성능기준(NFPC 605),FIRE,NOTICE,소방청
+4027d8f4-eb0c-4898-990f-6b7f146625be,창고시설의 화재안전기술기준(NFTC 609),FIRE,STANDARD,국립소방연구원
+ba0b3940-2af1-408c-9608-a5a8eccc80e6,창고시설의 화재안전성능기준(NFPC 609),FIRE,NOTICE,소방청
+4b1b9b7c-7d59-406d-a0a0-1bfae58a6292,특별피난계단의 계단실 및 부속실 제연설비의 화재안전기술기준(NFTC 501A),FIRE,STANDARD,국립소방연구원
+3c6272ef-7575-4b95-a661-bfd8ffdae611,포소화설비의 화재안전기술기준(NFTC 105),FIRE,STANDARD,국립소방연구원
+b1b075b9-550d-4c75-a50b-0cd39250834e,피난기구의 화재안전기술기준(NFTC 301),FIRE,STANDARD,국립소방연구원
+9db84041-2717-4859-8207-c22b58884db2,할로겐화합물 및 불활성기체소화설비의 화재안전기술기준(NFTC 107A),FIRE,STANDARD,국립소방연구원
+ed262daa-99db-44d5-a0fa-3748d38afa2e,할론소화설비의 화재안전기술기준(NFTC 107),FIRE,STANDARD,국립소방연구원
+d13d7e9c-4463-4dd1-b493-d095080dd595,화재알림설비의 화재안전기술기준(NFTC 207),FIRE,NOTICE,국립소방연구원
+ffacfc5f-2bb5-4a84-95f1-d678b4290dec,화재조기진압용 스프링클러설비의 화재안전기술기준(NFTC 103B),FIRE,STANDARD,국립소방연구원
+93f3b603-9c17-4a3d-a5a8-fef0c7dd42be,"「고압가스안전관리법」 제22조의2, 「액화석유가스의 안전관리 및 사업법」제45조, 「도시가스사업법」 제17조의5조에 따른 가스기술기준(상세기준)",GAS,STANDARD,산업통상부
+4db2c77a-b32b-47ed-ad0b-8da867490878,"「액화석유가스의 안전관리 및 사업법」제45조, 「도시가스사업법」 제17조의5조에 따른 가스기술기준(상세기준)",GAS,NOTICE,산업통상부
+ede829ab-2e53-45fa-8d94-26da10acc9cd,HCNG자동차 연구개발용 HCNG자동차충전소의 시설·기술·검사에 관한 특례기준,GAS,NOTICE,산업통상부
+e9d95beb-942a-4891-b70a-fc8ef835943f,"고압가스 및 액화석유가스 ISO 탱크 컨테이너의 제조, 충전·운반, 저장·사용에 관한 기준",GAS,NOTICE,산업통상부
+06c40697-dbe6-49fb-ad2e-363303af4098,고압가스시설 등의 검사수수료 및 교육비 기준,GAS,NOTICE,산업통상부
+1e901e9e-af8c-4bd1-aa35-d6867a79a119,고압가스안전관리기준통합고시,GAS,NOTICE,산업통상부
+78d72666-03d3-4d96-82ab-1f8714fa578e,고압가스의 품질기준과 품질검사방법 등에 관한 고시,GAS,NOTICE,산업통상부
+3fab5983-e20a-45bc-937a-bcc768087933,공기 호흡기용 용기 안전충전함 충전시설의 시설·기술·검사기준 등에 관한 고시,GAS,NOTICE,산업통상부
+7f74bf64-0550-45d6-8559-36b1b9a7344f,도시가스 안전관리기준 통합고시,GAS,NOTICE,산업통상부
+8462ac04-8833-4b9b-a3a5-b2a5ee6ea69b,도시가스시설 등의 검사수수료 및 교육비 기준,GAS,NOTICE,산업통상부
+0dd991f7-a65c-41bf-8f2e-b838bca0910e,무인동력비행장치 및 지게차의 연료용 용기의 제조 및 검사기준에 관한 기준,GAS,NOTICE,산업통상부
+26550f8a-2958-4ac9-8980-1191f7105f9e,수소 안전관리기준 통합고시,GAS,NOTICE,기후에너지환경부
+79bdfee7-6991-4520-b424-5df5369b736c,수소가스시설 등의 검사수수료 및 교육비 기준,GAS,NOTICE,기후에너지환경부
+584adc9b-b83b-4f20-a26f-dfe890140e9e,수소의 안정적 보급·유통을 위한 고압가스 판매시설의 안전관리기준 등에 관한 특례기준,GAS,NOTICE,산업통상부
+15342f5c-69e3-4af4-9a6a-03e2d44a954d,수소자동차 충전소의 안전성능 및 계량성능 평가장치 운용에 관한 특례기준,GAS,NOTICE,산업통상부
+1e42c819-c744-4969-8ca1-25b91fddcc01,액화석유가스 안전대책의 효율적 추진을 위한 용기관리 및 소비자보호에 관한 기준,GAS,NOTICE,산업통상부
+18fad2e8-e8eb-46e2-8f86-7d09c0167981,액화석유가스시설 등의 검사수수료 및 교육비기준,GAS,NOTICE,산업통상부
+f4c8bf03-f380-4a0f-8d3a-d46555e660f5,액화석유가스안전관리기준통합고시,GAS,NOTICE,산업통상부
+56ad0698-30fe-4d7e-aad2-a1925a6dc6bb,액화석유가스의 품질기준과 검사방법·검사수수료 및 검사 소요경비 지원방법 등,GAS,NOTICE,산업통상부
+d08327b2-8d18-459b-82fb-e875f1c52c0b,온압보정장치의 설치 및 안전관리에 관한 특례기준,GAS,NOTICE,산업통상부
+34642cae-88ee-45a0-8ce1-25a1fc29e49b,온압보정장치의 정기검사에 관한 기준,GAS,NOTICE,산업통상부
+cfb21d94-c3fa-445e-a6fe-23900fbf2fda,건설공사 안전보건대장의 작성 등에 관한 고시,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+f17f5417-ba4f-4d16-b3f5-59e10a0b603f,건설업 산업안전보건관리비 계상 및 사용기준,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+f34b899d-818e-47af-84af-c6dfd8bbcd68,방호장치 안전인증 고시,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+f5b17a4f-f476-485a-aa0f-f80bbba6f334,보호구 자율안전확인 고시,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+6a6c70e6-74fd-46f4-83d6-2412bef40336,산업안전·보건표준제정위원회 규정,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+4550c3d3-ebe2-4e39-9b14-cc4c92824bee,안전·보건에 관한 업무 수행시간의 기준 고시,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+f4b1e2f7-313c-45a9-9f5c-12cf026204d8,안전관리기준,INDUSTRIAL_SAFETY,NOTICE,행정안전부
+40fe723a-4b07-452f-9fd4-49902af6cc36,안전교육 전문인력 자격 세부기준 고시,INDUSTRIAL_SAFETY,NOTICE,행정안전부
+03db1e8a-2959-44ad-8a83-4ceedb9f446d,안전교육기관 지정 세부기준 고시,INDUSTRIAL_SAFETY,NOTICE,행정안전부
+cecf70ba-15b6-46a5-886c-669746735753,안전보건교육규정,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+814dedce-4c7d-4971-ad55-a4d871523d1d,안전성 평가의 기준 및 절차 등에 관한 고시,INDUSTRIAL_SAFETY,NOTICE,화학물질안전원
+03554483-5374-408d-bd2b-c44b22fd5661,안전인증·자율안전확인신고의 절차에 관한 고시,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+98240588-f617-4e51-9baa-c12fb74fb59c,안전점검 및 정밀안전진단 실시결과와 실태조사 등의 검토기준 및 절차 등에 관한 고시,INDUSTRIAL_SAFETY,NOTICE,과학기술정보통신부
+3b3768c9-07f7-4f57-aab2-665ae51e7df7,연구실 안전 및 유지관리비의 사용내역서 작성에 관한 세부기준,INDUSTRIAL_SAFETY,NOTICE,과학기술정보통신부
+1b599ee1-7077-42c6-bcf0-ac2e11075414,위험기계·기구 방호조치 기준,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+49d9ecba-e833-4f5a-a10a-89add29bf670,위험기계·기구 자율안전확인 고시,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+9d8cb43d-4a0a-4834-a334-d404eb832ae3,자율기구 안전보건격차개선과 설치 및 운영에 관한 규정,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+09a095f8-740a-4fef-a0ee-08505fbb71ea,작업환경측정 및 정도관리 등에 관한 고시,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+bca0eaab-ca21-4328-a7da-6c3426dfb18f,조달청 시설공사 안전점검 수행기관 지정 세부기준,INDUSTRIAL_SAFETY,OTHER,조달청
+a4d4f19b-0f53-453a-badd-2ac1f1342a85,컨테이너 안전점검 기준,INDUSTRIAL_SAFETY,NOTICE,해양수산부
+269e5c4b-7037-4c79-8f09-f0e6e3e66488,화학물질의 분류·표시 및 물질안전보건자료에 관한 기준,INDUSTRIAL_SAFETY,NOTICE,고용노동부
+f6980232-328b-43aa-b8d2-0bb5341072cb,개인정보 보호법,,LAW,개인정보보호위원회
+2e176a73-35c2-499f-b6dd-df498e2b8378,고등교육법,,LAW,교육부
+73e759df-4804-461f-b390-ae847ab97541,국가표준기본법,,LAW,산업통상부
+fa87627b-dd5d-41a2-bd56-cd399132de35,국민건강보험법,,LAW,보건복지부
+861edcbd-28d4-4973-88db-e29e27770918,국민기초생활 보장법,,LAW,보건복지부
+ecc57bec-4e4a-4613-af50-14d644326c14,군형법,,LAW,국방부
+590ad317-68fa-4138-a470-2a1a0f9f10c9,난민법,,LAW,법무부
+3c59bd27-a74f-45c1-be60-41aa78b268f1,도로교통법,,LAW,경찰청
+9e39637b-cba2-4f85-bed4-df266e68a7db,도로법,,LAW,국토교통부
+7b85caa8-6ed3-4098-89c9-c5dc31b57dc9,민법,,LAW,법무부
+107a4a07-b8a2-4f20-b9e9-f42215619866,방송통신발전 기본법,,LAW,과학기술정보통신부
+764b5ec9-8f2a-4efb-b3c0-3f0a9c68faf0,산업표준화법,,LAW,산업통상부
+a6458f56-890c-44a9-91ac-c0f7f81bc12d,자동차관리법,,LAW,국토교통부
+44188edb-9d84-466c-ae6a-afc3691aff36,전자정부법,,LAW,행정안전부
+2b2b182d-1824-4d78-9525-ac2f62180bd7,초ㆍ중등교육법,,LAW,교육부
+556258fa-1c3b-4d86-9b2d-b1e2fa24ba0f,형법,,LAW,법무부

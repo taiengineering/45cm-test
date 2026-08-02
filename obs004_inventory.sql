@@ -1,0 +1,1 @@
+\copy (SELECT lm.id AS law_id, lm.law_name, lm.domain_code, lm.law_type_code, lm.ministry_name FROM public.law_master lm LEFT JOIN public.law_sector_mapping lsm ON lsm.law_id=lm.id WHERE lsm.id IS NULL AND lm.is_active=true ORDER BY lm.domain_code, lm.law_name) TO 'unmapped_law_inventory.csv' WITH CSV HEADER

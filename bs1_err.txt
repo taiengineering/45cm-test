@@ -1,0 +1,3 @@
+psql:bs1_full.sql:9: ERROR:  invalid input syntax for type uuid: ""
+줄 6: WHERE la.law_id IN ('')
+                          ^

@@ -1,0 +1,5000 @@
+{
+  "wo": "WO-E2E-PROFILE-001",
+  "version": 1,
+  "universe": "profile-universe-v1",
+  "total": 112,
+  "by_sector": {
+    "MANUFACTURING": 46,
+    "BUILDING": 29,
+    "CONSTRUCTION": 27,
+    "SPECIAL_FACILITY": 10
+  },
+  "boundary_count": 25,
+  "missing_required_count": 0,
+  "field_code_contract": "DiagnoseStep1Body + _input_to_facility_context (tai-api 실측)",
+  "master_source": {
+    "ksic": "industry_master lv2 (taeng)",
+    "construction": "kcsc_process_master.construction_type (taeng)"
+  },
+  "profiles": [
+    {
+      "profile_id": "PF-0001",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[자동차]사업장001",
+          "industry": "자동차",
+          "ksic_major": "30",
+          "ksic_name": "자동차 및 트레일러 제조업",
+          "region": "서울",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "프레스",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "30"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_forklift",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0002",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[자동차]사업장002",
+          "industry": "자동차",
+          "ksic_major": "30",
+          "ksic_name": "자동차 및 트레일러 제조업",
+          "region": "경기",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "프레스",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "30"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "도장",
+          "지게차"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0003",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[조선]사업장003",
+          "industry": "조선",
+          "ksic_major": "31",
+          "ksic_name": "기타 운송장비 제조업",
+          "region": "인천",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "블록조립",
+            "process_ksic": "31"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "31"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "31"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업",
+          "밀폐공간"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0004",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[철강]사업장004",
+          "industry": "철강",
+          "ksic_major": "24",
+          "ksic_name": "1차 금속 제조업",
+          "region": "부산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "주조",
+            "process_ksic": "24"
+          },
+          {
+            "process_name": "압연",
+            "process_ksic": "24"
+          },
+          {
+            "process_name": "열처리",
+            "process_ksic": "24"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_boiler",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0005",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[철강]사업장005",
+          "industry": "철강",
+          "ksic_major": "24",
+          "ksic_name": "1차 금속 제조업",
+          "region": "울산",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "주조",
+            "process_ksic": "24"
+          },
+          {
+            "process_name": "압연",
+            "process_ksic": "24"
+          },
+          {
+            "process_name": "열처리",
+            "process_ksic": "24"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0006",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[화학]사업장006",
+          "industry": "화학",
+          "ksic_major": "20",
+          "ksic_name": "화학 물질 및 화학제품 제조업; 의약품 제외",
+          "region": "경남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "혼합",
+            "process_ksic": "20"
+          },
+          {
+            "process_name": "반응",
+            "process_ksic": "20"
+          },
+          {
+            "process_name": "충전",
+            "process_ksic": "20"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급",
+          "밀폐공간"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0007",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[화학]사업장007",
+          "industry": "화학",
+          "ksic_major": "20",
+          "ksic_name": "화학 물질 및 화학제품 제조업; 의약품 제외",
+          "region": "충남",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "혼합",
+            "process_ksic": "20"
+          },
+          {
+            "process_name": "반응",
+            "process_ksic": "20"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_boiler",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0008",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[반도체전자]사업장008",
+          "industry": "반도체전자",
+          "ksic_major": "26",
+          "ksic_name": "전자 부품, 컴퓨터, 영상, 음향 및 통신장비 제조업",
+          "region": "전남",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "증착",
+            "process_ksic": "26"
+          },
+          {
+            "process_name": "식각",
+            "process_ksic": "26"
+          },
+          {
+            "process_name": "세정",
+            "process_ksic": "26"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0009",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[반도체전자]사업장009",
+          "industry": "반도체전자",
+          "ksic_major": "26",
+          "ksic_name": "전자 부품, 컴퓨터, 영상, 음향 및 통신장비 제조업",
+          "region": "경북",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "조립",
+            "process_ksic": "26"
+          },
+          {
+            "process_name": "검사",
+            "process_ksic": "26"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0010",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[식품]사업장010",
+          "industry": "식품",
+          "ksic_major": "10",
+          "ksic_name": "식료품 제조업",
+          "region": "대구",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "10"
+          },
+          {
+            "process_name": "포장",
+            "process_ksic": "10"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "밀폐공간",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0011",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[식품]사업장011",
+          "industry": "식품",
+          "ksic_major": "10",
+          "ksic_name": "식료품 제조업",
+          "region": "광주",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "10"
+          },
+          {
+            "process_name": "살균",
+            "process_ksic": "10"
+          },
+          {
+            "process_name": "포장",
+            "process_ksic": "10"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          }
+        ],
+        "work": [
+          "밀폐공간"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0012",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[일반기계]사업장012",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "강원",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "절삭",
+            "process_ksic": "29"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "29"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "지게차"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0013",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[일반기계]사업장013",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "서울",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "절삭",
+            "process_ksic": "29"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "29"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_forklift",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0014",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[금속가공]사업장014",
+          "industry": "금속가공",
+          "ksic_major": "25",
+          "ksic_name": "금속 가공제품 제조업; 기계 및 가구 제외",
+          "region": "경기",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "프레스",
+            "process_ksic": "25"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "25"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0015",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[전기장비]사업장015",
+          "industry": "전기장비",
+          "ksic_major": "28",
+          "ksic_name": "전기장비 제조업",
+          "region": "인천",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "권선",
+            "process_ksic": "28"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "28"
+          },
+          {
+            "process_name": "검사",
+            "process_ksic": "28"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0016",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[고무플라스틱]사업장016",
+          "industry": "고무플라스틱",
+          "ksic_major": "22",
+          "ksic_name": "고무 및 플라스틱제품 제조업",
+          "region": "부산",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "사출",
+            "process_ksic": "22"
+          },
+          {
+            "process_name": "성형",
+            "process_ksic": "22"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0017",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[섬유]사업장017",
+          "industry": "섬유",
+          "ksic_major": "13",
+          "ksic_name": "섬유제품 제조업; 의복 제외",
+          "region": "울산",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "방적",
+            "process_ksic": "13"
+          },
+          {
+            "process_name": "염색",
+            "process_ksic": "13"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0018",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[가구]사업장018",
+          "industry": "가구",
+          "ksic_major": "32",
+          "ksic_name": "가구 제조업",
+          "region": "경남",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "절단",
+            "process_ksic": "32"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "32"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "32"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_dust_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "도장",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0019",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[병원]사업장019",
+          "industry": "병원",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "충남",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "의료·복지",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0020",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[병원]사업장020",
+          "industry": "병원",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "전남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "의료·복지",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0021",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[학교]사업장021",
+          "industry": "학교",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경북",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "학교",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0022",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[아파트]사업장022",
+          "industry": "아파트",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "대구",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공동주택",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_mech_parking",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0023",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[물류센터]사업장023",
+          "industry": "물류센터",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "광주",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "물류창고",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_forklift",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          }
+        ],
+        "work": [
+          "지게차",
+          "고소작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0024",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[호텔]사업장024",
+          "industry": "호텔",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "강원",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "숙박시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0025",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[업무빌딩]사업장025",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "서울",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "업무시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0026",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[판매시설]사업장026",
+          "industry": "판매시설",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경기",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "판매시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0027",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[폐기물처리]사업장027",
+          "industry": "폐기물처리",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "인천",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "자원순환관련시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0028",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[건축신축]현장028",
+          "industry": "건축신축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "부산",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 18.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0029",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[건축신축]현장029",
+          "industry": "건축신축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "울산",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 6.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0030",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[토목도로]현장030",
+          "industry": "토목도로",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경남",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_blasting",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "토목",
+          "construction_type_code": "CIVIL",
+          "kcsc_code": "KCS 11 10 05",
+          "kcsc_process": "흙깎기",
+          "contract_amount_eok": 18.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0031",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[토목교량]현장031",
+          "industry": "토목교량",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "충남",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_blasting",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업",
+          "용접"
+        ],
+        "construction": {
+          "construction_type": "토목",
+          "construction_type_code": "CIVIL",
+          "kcsc_code": "KCS 11 10 05",
+          "kcsc_process": "흙깎기",
+          "contract_amount_eok": 18.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0032",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[플랜트]현장032",
+          "industry": "플랜트",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "전남",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "밀폐공간",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "공통",
+          "construction_type_code": "COMMON",
+          "kcsc_code": "KCS 10 10 05",
+          "kcsc_process": "시험",
+          "contract_amount_eok": 18.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0033",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[리모델링]현장033",
+          "industry": "리모델링",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경북",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 6.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "하도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0034",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[철거]현장034",
+          "industry": "철거",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "대구",
+          "workers": 22,
+          "worker_count": 22,
+          "scale": "small"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "공통",
+          "construction_type_code": "COMMON",
+          "kcsc_code": "KCS 10 10 05",
+          "kcsc_process": "시험",
+          "contract_amount_eok": 1.0,
+          "direct_workers": 15,
+          "subcon_workers": 7,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0035",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[전기공사]현장035",
+          "industry": "전기공사",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "광주",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [],
+        "work": [
+          "전기작업"
+        ],
+        "construction": {
+          "construction_type": "공통",
+          "construction_type_code": "COMMON",
+          "kcsc_code": "KCS 10 10 05",
+          "kcsc_process": "시험",
+          "contract_amount_eok": 6.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0036",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[토목터널]현장036",
+          "industry": "토목터널",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "강원",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_blasting",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "밀폐공간",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "토목",
+          "construction_type_code": "CIVIL",
+          "kcsc_code": "KCS 11 10 05",
+          "kcsc_process": "흙깎기",
+          "contract_amount_eok": 18.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0037",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[연구소]시설037",
+          "industry": "연구소",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "서울",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "facility_type": "특수연구시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0038",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[데이터센터]시설038",
+          "industry": "데이터센터",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경기",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "facility_type": "특수정보시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0039",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[발전시설]시설039",
+          "industry": "발전시설",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "인천",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "facility_type": "특수에너지시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "밀폐공간"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0040",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=49 (안전관리자 선임 50명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계040",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "부산",
+          "workers": 49,
+          "worker_count": 49,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0041",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=50 (안전관리자 선임 50명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계041",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "울산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0042",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=51 (안전관리자 선임 50명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계042",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "경남",
+          "workers": 51,
+          "worker_count": 51,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0043",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=99 (100명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계043",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "충남",
+          "workers": 99,
+          "worker_count": 99,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0044",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=100 (100명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계044",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "전남",
+          "workers": 100,
+          "worker_count": 100,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0045",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=101 (100명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계045",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "경북",
+          "workers": 101,
+          "worker_count": 101,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0046",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=299 (300명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계046",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "대구",
+          "workers": 299,
+          "worker_count": 299,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0047",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=300 (300명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계047",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "광주",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0048",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=301 (300명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]일반기계048",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "강원",
+          "workers": 301,
+          "worker_count": 301,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0049",
+      "sector": "BUILDING",
+      "boundary": true,
+      "boundary_note": "total_floor_area=4999.0 (연면적 5000 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]건물049",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "서울",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "업무시설",
+          "total_floor_area": 4999.0,
+          "floor_area": 4999.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0050",
+      "sector": "BUILDING",
+      "boundary": true,
+      "boundary_note": "total_floor_area=5000.0 (연면적 5000 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]건물050",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경기",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "업무시설",
+          "total_floor_area": 5000.0,
+          "floor_area": 5000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0051",
+      "sector": "BUILDING",
+      "boundary": true,
+      "boundary_note": "total_floor_area=5001.0 (연면적 5000 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]건물051",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "인천",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "업무시설",
+          "total_floor_area": 5001.0,
+          "floor_area": 5001.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0052",
+      "sector": "CONSTRUCTION",
+      "boundary": true,
+      "boundary_note": "contract_amount_eok=49.0 (공사금액 50억 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]현장052",
+          "industry": "건축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "부산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 49.0,
+          "direct_workers": 50,
+          "subcon_workers": 0,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0053",
+      "sector": "CONSTRUCTION",
+      "boundary": true,
+      "boundary_note": "contract_amount_eok=50.0 (공사금액 50억 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]현장053",
+          "industry": "건축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "울산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 50.0,
+          "direct_workers": 50,
+          "subcon_workers": 0,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0054",
+      "sector": "CONSTRUCTION",
+      "boundary": true,
+      "boundary_note": "contract_amount_eok=51.0 (공사금액 50억 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]현장054",
+          "industry": "건축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 51.0,
+          "direct_workers": 50,
+          "subcon_workers": 0,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0055",
+      "sector": "CONSTRUCTION",
+      "boundary": true,
+      "boundary_note": "contract_amount_eok=119.0 (120억 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]현장055",
+          "industry": "건축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "충남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 119.0,
+          "direct_workers": 50,
+          "subcon_workers": 0,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0056",
+      "sector": "CONSTRUCTION",
+      "boundary": true,
+      "boundary_note": "contract_amount_eok=120.0 (120억 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]현장056",
+          "industry": "건축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "전남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 120.0,
+          "direct_workers": 50,
+          "subcon_workers": 0,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0057",
+      "sector": "CONSTRUCTION",
+      "boundary": true,
+      "boundary_note": "contract_amount_eok=121.0 (120억 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]현장057",
+          "industry": "건축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경북",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 121.0,
+          "direct_workers": 50,
+          "subcon_workers": 0,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0058",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "boiler_capacity_kw=500 (보일러 용량 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]보일러058",
+          "industry": "식품",
+          "ksic_major": "10",
+          "ksic_name": "식료품 제조업",
+          "region": "대구",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "10"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "boiler_capacity_kw",
+            "value": 500
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0059",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=50 (자동차 50명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]자동차061",
+          "industry": "자동차",
+          "ksic_major": "30",
+          "ksic_name": "자동차 및 트레일러 제조업",
+          "region": "서울",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "30"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0060",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=50 (화학 50명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]화학062",
+          "industry": "화학",
+          "ksic_major": "20",
+          "ksic_name": "화학 물질 및 화학제품 제조업; 의약품 제외",
+          "region": "경기",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "20"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0061",
+      "sector": "MANUFACTURING",
+      "boundary": true,
+      "boundary_note": "worker_count=100 (철강 100명 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]철강063",
+          "industry": "철강",
+          "ksic_major": "24",
+          "ksic_name": "1차 금속 제조업",
+          "region": "인천",
+          "workers": 100,
+          "worker_count": 100,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "24"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0062",
+      "sector": "BUILDING",
+      "boundary": true,
+      "boundary_note": "total_floor_area=2999.0 (연면적 3000 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]건물064",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "부산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "판매시설",
+          "total_floor_area": 2999.0,
+          "floor_area": 2999.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0063",
+      "sector": "BUILDING",
+      "boundary": true,
+      "boundary_note": "total_floor_area=3000.0 (연면적 3000 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]건물065",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "울산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "판매시설",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0064",
+      "sector": "BUILDING",
+      "boundary": true,
+      "boundary_note": "total_floor_area=3001.0 (연면적 3000 경계)",
+      "layers": {
+        "company": {
+          "name": "[경계]건물066",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "판매시설",
+          "total_floor_area": 3001.0,
+          "floor_area": 3001.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0065",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[자동차]사업장069",
+          "industry": "자동차",
+          "ksic_major": "30",
+          "ksic_name": "자동차 및 트레일러 제조업",
+          "region": "경북",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "프레스",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "30"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_forklift",
+            "value": true
+          }
+        ],
+        "work": [
+          "지게차",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0066",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[조선]사업장070",
+          "industry": "조선",
+          "ksic_major": "31",
+          "ksic_name": "기타 운송장비 제조업",
+          "region": "대구",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "용접",
+            "process_ksic": "31"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "31"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "도장"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0067",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[철강]사업장071",
+          "industry": "철강",
+          "ksic_major": "24",
+          "ksic_name": "1차 금속 제조업",
+          "region": "광주",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "압연",
+            "process_ksic": "24"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0068",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[화학]사업장072",
+          "industry": "화학",
+          "ksic_major": "20",
+          "ksic_name": "화학 물질 및 화학제품 제조업; 의약품 제외",
+          "region": "강원",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "혼합",
+            "process_ksic": "20"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0069",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[반도체전자]사업장073",
+          "industry": "반도체전자",
+          "ksic_major": "26",
+          "ksic_name": "전자 부품, 컴퓨터, 영상, 음향 및 통신장비 제조업",
+          "region": "서울",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "검사",
+            "process_ksic": "26"
+          }
+        ],
+        "facility": [],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0070",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[식품]사업장074",
+          "industry": "식품",
+          "ksic_major": "10",
+          "ksic_name": "식료품 제조업",
+          "region": "경기",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "가공",
+            "process_ksic": "10"
+          },
+          {
+            "process_name": "살균",
+            "process_ksic": "10"
+          },
+          {
+            "process_name": "포장",
+            "process_ksic": "10"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          },
+          {
+            "code": "has_forklift",
+            "value": true
+          }
+        ],
+        "work": [
+          "밀폐공간",
+          "지게차"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0071",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[일반기계]사업장075",
+          "industry": "일반기계",
+          "ksic_major": "29",
+          "ksic_name": "기타 기계 및 장비 제조업",
+          "region": "인천",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "절삭",
+            "process_ksic": "29"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "29"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "29"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "29"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "도장",
+          "지게차"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0072",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[금속가공]사업장076",
+          "industry": "금속가공",
+          "ksic_major": "25",
+          "ksic_name": "금속 가공제품 제조업; 기계 및 가구 제외",
+          "region": "부산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "프레스",
+            "process_ksic": "25"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "25"
+          },
+          {
+            "process_name": "도금",
+            "process_ksic": "25"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_dust_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0073",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[전기장비]사업장077",
+          "industry": "전기장비",
+          "ksic_major": "28",
+          "ksic_name": "전기장비 제조업",
+          "region": "울산",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "조립",
+            "process_ksic": "28"
+          }
+        ],
+        "facility": [],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0074",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[고무플라스틱]사업장078",
+          "industry": "고무플라스틱",
+          "ksic_major": "22",
+          "ksic_name": "고무 및 플라스틱제품 제조업",
+          "region": "경남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "사출",
+            "process_ksic": "22"
+          },
+          {
+            "process_name": "성형",
+            "process_ksic": "22"
+          },
+          {
+            "process_name": "포장",
+            "process_ksic": "22"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0075",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[섬유]사업장079",
+          "industry": "섬유",
+          "ksic_major": "13",
+          "ksic_name": "섬유제품 제조업; 의복 제외",
+          "region": "충남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "방적",
+            "process_ksic": "13"
+          },
+          {
+            "process_name": "염색",
+            "process_ksic": "13"
+          },
+          {
+            "process_name": "건조",
+            "process_ksic": "13"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0076",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[가구]사업장080",
+          "industry": "가구",
+          "ksic_major": "32",
+          "ksic_name": "가구 제조업",
+          "region": "전남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "절단",
+            "process_ksic": "32"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "32"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "32"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_dust_work",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "도장"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0077",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[화학]사업장081",
+          "industry": "화학",
+          "ksic_major": "20",
+          "ksic_name": "화학 물질 및 화학제품 제조업; 의약품 제외",
+          "region": "경북",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "반응",
+            "process_ksic": "20"
+          },
+          {
+            "process_name": "증류",
+            "process_ksic": "20"
+          },
+          {
+            "process_name": "충전",
+            "process_ksic": "20"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_boiler",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급",
+          "밀폐공간"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0078",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[자동차]사업장082",
+          "industry": "자동차",
+          "ksic_major": "30",
+          "ksic_name": "자동차 및 트레일러 제조업",
+          "region": "대구",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "프레스",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "용접",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "도장",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "조립",
+            "process_ksic": "30"
+          },
+          {
+            "process_name": "검사",
+            "process_ksic": "30"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_press",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_forklift",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "도장",
+          "지게차",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0079",
+      "sector": "MANUFACTURING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[철강]사업장083",
+          "industry": "철강",
+          "ksic_major": "24",
+          "ksic_name": "1차 금속 제조업",
+          "region": "광주",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공장",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 3
+        },
+        "process": [
+          {
+            "process_name": "주조",
+            "process_ksic": "24"
+          },
+          {
+            "process_name": "열처리",
+            "process_ksic": "24"
+          }
+        ],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_boiler",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0080",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[병원]사업장084",
+          "industry": "병원",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "강원",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "의료·복지",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수",
+          "전기작업",
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0081",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[학교]사업장085",
+          "industry": "학교",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "서울",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "학교",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0082",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[아파트]사업장086",
+          "industry": "아파트",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경기",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "공동주택",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0083",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[물류센터]사업장087",
+          "industry": "물류센터",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "인천",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "물류창고",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_forklift",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          }
+        ],
+        "work": [
+          "지게차"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0084",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[호텔]사업장088",
+          "industry": "호텔",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "부산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "숙박시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0085",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[업무빌딩]사업장089",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "울산",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "업무시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0086",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[판매시설]사업장090",
+          "industry": "판매시설",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경남",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "판매시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          },
+          {
+            "code": "has_mech_parking",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0087",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[폐기물처리]사업장091",
+          "industry": "폐기물처리",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "충남",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "자원순환관련시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급",
+          "밀폐공간"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0088",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[병원]사업장092",
+          "industry": "병원",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "전남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "building_use_type": "의료·복지",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0089",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[아파트]사업장093",
+          "industry": "아파트",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경북",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "공동주택",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_mech_parking",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0090",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[물류센터]사업장094",
+          "industry": "물류센터",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "대구",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "물류창고",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_forklift",
+            "value": true
+          },
+          {
+            "code": "has_conveyor",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "지게차",
+          "고소작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0091",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[학교]사업장095",
+          "industry": "학교",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "광주",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "학교",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0092",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[호텔]사업장096",
+          "industry": "호텔",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "강원",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "building_use_type": "숙박시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0,
+          "floor_count": 15
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          },
+          {
+            "code": "has_elevator",
+            "value": true
+          },
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          },
+          {
+            "code": "has_mech_parking",
+            "value": true
+          }
+        ],
+        "work": [
+          "유지보수",
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0093",
+      "sector": "BUILDING",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[업무빌딩]사업장097",
+          "industry": "업무빌딩",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "서울",
+          "workers": 15,
+          "worker_count": 15,
+          "scale": "small"
+        },
+        "building": {
+          "building_use_type": "업무시설",
+          "total_floor_area": 3000.0,
+          "floor_area": 3000.0,
+          "floor_count": 5
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_elevator",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0094",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[건축신축]현장098",
+          "industry": "건축신축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경기",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          },
+          {
+            "code": "has_concrete_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 30.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0095",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[토목도로]현장099",
+          "industry": "토목도로",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "인천",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_blasting",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "토목",
+          "construction_type_code": "CIVIL",
+          "kcsc_code": "KCS 11 10 05",
+          "kcsc_process": "흙깎기",
+          "contract_amount_eok": 6.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0096",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[토목교량]현장100",
+          "industry": "토목교량",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "부산",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          },
+          {
+            "code": "has_pile_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "토목",
+          "construction_type_code": "CIVIL",
+          "kcsc_code": "KCS 11 10 05",
+          "kcsc_process": "흙깎기",
+          "contract_amount_eok": 30.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0097",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[플랜트]현장101",
+          "industry": "플랜트",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "울산",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          },
+          {
+            "code": "has_welding",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "밀폐공간",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "공통",
+          "construction_type_code": "COMMON",
+          "kcsc_code": "KCS 10 10 05",
+          "kcsc_process": "시험",
+          "contract_amount_eok": 50.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0098",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[리모델링]현장102",
+          "industry": "리모델링",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경남",
+          "workers": 22,
+          "worker_count": 22,
+          "scale": "small"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 1.0,
+          "direct_workers": 15,
+          "subcon_workers": 7,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0099",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[철거]현장103",
+          "industry": "철거",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "충남",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_demolition",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업",
+          "화학물질취급"
+        ],
+        "construction": {
+          "construction_type": "공통",
+          "construction_type_code": "COMMON",
+          "kcsc_code": "KCS 10 10 05",
+          "kcsc_process": "시험",
+          "contract_amount_eok": 6.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0100",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[전기공사]현장104",
+          "industry": "전기공사",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "전남",
+          "workers": 22,
+          "worker_count": 22,
+          "scale": "small"
+        },
+        "building": null,
+        "process": [],
+        "facility": [],
+        "work": [
+          "전기작업"
+        ],
+        "construction": {
+          "construction_type": "공통",
+          "construction_type_code": "COMMON",
+          "kcsc_code": "KCS 10 10 05",
+          "kcsc_process": "시험",
+          "contract_amount_eok": 1.0,
+          "direct_workers": 15,
+          "subcon_workers": 7,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0101",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[토목터널]현장105",
+          "industry": "토목터널",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경북",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_blasting",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "밀폐공간",
+          "고소작업",
+          "용접"
+        ],
+        "construction": {
+          "construction_type": "토목",
+          "construction_type_code": "CIVIL",
+          "kcsc_code": "KCS 11 10 05",
+          "kcsc_process": "흙깎기",
+          "contract_amount_eok": 50.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0102",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[건축신축]현장106",
+          "industry": "건축신축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "대구",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          },
+          {
+            "code": "has_steel_frame",
+            "value": true
+          },
+          {
+            "code": "has_high_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 18.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0103",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[토목항만]현장107",
+          "industry": "토목항만",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "광주",
+          "workers": 450,
+          "worker_count": 450,
+          "scale": "large"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_pile_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업",
+          "용접"
+        ],
+        "construction": {
+          "construction_type": "토목",
+          "construction_type_code": "CIVIL",
+          "kcsc_code": "KCS 11 10 05",
+          "kcsc_process": "흙깎기",
+          "contract_amount_eok": 50.0,
+          "direct_workers": 300,
+          "subcon_workers": 150,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0104",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[플랜트]현장108",
+          "industry": "플랜트",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "강원",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_crane",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "밀폐공간"
+        ],
+        "construction": {
+          "construction_type": "공통",
+          "construction_type_code": "COMMON",
+          "kcsc_code": "KCS 10 10 05",
+          "kcsc_process": "시험",
+          "contract_amount_eok": 18.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0105",
+      "sector": "CONSTRUCTION",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[건축증축]현장109",
+          "industry": "건축증축",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "서울",
+          "workers": 75,
+          "worker_count": 75,
+          "scale": "medium"
+        },
+        "building": null,
+        "process": [],
+        "facility": [
+          {
+            "code": "has_scaffold",
+            "value": true
+          },
+          {
+            "code": "has_concrete_work",
+            "value": true
+          }
+        ],
+        "work": [
+          "고소작업"
+        ],
+        "construction": {
+          "construction_type": "건축",
+          "construction_type_code": "BUILDING",
+          "kcsc_code": "KCS 41 10 00",
+          "kcsc_process": "가설공사",
+          "contract_amount_eok": 6.0,
+          "direct_workers": 50,
+          "subcon_workers": 25,
+          "order_type": "원도급"
+        }
+      }
+    },
+    {
+      "profile_id": "PF-0106",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[연구소]시설110",
+          "industry": "연구소",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경기",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "facility_type": "특수연구시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          },
+          {
+            "code": "has_boiler",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급",
+          "전기작업",
+          "밀폐공간"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0107",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[데이터센터]시설111",
+          "industry": "데이터센터",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "인천",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "facility_type": "특수정보시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0108",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[발전시설]시설112",
+          "industry": "발전시설",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "부산",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "facility_type": "특수에너지시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_crane",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "밀폐공간",
+          "고소작업"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0109",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[정수장]시설113",
+          "industry": "정수장",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "울산",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "facility_type": "특수환경시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          },
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0110",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[연구소]시설114",
+          "industry": "연구소",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "경남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "facility_type": "특수연구시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_chemical_substance",
+            "value": true
+          }
+        ],
+        "work": [
+          "화학물질취급"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0111",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[발전시설]시설115",
+          "industry": "발전시설",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "충남",
+          "workers": 50,
+          "worker_count": 50,
+          "scale": "medium"
+        },
+        "building": {
+          "facility_type": "특수에너지시설",
+          "total_floor_area": 15000.0,
+          "floor_area": 15000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_boiler",
+            "value": true
+          },
+          {
+            "code": "has_pressure_vessel",
+            "value": true
+          }
+        ],
+        "work": [
+          "용접",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    },
+    {
+      "profile_id": "PF-0112",
+      "sector": "SPECIAL_FACILITY",
+      "boundary": false,
+      "boundary_note": "",
+      "layers": {
+        "company": {
+          "name": "[데이터센터]시설116",
+          "industry": "데이터센터",
+          "ksic_major": "",
+          "ksic_name": "",
+          "region": "전남",
+          "workers": 300,
+          "worker_count": 300,
+          "scale": "large"
+        },
+        "building": {
+          "facility_type": "특수정보시설",
+          "total_floor_area": 60000.0,
+          "floor_area": 60000.0
+        },
+        "process": [],
+        "facility": [
+          {
+            "code": "has_emergency_gen",
+            "value": true
+          },
+          {
+            "code": "has_high_pressure_gas",
+            "value": true
+          },
+          {
+            "code": "has_sprinkler",
+            "value": true
+          }
+        ],
+        "work": [
+          "전기작업",
+          "유지보수"
+        ],
+        "construction": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,1690 @@
+{
+  "chg": "GATE",
+  "type": "semantic_diff",
+  "before_count": 112,
+  "after_count": 112,
+  "changed_profiles": [],
+  "missing_profiles": [],
+  "records": [
+    {
+      "profile_id": "PF-0001",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0002",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0003",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0004",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0005",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0006",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0007",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0008",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0009",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0010",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0011",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0012",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0013",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0014",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0015",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0016",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0017",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0018",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0019",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0020",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0021",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0022",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0023",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0024",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0025",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0026",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0027",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0028",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0029",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0030",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0031",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0032",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0033",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0034",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "small",
+        "workers": 22,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 20,
+      "applicable_count_after": 20
+    },
+    {
+      "profile_id": "PF-0035",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0036",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0037",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "medium",
+        "workers": 50,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0038",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "large",
+        "workers": 300,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0039",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "large",
+        "workers": 300,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0040",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 49,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 19,
+      "applicable_count_after": 19
+    },
+    {
+      "profile_id": "PF-0041",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0042",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 51,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0043",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 99,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0044",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 100,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0045",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 101,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0046",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 299,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0047",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 300,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0048",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 301,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0049",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0050",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0051",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0052",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 50,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0053",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 50,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0054",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0055",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 50,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0056",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 50,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0057",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0058",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0059",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0060",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0061",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 100,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0062",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0063",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0064",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0065",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0066",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0067",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0068",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0069",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0070",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0071",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0072",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0073",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 18,
+      "applicable_count_after": 18
+    },
+    {
+      "profile_id": "PF-0074",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0075",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0076",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0077",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0078",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "large",
+        "workers": 300,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0079",
+      "sector": "MANUFACTURING",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "medium",
+        "workers": 50,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 23,
+      "applicable_count_after": 23
+    },
+    {
+      "profile_id": "PF-0080",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0081",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0082",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0083",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0084",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0085",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0086",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0087",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0088",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "medium",
+        "workers": 50,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0089",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0090",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0091",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "small",
+        "workers": 15,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 102,
+      "applicable_count_after": 102
+    },
+    {
+      "profile_id": "PF-0092",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 107,
+      "applicable_count_after": 107
+    },
+    {
+      "profile_id": "PF-0093",
+      "sector": "BUILDING",
+      "payload": {
+        "site_kind": "building",
+        "scale": "small",
+        "workers": 15,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 102,
+      "applicable_count_after": 102
+    },
+    {
+      "profile_id": "PF-0094",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0095",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0096",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0097",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0098",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "small",
+        "workers": 22,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 20,
+      "applicable_count_after": 20
+    },
+    {
+      "profile_id": "PF-0099",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0100",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "small",
+        "workers": 22,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 20,
+      "applicable_count_after": 20
+    },
+    {
+      "profile_id": "PF-0101",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "경북"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0102",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "대구"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0103",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "광주"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0104",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "강원"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0105",
+      "sector": "CONSTRUCTION",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "medium",
+        "workers": 75,
+        "region": "서울"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 24,
+      "applicable_count_after": 24
+    },
+    {
+      "profile_id": "PF-0106",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "large",
+        "workers": 300,
+        "region": "경기"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0107",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "medium",
+        "workers": 50,
+        "region": "인천"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0108",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "large",
+        "workers": 300,
+        "region": "부산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0109",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "medium",
+        "workers": 50,
+        "region": "울산"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0110",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "medium",
+        "workers": 50,
+        "region": "경남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0111",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "medium",
+        "workers": 50,
+        "region": "충남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    },
+    {
+      "profile_id": "PF-0112",
+      "sector": "SPECIAL_FACILITY",
+      "payload": {
+        "site_kind": "other",
+        "scale": "large",
+        "workers": 300,
+        "region": "전남"
+      },
+      "changed": false,
+      "obligations_added": [],
+      "obligations_removed": [],
+      "applicable_count_before": 7,
+      "applicable_count_after": 7
+    }
+  ]
+}

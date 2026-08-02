@@ -1,0 +1,19 @@
+{
+  "wo": "WO-E2E-FREEZE-001",
+  "step": "refill",
+  "run_at": "2026-07-31T00:31:51.050211+00:00",
+  "results": [
+    {
+      "profile_id": "PF-0107",
+      "ok": true,
+      "http": 200,
+      "obligation_total": 7
+    },
+    {
+      "profile_id": "PF-0111",
+      "ok": true,
+      "http": 200,
+      "obligation_total": 7
+    }
+  ]
+}

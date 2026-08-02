@@ -1,0 +1,35 @@
+== 순수 선임 의무(THEN_ACTION이 APPOINT/DESIGNATE)의 category 행선지 ==
+    family_name     | n  
+--------------------+----
+ MANDATORY_FAMILY   | 88
+ REPORT_FAMILY      | 56
+ APPOINT_FAMILY     | 32
+ PERMISSIVE_FAMILY  | 13
+ NOTIFY_FAMILY      | 10
+ INSPECT_FAMILY     | 10
+ VERIFY_FAMILY      | 10
+ UNKNOWN            |  2
+ PROHIBITION_FAMILY |  1
+ EXECUTE_FAMILY     |  1
+(10개 행)
+
+== raw_token(실제 행위 동사)별 분포 — 선임 조문의 THEN_ACTION ==
+    raw_token    | n  
+-----------------+----
+ 제출해야 한다   | 50
+ 선임하여야 한다 | 28
+ 신고하여야 한다 | 27
+ 확인해야 한다   | 21
+ 선임할 수 있다  | 18
+ 제출하여야 한다 | 18
+ 선임해야 한다   | 16
+ 통보해야 한다   | 12
+ 통보하여야 한다 |  6
+ 확인하여야 한다 |  6
+ 신고해야 한다   |  3
+ 확인하여야 하며 |  3
+ 위촉할 수 있다  |  2
+ 보고해야 한다   |  2
+ 보고하여야 한다 |  2
+(15개 행)
+

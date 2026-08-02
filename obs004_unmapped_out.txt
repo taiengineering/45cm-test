@@ -1,0 +1,57 @@
+== 미매핑 법령의 domain_code 분포 (귀속 근거 후보) ==
+    domain_code    | unmapped_n 
+-------------------+------------
+ ELECTRIC          |        106
+ FIRE              |         80
+ CHEMICAL          |         42
+ BUILDING          |         36
+ ENVIRONMENT       |         24
+ INDUSTRIAL_SAFETY |         21
+ GAS               |         21
+                   |         16
+ ENERGY            |         15
+ DISASTER          |         10
+ CONSTRUCTION      |          4
+(11개 행)
+
+== 매핑된 법령: domain_code와 sectors의 관계 (규칙 도출 가능한지) ==
+    domain_code    |              sectors               | n  
+-------------------+------------------------------------+----
+ BUILDING          | {SPECIAL_FACILITY}                 | 78
+ BUILDING          | {BUILDING}                         | 42
+ BUILDING          | {BUILDING,INDUSTRIAL}              | 15
+ BUILDING          | {BUILDING,CONSTRUCTION}            | 14
+ BUILDING          | {INDUSTRIAL}                       |  5
+ BUILDING          | {BUILDING,INDUSTRIAL,CONSTRUCTION} |  3
+ CHEMICAL          | {INDUSTRIAL}                       |  9
+ CHEMICAL          | {BUILDING,INDUSTRIAL}              |  6
+ CHEMICAL          | {INDUSTRIAL,CONSTRUCTION}          |  3
+ CONSTRUCTION      | {CONSTRUCTION}                     | 10
+ CONSTRUCTION      | {BUILDING,CONSTRUCTION}            |  6
+ DISASTER          | {BUILDING,INDUSTRIAL,CONSTRUCTION} | 14
+ DISASTER          | {SPECIAL_FACILITY}                 |  6
+ DISASTER          |                                    |  4
+ ELECTRIC          | {SPECIAL_FACILITY}                 | 11
+ ELECTRIC          | {BUILDING,INDUSTRIAL}              | 10
+ ELECTRIC          | {BUILDING,CONSTRUCTION}            |  6
+ ELECTRIC          |                                    |  2
+ ELECTRIC          | {INDUSTRIAL}                       |  2
+ ELECTRIC          | {BUILDING}                         |  1
+ ENERGY            | {BUILDING,INDUSTRIAL}              |  6
+ ENERGY            | {INDUSTRIAL,CONSTRUCTION}          |  5
+ ENVIRONMENT       | {INDUSTRIAL,CONSTRUCTION}          | 31
+ ENVIRONMENT       | {SPECIAL_FACILITY}                 | 15
+ ENVIRONMENT       | {BUILDING,INDUSTRIAL}              |  6
+ ENVIRONMENT       | {BUILDING,INDUSTRIAL,CONSTRUCTION} |  3
+ ENVIRONMENT       | {CONSTRUCTION}                     |  3
+ ENVIRONMENT       | {BUILDING,CONSTRUCTION}            |  1
+ ENVIRONMENT       |                                    |  1
+ FIRE              | {BUILDING}                         | 32
+ FIRE              | {BUILDING,INDUSTRIAL}              |  7
+ FIRE              | {INDUSTRIAL}                       |  3
+ GAS               | {BUILDING,INDUSTRIAL}              |  9
+ INDUSTRIAL_SAFETY | {BUILDING,INDUSTRIAL,CONSTRUCTION} |  8
+ LABOR             | {BUILDING,INDUSTRIAL,CONSTRUCTION} | 13
+ LABOR             | {SPECIAL_FACILITY}                 |  3
+(36개 행)
+

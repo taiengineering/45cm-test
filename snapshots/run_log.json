@@ -1,0 +1,144 @@
+{
+  "wo": "WO-E2E-RUNNER-001",
+  "run_at": "2026-07-30T23:32:24.037885+00:00",
+  "targets": [
+    "PF-0001",
+    "PF-0019",
+    "PF-0028",
+    "PF-0037"
+  ],
+  "log": [
+    {
+      "profile_id": "PF-0001",
+      "step": "read",
+      "result": "OK",
+      "sector": "MANUFACTURING"
+    },
+    {
+      "profile_id": "PF-0001",
+      "step": "compiler_input",
+      "result": "OK",
+      "payload": {
+        "site_kind": "manufacturing",
+        "scale": "small",
+        "workers": 15,
+        "region": "서울"
+      }
+    },
+    {
+      "profile_id": "PF-0001",
+      "step": "engine",
+      "result": "OK",
+      "http_status": 200,
+      "elapsed_s": 19.669,
+      "error": null
+    },
+    {
+      "profile_id": "PF-0001",
+      "step": "snapshot",
+      "result": "OK",
+      "snapshot_id": "SNAP-0001-001",
+      "public_token": "98bbe6ac-8b5e-45d5-afe2-f15f92d9efa7",
+      "path": "snapshots/SNAP-0001-001.json"
+    },
+    {
+      "profile_id": "PF-0019",
+      "step": "read",
+      "result": "OK",
+      "sector": "BUILDING"
+    },
+    {
+      "profile_id": "PF-0019",
+      "step": "compiler_input",
+      "result": "OK",
+      "payload": {
+        "site_kind": "building",
+        "scale": "large",
+        "workers": 300,
+        "region": "충남"
+      }
+    },
+    {
+      "profile_id": "PF-0019",
+      "step": "engine",
+      "result": "OK",
+      "http_status": 200,
+      "elapsed_s": 12.918,
+      "error": null
+    },
+    {
+      "profile_id": "PF-0019",
+      "step": "snapshot",
+      "result": "OK",
+      "snapshot_id": "SNAP-0019-001",
+      "public_token": "d9037d86-5da3-4b0a-9b17-d58b7be34301",
+      "path": "snapshots/SNAP-0019-001.json"
+    },
+    {
+      "profile_id": "PF-0028",
+      "step": "read",
+      "result": "OK",
+      "sector": "CONSTRUCTION"
+    },
+    {
+      "profile_id": "PF-0028",
+      "step": "compiler_input",
+      "result": "OK",
+      "payload": {
+        "site_kind": "construction",
+        "scale": "large",
+        "workers": 450,
+        "region": "부산"
+      }
+    },
+    {
+      "profile_id": "PF-0028",
+      "step": "engine",
+      "result": "OK",
+      "http_status": 200,
+      "elapsed_s": 13.858,
+      "error": null
+    },
+    {
+      "profile_id": "PF-0028",
+      "step": "snapshot",
+      "result": "OK",
+      "snapshot_id": "SNAP-0028-001",
+      "public_token": "653a1543-e011-4e46-bce9-334836099b92",
+      "path": "snapshots/SNAP-0028-001.json"
+    },
+    {
+      "profile_id": "PF-0037",
+      "step": "read",
+      "result": "OK",
+      "sector": "SPECIAL_FACILITY"
+    },
+    {
+      "profile_id": "PF-0037",
+      "step": "compiler_input",
+      "result": "OK",
+      "payload": {
+        "site_kind": "other",
+        "scale": "medium",
+        "workers": 50,
+        "region": "서울"
+      }
+    },
+    {
+      "profile_id": "PF-0037",
+      "step": "engine",
+      "result": "OK",
+      "http_status": 200,
+      "elapsed_s": 12.96,
+      "error": null
+    },
+    {
+      "profile_id": "PF-0037",
+      "step": "snapshot",
+      "result": "OK",
+      "snapshot_id": "SNAP-0037-001",
+      "public_token": "8221a1cb-a67a-444b-b7be-169445f4cd54",
+      "path": "snapshots/SNAP-0037-001.json"
+    }
+  ]
+}

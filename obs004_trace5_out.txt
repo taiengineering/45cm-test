@@ -1,0 +1,22 @@
+== 매핑 없는 법령 규모 (law_master에 있으나 law_sector_mapping에 없음) ==
+ unmapped 
+----------
+      375
+(1개 행)
+
+== 전체 활성 법령 수 ==
+ active_laws 
+-------------
+         768
+(1개 행)
+
+== 에너지절약형주택 article이 executable_draft로 존재하는지 (도달 경로 상류) ==
+               draft_id               |              article_id              |  status   
+--------------------------------------+--------------------------------------+-----------
+ 63f08b25-efba-4266-aa61-c3ef503cabaf | 3cab6caf-dbf9-4dc3-ac08-74ddbd18eccc | CANDIDATE
+ 6c287ee8-b7fc-46fa-8460-7c226064c806 | a6f4da0f-46ea-4db1-9a75-404cd5673fd6 | CANDIDATE
+ 6a38de67-2e76-43e3-9c1c-45996b4f9aba | 55ec0011-17d7-4c31-8a80-7997dd15358c | CANDIDATE
+ 2fd7570f-8237-4017-a18e-736c4be880a6 | c80b95d0-6f8e-4302-971c-85f355f2ea10 | CANDIDATE
+ f3115276-e030-423c-9ca0-b27fc9c4398c | 55ec0011-17d7-4c31-8a80-7997dd15358c | CANDIDATE
+(5개 행)
+

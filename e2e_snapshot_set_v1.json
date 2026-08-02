@@ -1,0 +1,14 @@
+{
+  "wo": "WO-E2E-CHG001-LOOP-001",
+  "version": 1,
+  "run_at": "2026-08-01T01:27:29.692689+00:00",
+  "engine_expected": "v3.0-compiler-core-anonymous",
+  "workers": 3,
+  "timeout_s": 180.0,
+  "retries": 2,
+  "total_targets": 0,
+  "executed": 0,
+  "success": 0,
+  "failures": [],
+  "records": []
+}

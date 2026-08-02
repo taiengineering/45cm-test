@@ -1,0 +1,15 @@
+== 안전보건관리규정의 작성 — 법 vs 시행규칙 각 조문의 THEN_ACTION/내용 ==
+        law_name         | article_no |      article_title      |    section    |     family_name     |    raw_token    
+-------------------------+------------+-------------------------+---------------+---------------------+-----------------
+ 산업안전보건법          |         25 | 안전보건관리규정의 작성 | IF_ACTOR      | UNKNOWN             | 사업주는
+ 산업안전보건법          |         25 | 안전보건관리규정의 작성 | THEN_ACTION   | RECORD_FAMILY       | 작성하여야 한다
+ 산업안전보건법          |         25 | 안전보건관리규정의 작성 | THEN_ACTION   | MANDATORY_FAMILY    | 작성하여야 한다
+ 산업안전보건법 시행규칙 |         25 | 안전보건관리규정의 작성 | IF_ACTOR      | UNKNOWN             | 사업주가
+ 산업안전보건법 시행규칙 |         25 | 안전보건관리규정의 작성 | IF_ACTOR      | UNKNOWN             | 사업주는
+ 산업안전보건법 시행규칙 |         25 | 안전보건관리규정의 작성 | THEN_ACTION   | PERMISSIVE_FAMILY   | 작성할 수 있다
+ 산업안전보건법 시행규칙 |         25 | 안전보건관리규정의 작성 | THEN_ACTION   | RECORD_FAMILY       | 작성해야 한다
+ 산업안전보건법 시행규칙 |         25 | 안전보건관리규정의 작성 | THEN_ACTION   | MANDATORY_FAMILY    | 작성해야 한다
+ 산업안전보건법 시행규칙 |         25 | 안전보건관리규정의 작성 | THEN_ACTION   | RECORD_FAMILY       | 작성할 수 있다
+ 산업안전보건법 시행규칙 |         25 | 안전보건관리규정의 작성 | THEN_DEADLINE | UNRESOLVED_DEADLINE | 30일 이내에
+(10개 행)
+

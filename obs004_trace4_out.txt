@@ -1,0 +1,33 @@
+== sectors 값 형태 샘플 ==
+           law_name            |    sectors     
+-------------------------------+----------------
+ 건설기계 안전기준에 관한 규칙 | {CONSTRUCTION}
+ 건설기계관리법                | {CONSTRUCTION}
+ 건설기계관리법 시행규칙       | {CONSTRUCTION}
+ 건설기계관리법 시행령         | {CONSTRUCTION}
+ 건설기술 진흥법               | {CONSTRUCTION}
+ 건설기술 진흥법 시행규칙      | {CONSTRUCTION}
+ 건설기술 진흥법 시행령        | {CONSTRUCTION}
+ 건설산업기본법                | {CONSTRUCTION}
+(8개 행)
+
+== sectors에 모든 sector 다 들어간(전역) 매핑 규모 ==
+ total_mappings 
+----------------
+            393
+(1개 행)
+
+== sectors 고유값 분포 (상위) ==
+              sectors               |  n  
+------------------------------------+-----
+ {SPECIAL_FACILITY}                 | 113
+ {BUILDING}                         |  75
+ {BUILDING,INDUSTRIAL}              |  59
+ {BUILDING,INDUSTRIAL,CONSTRUCTION} |  41
+ {INDUSTRIAL,CONSTRUCTION}          |  39
+ {BUILDING,CONSTRUCTION}            |  27
+ {INDUSTRIAL}                       |  19
+ {CONSTRUCTION}                     |  13
+                                    |   7
+(9개 행)
+

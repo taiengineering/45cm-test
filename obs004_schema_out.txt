@@ -1,0 +1,92 @@
+
+A newer Railway CLI is available: v5.30.3 (current: v5.23.1).
+Run `railway upgrade --yes` to update.
+== law 관련 테이블 컬럼 ==
+ table_name  |        column_name        
+-------------+---------------------------
+ law_article | id
+ law_article | law_version_id
+ law_article | article_internal_key
+ law_article | article_no
+ law_article | article_sub_no
+ law_article | article_no_sort
+ law_article | article_type
+ law_article | article_title
+ law_article | article_text
+ law_article | article_text_normalized
+ law_article | article_status_code
+ law_article | is_changed
+ law_article | is_deleted_in_version
+ law_article | enforcement_date
+ law_article | created_at
+ law_article | updated_at
+ law_article | ai_parsed_at
+ law_article | law_id
+ law_article | parent_article_id
+ law_article | content_type
+ law_article | classified_by
+ law_article | classified_at
+ law_article | content_types
+ law_article | primary_content_type
+ law_article | classification_confidence
+ law_article | classified_by_rules
+ law_master  | id
+ law_master  | law_key
+ law_master  | law_api_id
+ law_master  | law_mst_no
+ law_master  | law_name
+ law_master  | law_name_short
+ law_master  | law_type_code
+ law_master  | domain_code
+ law_master  | ministry_code
+ law_master  | ministry_name
+ law_master  | law_number
+ law_master  | law_status_code
+ law_master  | current_version_no
+ law_master  | current_version_id
+ law_master  | announcement_date
+ law_master  | enforcement_date
+ law_master  | abolition_date
+ law_master  | source_system
+ law_master  | source_url
+ law_master  | is_active
+ law_master  | remarks
+ law_master  | created_at
+ law_master  | updated_at
+ law_master  | seq_in_domain_type
+(50개 행)
+
+== executable_draft 컬럼 (조건 관련) ==
+    column_name    
+-------------------
+ id
+ rule_candidate_id
+ part_id
+ article_id
+ pass_count
+ ambiguous_count
+ unresolved_count
+ slot_count
+ status
+ created_at
+(10개 행)
+
+== draft_slot 컬럼 (조건/적용 관련) ==
+    column_name    
+-------------------
+ id
+ draft_id
+ part_id
+ section
+ family_name
+ binding_field
+ operator
+ value
+ unit
+ raw_token
+ source_span_start
+ source_span_end
+ status
+ created_at
+(14개 행)
+

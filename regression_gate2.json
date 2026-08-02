@@ -1,0 +1,17 @@
+{
+  "chg": "GATE",
+  "type": "regression",
+  "total_profiles": 112,
+  "changed": 0,
+  "unchanged": 112,
+  "improved_large_building": [],
+  "unexpected_changes": [],
+  "small_building_electric_elevator_loss": [],
+  "missing_profiles": [],
+  "verdict": "ROLLBACK",
+  "verdict_basis": {
+    "improvement": [],
+    "unexpected_change_count": 0,
+    "small_loss_count": 0
+  }
+}

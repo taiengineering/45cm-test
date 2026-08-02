@@ -1,0 +1,50 @@
+== 전기안전관리자 선임 및 해임신고 family_name ==
+        law_name         |               article_title               |          family_name          |       raw_token        
+-------------------------+-------------------------------------------+-------------------------------+------------------------
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | REPORT_FAMILY                 | 제출해야 한다
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | MANDATORY_FAMILY              | 제출해야 한다
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | UNRESOLVED_DEADLINE           | 30일 이내에
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | ATTACHMENT_FORM_FAMILY        | 별지 제15호서식
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | EXTERNAL_LAW_REFERENCE_FAMILY | 「전력기술관리법」
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | ARTICLE_REFERENCE_FAMILY      | 제18조
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | ARTICLE_REFERENCE_FAMILY      | 제22조제1항
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | ARTICLE_REFERENCE_FAMILY      | 제23조제1항
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | UNKNOWN                       | 안전관리자의
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | UNKNOWN                       | 안전관리자
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | UNKNOWN                       | 기후에너지환경부장관이
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임 및 해임신고         | DEADLINE_THRESHOLD_FAMILY     | 30일 이내
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | UNRESOLVED_DEADLINE           | 30일 이내에
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | ATTACHMENT_FORM_FAMILY        | 별지 제20호서식
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | ARTICLE_REFERENCE_FAMILY      | 제23조제1항
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | REPORT_FAMILY                 | 제출해야 한다
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | MANDATORY_FAMILY              | 제출해야 한다
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | UNKNOWN                       | 안전관리자
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | UNKNOWN                       | 안전관리자의
+ 전기안전관리법 시행규칙 | 전기안전관리자의 선임신고사항 변경신고 등 | DEADLINE_THRESHOLD_FAMILY     | 30일 이내
+(20개 행)
+
+== family_name별 THEN_ACTION 종류(어떤 family가 report로 가는지) ==
+      family_name      |  n   
+-----------------------+------
+ MANDATORY_FAMILY      | 9240
+ REPORT_FAMILY         | 5772
+ INSTALL_FAMILY        | 2913
+ MANDATORY_ITEM_FAMILY | 1762
+ UNKNOWN               | 1376
+ PERMISSIVE_FAMILY     |  787
+ INSPECT_FAMILY        |  775
+ VERIFY_FAMILY         |  601
+ MANAGE_FAMILY         |  556
+ NOTIFY_FAMILY         |  460
+ RECORD_FAMILY         |  273
+ PRESERVE_FAMILY       |  237
+ APPOINT_FAMILY        |  197
+ TEST_INSPECT_FAMILY   |   84
+ EXECUTE_FAMILY        |   47
+ MEASURE_FAMILY        |   31
+ TRAINING_FAMILY       |   19
+ MAINTAIN_FAMILY       |   16
+ REPAIR_FAMILY         |   14
+ REQUEST_FAMILY        |   13
+(20개 행)
+

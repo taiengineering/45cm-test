@@ -1,0 +1,1 @@
+[1;32mNew version available:[0m v[33m5.30.3[0m visit [35mhttps://docs.railway.com/guides/cli[0m for more info

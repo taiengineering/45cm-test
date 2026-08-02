@@ -1,0 +1,57 @@
+PF-0019 *_required total=107 applicable_count=107
+appointment_required keys: ['rule_id', 'rule_type', 'law_name', 'law_article', 'obligation_summary', 'remarks', 'description', 'category', 'obligation_type', 'source_action_family', 'then_action_token', 'sector', 'diagnosis_stage', 'schedule_type', 'penalty_summary', 'source', 'appointment_required', 'inspection_required', 'action_required', 'report_required', 'notify_required']
+중복 그룹 수: 16
+== 화재의 예방 및 안전관리에 관한 법률 / 35 / 관리의 권원이 분리된 특정소방대상물의 소방안전관리 (x2) ==
+   [appointment] {'rule_id': '08e28f73-73ad-4bfb-aae0-82f13b2118c0', 'then_action_token': '선임하여야 한다', 'source_action_family': 'APPOINT_FAMILY', 'rule_type': 'APPOINTMENT_TASK_CANDIDATE', 'category': '선임'}
+   [appointment] {'rule_id': 'b93dfd1f-e77f-4e7b-8387-a4bb925a4366', 'then_action_token': '선임하여야 한다', 'source_action_family': 'APPOINT_FAMILY', 'rule_type': 'APPOINTMENT_TASK_CANDIDATE', 'category': '선임'}
+== 화재의 예방 및 안전관리에 관한 법률 / 24 / 특정소방대상물의 소방안전관리 (x2) ==
+   [appointment] {'rule_id': '050aaf8a-058c-46d1-a672-b2dfe82eca36', 'then_action_token': '선임하여야 한다', 'source_action_family': 'APPOINT_FAMILY', 'rule_type': 'APPOINTMENT_TASK_CANDIDATE', 'category': '선임'}
+   [appointment] {'rule_id': 'ad4aaa85-4234-45d5-8e99-aef118c552fc', 'then_action_token': '선임할 수 있다', 'source_action_family': 'APPOINT_FAMILY', 'rule_type': 'APPOINTMENT_TASK_CANDIDATE', 'category': '선임'}
+== 중대재해 처벌 등에 관한 법률 시행령 / 4 / 안전보건관리체계의 구축 및 이행 조치 (x2) ==
+   [inspection] {'rule_id': 'dd6670d2-9d67-4927-b406-0924347b7649', 'then_action_token': '점검할 것', 'source_action_family': 'INSPECT_FAMILY', 'rule_type': 'INSPECTION_TASK_CANDIDATE', 'category': '점검'}
+   [inspection] {'rule_id': 'e7e69d32-607b-48f2-9c17-4d4673547c91', 'then_action_token': '점검할 것', 'source_action_family': 'INSPECT_FAMILY', 'rule_type': 'INSPECTION_TASK_CANDIDATE', 'category': '점검'}
+== 한국전기설비규정 / 231 / [KEC 231.5] 고주파 전류에 의한 장해의 방지 (x2) ==
+   [action] {'rule_id': '1c0b52a6-6f82-43b6-9012-b6dc3d6dda83', 'rule_type': 'ACTION', 'category': '조치'}
+   [action] {'rule_id': 'ef6a9ede-1979-44ac-89d8-adfaea45e19e', 'rule_type': 'ACTION', 'category': '조치'}
+== 스프링클러설비의 화재안전성능기준(NFPC 103) / 10 / 헤드 (x3) ==
+   [action] {'rule_id': 'b8533ad2-925d-421e-8630-5abe1f3a8504', 'then_action_token': '설치해야 한다', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': '86d0d9c8-2393-43f9-81c8-f93ba7bdbe6f', 'then_action_token': '설치해야 한다', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': '5fcff35f-7915-4dc0-b988-a83ffc8729cc', 'then_action_token': '설치해야 한다', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+== 안전보건교육규정 / 13 / 교육방법 및 교육생의 관리 등 (x2) ==
+   [action] {'rule_id': 'f75af8ce-22e2-4e4b-ac7e-5984a283e49e', 'rule_type': 'ACTION', 'category': '조치'}
+   [action] {'rule_id': '3bba5363-eb19-4687-9514-994c39af3ad3', 'rule_type': 'ACTION', 'category': '조치'}
+== 자동화재탐지설비 및 시각경보장치의 화재안전성능기준(NFPC 203) / 7 / 감지기 (x2) ==
+   [action] {'rule_id': '4c8e251b-dd95-46d7-9f44-5634056b76a4', 'then_action_token': '설치해야 한다', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': 'd2218d5d-71d4-4210-866b-c20f5bbc89c1', 'then_action_token': '설치할 것', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+== 자동화재탐지설비 및 시각경보장치의 화재안전성능기준(NFPC 203) / 5 / 수신기 (x3) ==
+   [action] {'rule_id': 'f6e81e44-5301-4675-9c7e-e4c286d5916d', 'then_action_token': '설치할 것', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': '18b3ce03-0c45-443e-9590-f564b7b25e89', 'then_action_token': '설치하여야 한다', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': '9c7ed719-723f-44db-bbd7-24f3d30453cd', 'then_action_token': '설치할 것', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+== 포소화설비의 화재안전성능기준(NFPC 105) / 12 / 포헤드 및 고정포방출구 (x2) ==
+   [action] {'rule_id': '25346168-40fb-4763-a1e3-2016bc107482', 'then_action_token': '설치할 것', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': 'a9bc895c-9fb8-4915-85ba-1bd3b1d54c9b', 'then_action_token': '설치할 것', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+== 소방시설 설치 및 관리에 관한 법률 / 12 / 특정소방대상물에 설치하는 소방시설의 관리 등 (x2) ==
+   [action] {'rule_id': '56885611-9cc6-47f7-b829-931511f98c1b', 'then_action_token': '관리하여야 한다', 'source_action_family': 'MANAGE_FAMILY', 'rule_type': 'MANAGE_TASK_CANDIDATE', 'category': '조치'}
+   [report] {'rule_id': 'da60e55a-ddb4-479f-b823-66438d13ef1d', 'then_action_token': '통보하여야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+== 산업안전보건법 시행규칙 / 25 / 안전보건관리규정의 작성 (x2) ==
+   [action] {'rule_id': 'f6ed41f4-d0b4-4cf1-9bda-7f8a815c1760', 'then_action_token': '작성해야 한다', 'source_action_family': 'RECORD_FAMILY', 'rule_type': 'RECORD_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': '2baf8306-36ea-441c-a6f8-2cf83df6fe60', 'then_action_token': '작성할 수 있다', 'source_action_family': 'RECORD_FAMILY', 'rule_type': 'RECORD_TASK_CANDIDATE', 'category': '조치'}
+== 피난기구의 화재안전성능기준(NFPC 301) / 5 / 적응성 및 설치개수 등 (x3) ==
+   [action] {'rule_id': '1eda5c75-f9b1-4f80-9863-8af4699b2a4f', 'then_action_token': '설치할 것', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': '2885d0ea-7ed4-4ce8-a509-9245234a8caf', 'then_action_token': '설치할 것', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+   [action] {'rule_id': 'b579a652-b2d7-499a-9d99-6a135f902968', 'then_action_token': '설치해야 한다', 'source_action_family': 'INSTALL_FAMILY', 'rule_type': 'INSTALL_TASK_CANDIDATE', 'category': '조치'}
+== 소방시설 설치 및 관리에 관한 법률 시행규칙 / 23 / 소방시설등의 자체점검 결과의 조치 등 (x4) ==
+   [report] {'rule_id': 'd5e0aa57-fad4-47bf-9550-bf3b3d5cc4b5', 'then_action_token': '보고해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+   [report] {'rule_id': '898d6ce8-4665-47dc-bfde-28363d8f2256', 'then_action_token': '통보해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+   [report] {'rule_id': '22b14ec6-e6e1-499e-9f41-ccee64fa3345', 'then_action_token': '보고해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+   [report] {'rule_id': '0b11d656-aa4e-4399-a53e-6d4de5c8a790', 'then_action_token': '제출해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+== 소방시설 설치 및 관리에 관한 법률 / 23 / 소방시설등의 자체점검 결과의 조치 등 (x2) ==
+   [report] {'rule_id': '512263e7-877b-4091-bc31-36ab7a45f198', 'then_action_token': '보고하여야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+   [report] {'rule_id': 'ab26c1fa-b3c8-4866-8d1c-d3023f2c03c0', 'then_action_token': '보고하여야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+== 중대재해 처벌 등에 관한 법률 시행령 / 6 / 안전보건교육의 실시 등 (x3) ==
+   [report] {'rule_id': 'b0f5951d-0354-466c-966f-8265629aa26c', 'then_action_token': '통보해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+   [report] {'rule_id': 'efc36f91-77fe-4724-8520-bfa85d641ab0', 'then_action_token': '통보해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+   [report] {'rule_id': '51579cc9-51de-4b6c-a8f5-fad214c487a1', 'then_action_token': '통보해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+== 산업안전보건법 시행령 / 16 / 안전관리자의 선임 등 (x2) ==
+   [report] {'rule_id': 'ce1bcff1-da7d-494b-b509-977026860a78', 'then_action_token': '제출해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}
+   [report] {'rule_id': 'f3838e37-5250-4538-b18f-cc4640456036', 'then_action_token': '제출해야 한다', 'source_action_family': 'REPORT_FAMILY', 'rule_type': 'REPORT_TASK_CANDIDATE', 'category': '신고'}

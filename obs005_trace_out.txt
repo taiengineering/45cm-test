@@ -1,0 +1,25 @@
+== 선임성격인데 신고category인 대표 항목의 family_name 추적 ==
+                   law_name                   | article_no |        article_title         |          family_name          |    section    |                raw_token                
+----------------------------------------------+------------+------------------------------+-------------------------------+---------------+-----------------------------------------
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | EXTERNAL_LAW_REFERENCE_FAMILY | REFERENCE     | 「전자정부법」
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | INSPECT_FAMILY                | THEN_ACTION   | 확인하여야 한다
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | VERIFY_FAMILY                 | THEN_ACTION   | 확인하여야 한다
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | MANDATORY_FAMILY              | THEN_ACTION   | 확인하여야 한다
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | ARTICLE_REFERENCE_FAMILY      | REFERENCE     | 제36조제1항
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | ATTACHMENT_FORM_FAMILY        | THEN_EVIDENCE | 별지 제32호서식
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | EXTERNAL_LAW_REFERENCE_FAMILY | REFERENCE     | 「기업활동 규제완화에 관한 특별조치법」
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | ARTICLE_REFERENCE_FAMILY      | REFERENCE     | 제32조제1항
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | ARTICLE_REFERENCE_FAMILY      | REFERENCE     | 제15조제3항
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | ARTICLE_REFERENCE_FAMILY      | REFERENCE     | 제29조제1항
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | ARTICLE_REFERENCE_FAMILY      | REFERENCE     | 제57조제1항
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | REPORT_FAMILY                 | THEN_ACTION   | 제출하여야 한다
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | MANDATORY_FAMILY              | THEN_ACTION   | 제출하여야 한다
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | UNKNOWN                       | IF_ACTOR      | 소방서장에게
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | UNKNOWN                       | IF_ACTOR      | 안전관리자
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | UNKNOWN                       | IF_ACTOR      | 소방본부장 또는
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | UNKNOWN                       | IF_ACTOR      | 안전관리자
+ 위험물안전관리법 시행규칙                    |         53 | 안전관리자의 선임신고 등     | UNKNOWN                       | IF_ACTOR      | 관계인은
+ 화재의 예방 및 안전관리에 관한 법률 시행규칙 |         14 | 소방안전관리자의 선임신고 등 | UNRESOLVED_DEADLINE           | THEN_DEADLINE | 30일 이내에
+ 화재의 예방 및 안전관리에 관한 법률 시행규칙 |         14 | 소방안전관리자의 선임신고 등 | ARTICLE_REFERENCE_FAMILY      | REFERENCE     | 제35조
+(20개 행)
+

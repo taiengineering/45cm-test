@@ -1,0 +1,26 @@
+ count 
+-------
+   738
+(1개 행)
+
+                                                                            QUERY PLAN                                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Index Scan using idx_fa_factory on facility_applicability  (cost=0.46..834.05 rows=747 width=114) (actual time=0.039..13.750 rows=738 loops=1)
+   Index Cond: (factory_id = (InitPlan 1).col1)
+   Buffers: shared hit=8 read=11
+   InitPlan 1
+     ->  Limit  (cost=0.00..0.03 rows=1 width=16) (actual time=0.015..0.016 rows=1 loops=1)
+           Buffers: shared hit=2
+           ->  Seq Scan on facility_applicability facility_applicability_1  (cost=0.00..125555.88 rows=3943688 width=16) (actual time=0.014..0.014 rows=1 loops=1)
+                 Buffers: shared hit=2
+ Planning:
+   Buffers: shared hit=17 read=1
+ Planning Time: 2.069 ms
+ Execution Time: 13.883 ms
+(12개 행)
+
+ total_size | n_live_tup | n_dead_tup | last_autovacuum | last_vacuum 
+------------+------------+------------+-----------------+-------------
+ 981 MB     |        161 |     137072 |                 | 
+(1개 행)
+

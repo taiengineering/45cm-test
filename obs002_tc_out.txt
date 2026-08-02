@@ -1,0 +1,11 @@
+== task_candidate.id 매칭 ==
+ id | task_type | source_action_family | obligation_family | applicability_status | status 
+----+-----------+----------------------+-------------------+----------------------+--------
+(0개 행)
+
+== task_candidate 스키마가 public인지 engine_isolated인지 ==
+ table_schema |   table_name   
+--------------+----------------
+ public       | task_candidate
+(1개 행)
+

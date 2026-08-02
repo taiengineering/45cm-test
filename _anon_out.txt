@@ -1,0 +1,24 @@
+ anon_temp_factories 
+---------------------
+                   1
+(1개 행)
+
+ orphan_anon_fa 
+----------------
+              0
+(1개 행)
+
+ cnt | factories_with_this_count 
+-----+---------------------------
+ 738 |                      5344
+(1개 행)
+
+ applicability_status |  count  
+----------------------+---------
+ MISSING_DATA         | 3773215
+ POSSIBLE_CANDIDATE   |  128606
+ AMBIGUOUS            |   33038
+ MATCH_CANDIDATE      |    6976
+ NOT_MATCHED          |    2037
+(5개 행)
+

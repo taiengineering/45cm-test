@@ -1,0 +1,35 @@
+== 같은 제목이 법+시행규칙 양쪽에 있을 때, 시행규칙만 THEN_DEADLINE/추가조건 갖는지 (기계설비법 예) ==
+      law_name       |          article_title           |    section    |        family_name        |    raw_token    
+---------------------+----------------------------------+---------------+---------------------------+-----------------
+ 기계설비법          | 기계설비유지관리자 선임 등       | IF_NUMERIC    | DEADLINE_THRESHOLD_FAMILY | 30일 이내
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | MANDATORY_FAMILY          | 선임하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | APPOINT_FAMILY            | 선임하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | REPORT_FAMILY             | 신고하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | NOTIFY_FAMILY             | 신고하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | MANDATORY_FAMILY          | 신고하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | APPOINT_FAMILY            | 선임하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | MANDATORY_FAMILY          | 선임하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | REPORT_FAMILY             | 신고하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | NOTIFY_FAMILY             | 신고하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | MANDATORY_FAMILY          | 신고하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | REPORT_FAMILY             | 통보하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | MANDATORY_FAMILY          | 통보하여야 한다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | INSPECT_FAMILY            | 확인하여야 하며
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | VERIFY_FAMILY             | 확인하여야 하며
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | PERMISSIVE_FAMILY         | 발급할 수 있다
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_ACTION   | UNKNOWN                   | 확인하여야 하며
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_DEADLINE | IMMEDIATE_FAMILY          | 지체 없이
+ 기계설비법          | 기계설비유지관리자 선임 등       | THEN_DEADLINE | UNRESOLVED_DEADLINE       | 30일 이내에
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | IF_NUMERIC    | DEADLINE_THRESHOLD_FAMILY | 30일 이내
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | IF_NUMERIC    | DEADLINE_THRESHOLD_FAMILY | 30일 이내
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임        | IF_NUMERIC    | DEADLINE_THRESHOLD_FAMILY | 30일 이내
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | THEN_ACTION   | MANDATORY_FAMILY          | 제출해야 한다
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | THEN_ACTION   | REPORT_FAMILY             | 제출해야 한다
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | THEN_ACTION   | MANDATORY_FAMILY          | 제출해야 한다
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임        | THEN_ACTION   | APPOINT_FAMILY            | 선임해야 한다
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임        | THEN_ACTION   | MANDATORY_FAMILY          | 선임해야 한다
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | THEN_ACTION   | INSPECT_FAMILY            | 확인해야 한다
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | THEN_ACTION   | MANDATORY_FAMILY          | 확인해야 한다
+ 기계설비법 시행규칙 | 기계설비유지관리자의 선임신고 등 | THEN_ACTION   | REPORT_FAMILY             | 통보해야 한다
+(30개 행)
+

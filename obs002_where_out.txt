@@ -1,0 +1,18 @@
+== draft_slot.draft_id 매칭 ==
+ count 
+-------
+     0
+(1개 행)
+
+== executable_draft.rule_candidate_id 매칭 ==
+ count 
+-------
+     0
+(1개 행)
+
+== draft_slot.part_id 매칭 ==
+ count 
+-------
+     0
+(1개 행)
+

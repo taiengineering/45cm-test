@@ -1,0 +1,31 @@
+== law_sector_mapping 구조 ==
+  column_name   
+----------------
+ id
+ law_id
+ law_name
+ sectors
+ confidence
+ mapping_method
+ notes
+ created_at
+ updated_at
+(9개 행)
+
+== domain_code 종류와 분포 ==
+    domain_code    |  n  
+-------------------+-----
+ BUILDING          | 193
+ ELECTRIC          | 138
+ FIRE              | 122
+ ENVIRONMENT       |  84
+ CHEMICAL          |  60
+ DISASTER          |  34
+ GAS               |  30
+ INDUSTRIAL_SAFETY |  29
+ ENERGY            |  26
+ CONSTRUCTION      |  20
+ LABOR             |  16
+                   |  16
+(12개 행)
+

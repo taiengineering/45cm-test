@@ -1,0 +1,18 @@
+== engine_isolated.diagnosis_candidate ==
+ count 
+-------
+     0
+(1개 행)
+
+== engine_isolated.diagnosis_rule_results ==
+ count 
+-------
+     0
+(1개 행)
+
+== public.rule_candidate ==
+ count 
+-------
+     0
+(1개 행)
+

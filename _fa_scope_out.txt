@@ -1,0 +1,16 @@
+ total_fa | distinct_factories | live_factories 
+----------+--------------------+----------------
+  3943872 |               5344 |           5475
+(1개 행)
+
+     column_name      |        data_type         
+----------------------+--------------------------
+ id                   | uuid
+ factory_id           | uuid
+ draft_id             | uuid
+ part_id              | uuid
+ applicability_status | text
+ match_details        | jsonb
+ created_at           | timestamp with time zone
+(7개 행)
+
