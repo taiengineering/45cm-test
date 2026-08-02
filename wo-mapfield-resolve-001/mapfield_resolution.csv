@@ -1,0 +1,10 @@
+atom_id,law_name,article,current_mapped_field,actual_trigger,candidate_field,field_exists_in_schema,classification,note
+961c0ec1-183f-5d8a-a9cd-2cf57c964973,산업안전보건기준에 관한 규칙,49,worker_count,높이 2m 이상 작업,has_high_place_work,YES,CANDIDATE_ONLY,기존 has_high_place_work는 art186 고소작업대(장비) 중심; art49는 일반 2m 추락 트리거 - 개념 일치하나 법무 확인 권장
+4b663c8e-3b31-5b65-95f2-8a26009f3fde,산업안전보건기준에 관한 규칙,187,worker_count,2m 이상 화물차 상하차,has_high_place_work,YES,CANDIDATE_ONLY,동일 2m 높이 트리거; 화물 상하차 맥락 - 후보 타당하나 확인 권장
+5b849b3e-a3ae-52ae-81e7-3eb4858230ab,산업안전보건기준에 관한 규칙,524,worker_count,기압조절실 1인당 면적(잠함/고압),has_diving,YES,CANDIDATE_ONLY,기압조절실은 has_diving(art525/532/533)와 has_pressure_vessel(art528)에 분산 - 둘 중 택1 법무 확인 필요
+e665bb81-e70c-54be-99c6-cf6dfb5b35f1,산업안전보건기준에 관한 규칙,665,worker_count,5kg 이상 중량물 인력취급,(none),NO,NO_VALID_FIELD,수동 중량물취급 대응 필드 없음(has_crane/forklift는 기계) - 스키마 확장 필요
+fdb63aa2-8f18-51d4-b141-a36c6d6bea2a,응급의료에 관한 법률,8,worker_count,응급환자 2명 이상 우선순위,(none),NO,NO_VALID_FIELD,has_emergency_broadcast/gen은 장비; 응급의료 대응 필드 없음 - 스키마 확장 필요
+1d6a70e6-40dc-59d7-99b8-62597635762b,근로기준법,56,worker_count,야간근로 가산임금(상시적용),(none),NO,NO_VALID_FIELD,상시적용 근로조건; always/labor 표현 없음 - 스키마/룰 설계 필요
+cfbfa1fb-04f2-5145-a903-acd516d11c41,근로기준법,60,worker_count,1년미만 유급휴가(상시적용),(none),NO,NO_VALID_FIELD,상시적용 근로조건; 대응 필드 없음 - 설계 필요
+bca5d9ca-ae60-5013-aa62-0391b2a14909,근로기준법,60,worker_count,연차 15일(상시적용),(none),NO,NO_VALID_FIELD,상시적용 근로조건; 대응 필드 없음 - 설계 필요
+acc26661-9fe3-597f-82af-9ab6db9d2374,근로기준법,75,worker_count,육아 수유시간(상시적용),(none),NO,NO_VALID_FIELD,상시적용 근로조건; 대응 필드 없음 - 설계 필요
