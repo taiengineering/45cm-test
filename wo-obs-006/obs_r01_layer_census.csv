@@ -1,0 +1,4 @@
+layer,source,distinct_law_name,detail,state,collapse_point
+L1_repo_column,production_semantic_repository.law_name (raw column),4,315 blank + 12 nonblank(3 laws),COLLAPSED/BLANK,YES(first collapse: 16->4)
+L2_join,semantic_clause->law_article->law_master.law_name,16,327/327 resolved 0 broken links,INTACT,NO
+L5_runtime_output,/rtm/evaluate obligation.law_name (run_A),4,315 산안기준규칙 +3+7+2,COLLAPSED,=L1 column + blank-default
