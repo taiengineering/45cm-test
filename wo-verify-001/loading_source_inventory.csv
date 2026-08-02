@@ -1,0 +1,14 @@
+item,value,evidence_file,classification
+source_kind,DATABASE (Postgres psycopg2),api/rtm_router.py::_fetch_rows,CONFIRMED
+connect_env,SUPABASE_DB_URL or RTM_DATABASE_URL,api/rtm_router.py::_fetch_rows,CONFIRMED
+query,SELECT public.production_semantic_repository ORDER BY atom_id,rtm/production_repository.py::PRODUCTION_QUERY,CONFIRMED
+read_mode,read-only SELECT,rtm/production_repository.py,CONFIRMED
+cache,module-global _engine (single),api/rtm_router.py::_engine/_get_engine,CONFIRMED
+read_timing,BOOT/process-lifetime lazy singleton (once per process),api/rtm_router.py::_get_engine if _engine is None,CONFIRMED
+per_request_read,NO (reuses cached engine),api/rtm_router.py+rtm/engine.py,CONFIRMED
+provenance_source,repository.provenance (release/freeze/repository_size),rtm/engine.py::_provenance,CONFIRMED
+integrity_gate,strict_baseline vs EXPECTED 337/freeze15cd17e8/release RC1/idset,rtm/production_repository.py::load_production_repository,CONFIRMED
+target_table_identity,SAME (public.production_semantic_repository),rtm/production_repository.py vs WO-CHG-010B,CONFIRMED
+db_instance_identity,SAME by doc (leg-prod ref wrfcedzgdrfupenzqhur),infra/db/database.md,DOC_CONFIRMED
+live_env_value,points to wrfcedzgdrfupenzqhur?,Railway secret (not in repo),UNVERIFIED
+env_var_naming,three names coexist: SUPABASE_DB_URL/RTM_DATABASE_URL vs LEG_DATABASE_URL vs DATABASE_URL,rtm_router.py/env.contract.md/runtime_service.py,OBSERVED
