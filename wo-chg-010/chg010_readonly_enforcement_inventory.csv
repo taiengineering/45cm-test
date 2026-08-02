@@ -1,0 +1,12 @@
+object_class,object,finding,blocks_update
+rls,production_semantic_repository,"relrowsecurity=false / forced=false (RLS 비활성)",NO
+trigger,production_semantic_repository,"BEFORE/AFTER UPDATE 트리거 0 (internal 제외 없음)",NO
+constraint,production_semantic_repository_pkey,"PRIMARY KEY(atom_id) — CHECK/readonly 제약 없음",NO
+column,law_name,"text, default 없음, generated 아님, nullable",NO
+column,is_readonly,"boolean, default 없음, generated 아님, nullable (평범한 메타 컬럼)",NO
+column,freeze_signature,"text, default 없음, generated 아님, nullable",NO
+column,release_version,"text, default 없음, generated 아님, nullable",NO
+privilege,anon,"UPDATE 보유",NO
+privilege,authenticated,"UPDATE 보유",NO
+privilege,service_role,"UPDATE 보유",NO
+privilege,postgres,"UPDATE 보유",NO
