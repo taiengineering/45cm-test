@@ -1,0 +1,30 @@
+atom_id,mapped_field,label_impact,evidence_impact,article_impact,applicability_impact,atom_firing_impact,semantic_impact,runtime_logic_impact,scope_class,true_law,shown_law
+1ba2c57e-8685-524d-983f-9a1293afda8d,has_gas,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,도시가스사업법,산업안전보건기준에 관한 규칙
+1d248a2e-cf88-5822-b51c-9075d72ca1cd,has_gas,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,도시가스사업법,산업안전보건기준에 관한 규칙
+21d45eb4-29a7-50d1-9834-515e7705bac6,has_demolition,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,어린이놀이시설 안전관리법,산업안전보건기준에 관한 규칙
+3c8a09fa-c9e7-5e64-b2d4-4d27be9b4091,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,건설산업기본법,산업안전보건기준에 관한 규칙
+4a63de61-8d0d-58ca-8a89-7df22bde9c5b,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,소방시설공사업법,산업안전보건기준에 관한 규칙
+5e4057a7-12e1-59f8-9911-afc73696e1b0,has_gas,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,도시가스사업법,산업안전보건기준에 관한 규칙
+8802a9d1-d12f-5e02-808d-f18a1ddf60f1,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,정보통신공사업법,산업안전보건기준에 관한 규칙
+886a5841-9a6d-5805-aa00-bfb648df0464,has_asbestos,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,석면안전관리법,산업안전보건기준에 관한 규칙
+9c66dac6-43fc-5c76-8f55-8e508b444c22,has_gas,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,도시가스사업법,산업안전보건기준에 관한 규칙
+a0098d92-a822-56f5-91e1-6be333979e2a,has_chemical,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,화학물질관리법,산업안전보건기준에 관한 규칙
+a233cece-0af7-553d-a6c4-b8f51264e0f4,has_gas,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,도시가스사업법 시행규칙,산업안전보건기준에 관한 규칙
+a4b8422b-fb0b-5984-996d-cc6d90920df4,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,정보통신공사업법,산업안전보건기준에 관한 규칙
+ae0a74ad-9452-5677-8080-37d603eb0645,has_crane,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,건설기계 안전기준에 관한 규칙,산업안전보건기준에 관한 규칙
+c5e81202-dcd3-5884-a70d-306ed0978ab1,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,건설산업기본법,산업안전보건기준에 관한 규칙
+cacdac8d-39b8-5290-9d32-6b17e607e73b,has_gas,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,도시가스사업법 시행규칙,산업안전보건기준에 관한 규칙
+ce59b35c-84bf-55ba-b58e-0902fd50b713,has_water_tank,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,수도법 시행규칙,산업안전보건기준에 관한 규칙
+d7be3706-e0a3-56c6-8664-285169cf342d,has_excavation,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,산업안전보건법,산업안전보건기준에 관한 규칙
+dd5c7383-3d01-5565-8ef8-32e1d94cb350,has_excavation,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,도시가스사업법,산업안전보건기준에 관한 규칙
+e16a2391-a0df-5b6f-ab28-15d8bf5286b5,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,건설산업기본법,산업안전보건기준에 관한 규칙
+e843bdd4-1c07-5bc1-9a85-e3f92b7c5c16,has_chemical,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,화학물질관리법,산업안전보건기준에 관한 규칙
+f13a858e-0414-51a8-8aac-f0cf6892c551,has_excavation,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,건축법,산업안전보건기준에 관한 규칙
+f7bb266f-d965-5675-ba2e-972ab1af5127,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,건설산업기본법,산업안전보건기준에 관한 규칙
+fd6d8b7d-6988-5566-a145-58205ce2ac77,has_subcontractor,YES,NO,NO,NO,NO,NO,NO,Metadata Impact,소방시설공사업법,산업안전보건기준에 관한 규칙
+006c122a-8b95-5c40-b225-b8c4639280c4,has_hazardous_material,NO,NO,NO,NO,NO,NO,NO,No Impact,산업안전보건기준에 관한 규칙,산업안전보건기준에 관한 규칙
+0191cd5b-354c-532a-b736-93eafbddec89,has_elevator,NO,NO,NO,NO,NO,NO,NO,No Impact,산업안전보건기준에 관한 규칙,산업안전보건기준에 관한 규칙
+0415c8d6-c13f-5349-96af-efbafa73578e,is_multi_use,NO,NO,NO,NO,NO,NO,NO,No Impact,실내공기질법,실내공기질법
+1f06c425-e252-55d2-8cae-91e044392e46,has_elevator,NO,NO,NO,NO,NO,NO,NO,No Impact,승강기법,승강기법
+483b8a66-36ad-54d0-a07b-28004d6f1451,has_high_pressure_gas,NO,NO,NO,NO,NO,NO,NO,No Impact,고압가스법,고압가스법
+[... 나머지 No Impact 300행 동일 패턴 — 전체 327행은 다운로드 제공]
