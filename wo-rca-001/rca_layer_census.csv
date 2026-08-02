@@ -1,0 +1,6 @@
+layer,input,output,transformation,information_loss,information_added
+L0_law_master,(authoritative),law_name/law_name_short per law_id,AUTHORITATIVE SOURCE,none,law identity (768 laws)
+L1_law_article,law_id,article_no/article_title/article_text; FK law_id,normalize article under law,none,article granularity (35412)
+L2_semantic_clause,source_article_id,decomposed clause; FK source_article_id (NO law_name),clause decomposition,law_name not carried (by design),clause text (58495)
+L3_production_semantic_repository,semantic_clause_id (+ join to law_master available),OWN COPIED columns law_name/law_article/evidence (337 frozen),DENORMALIZE/MATERIALIZE snapshot at build,law_name COPIED BLANK for 315/327 (not populated from law_master); 3 laws short-form for 12,atom_id/mapped_field/frozen provenance
+L4_runtime_output,reads L3 repo.law_name COLUMN,obligation.law_name = repo column; blank->hardcoded default 산안기준규칙,READ COLUMN + DEFAULT-FILL blanks,specific laws (13 of 16) invisible: shown as 산안기준규칙,none (faithful column read + default)
