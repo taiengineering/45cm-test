@@ -1,0 +1,20 @@
+{
+  "wo": "WO-E2E-LEG-002",
+  "goal": "G-msb2l2p0-5a2edf",
+  "runtime_endpoint": "https://leg-runtime-production.up.railway.app/rtm/evaluate",
+  "expected_provenance": {
+    "release_version": "SEMREPO-RC1-2026.07.20",
+    "freeze_signature": "15cd17e871b6885d34214c84a58adf47",
+    "repository_size": 337
+  },
+  "confirmed_repository_size": 337,
+  "confirmed_source": "guri-cf execute_sql vwlahtguyggrhvslabax production_semantic_repository count=337",
+  "distinct_mapped_fields": 39,
+  "request_contract": {
+    "shape": "{\"facility\": {<mapped_field>: value}}",
+    "reference": "WO-E2E-LEG-001 is_multi_use=true 200 OK",
+    "validation_note": "per-request contract.accepted_count/invalid/unknown checked at STEP4; unknown input codes surface as Observation"
+  },
+  "runs": { "A": "sequential standard runner", "B": "identical re-run", "C": "approved parallel" },
+  "note": "release_version/freeze_signature re-verified from live response provenance at STEP4 (mixed-run guard: any mismatch across 300 -> STOP)"
+}
