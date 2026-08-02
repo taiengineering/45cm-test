@@ -1,0 +1,6 @@
+probe_id,input_code,payload,test_type,class,alias_candidate,note,in_300_universe
+UNK-has_high_work,has_high_work,"{""facility"":{""has_high_work"":true,""worker_count"":50}}",UNKNOWN_CODE_TEST,ALIAS_CANDIDATE,has_high_place_work,probe contract.unknown at STEP4; NO auto-substitution,no
+UNK-has_chemical_substance,has_chemical_substance,"{""facility"":{""has_chemical_substance"":true,""worker_count"":50}}",UNKNOWN_CODE_TEST,ALIAS_CANDIDATE,has_chemical,probe contract.unknown at STEP4; NO auto-substitution,no
+UNK-has_sprinkler,has_sprinkler,"{""facility"":{""has_sprinkler"":true,""worker_count"":50}}",UNKNOWN_CODE_TEST,OUT_OF_CONTRACT,,probe contract.unknown at STEP4; NO auto-substitution,no
+UNK-has_mech_parking,has_mech_parking,"{""facility"":{""has_mech_parking"":true,""worker_count"":50}}",UNKNOWN_CODE_TEST,OUT_OF_CONTRACT,,probe contract.unknown at STEP4; NO auto-substitution,no
+UNK-boiler_capacity_kw,boiler_capacity_kw,"{""facility"":{""boiler_capacity_kw"":true,""worker_count"":50}}",UNKNOWN_CODE_TEST,OUT_OF_CONTRACT,,probe contract.unknown at STEP4; NO auto-substitution,no
