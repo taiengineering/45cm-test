@@ -1,0 +1,24 @@
+atom_id,runtime_law_name,expected_law_name,law_article_out,law_article_exp,applicability,class
+3c8a09fa-c9e7-5e64-b2d4-4d27be9b4091,산업안전보건기준에 관한 규칙,건설산업기본법,38,38,APPLICABLE,LABEL_UNCHANGED
+c5e81202-dcd3-5884-a70d-306ed0978ab1,산업안전보건기준에 관한 규칙,건설산업기본법,35,35,APPLICABLE,LABEL_UNCHANGED
+e16a2391-a0df-5b6f-ab28-15d8bf5286b5,산업안전보건기준에 관한 규칙,건설산업기본법,36,36,APPLICABLE,LABEL_UNCHANGED
+f7bb266f-d965-5675-ba2e-972ab1af5127,산업안전보건기준에 관한 규칙,건설산업기본법,37,37,APPLICABLE,LABEL_UNCHANGED
+d7be3706-e0a3-56c6-8664-285169cf342d,산업안전보건기준에 관한 규칙,산업안전보건법,38,38,APPLICABLE,LABEL_UNCHANGED
+dd5c7383-3d01-5565-8ef8-32e1d94cb350,산업안전보건기준에 관한 규칙,도시가스사업법,30,30,APPLICABLE,LABEL_UNCHANGED
+f13a858e-0414-51a8-8aac-f0cf6892c551,산업안전보건기준에 관한 규칙,건축법,41,41,APPLICABLE,LABEL_UNCHANGED
+8802a9d1-d12f-5e02-808d-f18a1ddf60f1,산업안전보건기준에 관한 규칙,정보통신공사업법,26,26,APPLICABLE,LABEL_UNCHANGED
+a4b8422b-fb0b-5984-996d-cc6d90920df4,산업안전보건기준에 관한 규칙,정보통신공사업법,31,31,APPLICABLE,LABEL_UNCHANGED
+4a63de61-8d0d-58ca-8a89-7df22bde9c5b,산업안전보건기준에 관한 규칙,소방시설공사업법,22,22,APPLICABLE,LABEL_UNCHANGED
+fd6d8b7d-6988-5566-a145-58205ce2ac77,산업안전보건기준에 관한 규칙,소방시설공사업법,21,21,APPLICABLE,LABEL_UNCHANGED
+ae0a74ad-9452-5677-8080-37d603eb0645,산업안전보건기준에 관한 규칙,건설기계 안전기준에 관한 규칙,125,125,APPLICABLE,LABEL_UNCHANGED
+1ba2c57e-8685-524d-983f-9a1293afda8d,산업안전보건기준에 관한 규칙,도시가스사업법,30,30,APPLICABLE,LABEL_UNCHANGED
+1d248a2e-cf88-5822-b51c-9075d72ca1cd,산업안전보건기준에 관한 규칙,도시가스사업법,12,12,APPLICABLE,LABEL_UNCHANGED
+5e4057a7-12e1-59f8-9911-afc73696e1b0,산업안전보건기준에 관한 규칙,도시가스사업법,17,17,APPLICABLE,LABEL_UNCHANGED
+9c66dac6-43fc-5c76-8f55-8e508b444c22,산업안전보건기준에 관한 규칙,도시가스사업법,41,41,APPLICABLE,LABEL_UNCHANGED
+a233cece-0af7-553d-a6c4-b8f51264e0f4,산업안전보건기준에 관한 규칙,도시가스사업법 시행규칙,15,15,APPLICABLE,LABEL_UNCHANGED
+cacdac8d-39b8-5290-9d32-6b17e607e73b,산업안전보건기준에 관한 규칙,도시가스사업법 시행규칙,20,20,APPLICABLE,LABEL_UNCHANGED
+ce59b35c-84bf-55ba-b58e-0902fd50b713,산업안전보건기준에 관한 규칙,수도법 시행규칙,22,22,APPLICABLE,LABEL_UNCHANGED
+886a5841-9a6d-5805-aa00-bfb648df0464,산업안전보건기준에 관한 규칙,석면안전관리법,22,22,APPLICABLE,LABEL_UNCHANGED
+a0098d92-a822-56f5-91e1-6be333979e2a,산업안전보건기준에 관한 규칙,화학물질관리법,44,44,APPLICABLE,LABEL_UNCHANGED
+e843bdd4-1c07-5bc1-9a85-e3f92b7c5c16,산업안전보건기준에 관한 규칙,화학물질관리법,31,31,APPLICABLE,LABEL_UNCHANGED
+21d45eb4-29a7-50d1-9834-515e7705bac6,산업안전보건기준에 관한 규칙,어린이놀이시설 안전관리법,16,16,APPLICABLE,LABEL_UNCHANGED
