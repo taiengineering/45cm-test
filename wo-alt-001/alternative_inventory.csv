@@ -1,0 +1,7 @@
+strategy_id,strategy,resolves_root_cause,changes_repo,changes_runtime,changes_presentation,triggers_new_freeze
+S1,Repository Backfill (325 blank -> join),YES (data layer),YES (law_name blank rows only),NO,NO,YES
+S2,Repository Backfill (23 mislabel only),PARTIAL,YES (23 rows only),NO,NO,YES
+S3,Snapshot Regeneration (rebuild 337 from source),YES (data layer),YES (full re-materialize),NO,NO,YES
+S4,Runtime Resolver (join law_master at read),YES (read path),NO,YES (read logic),NO,NO
+S5,Presentation Layer (fix at display/report),NO (masks symptom),NO,NO,YES,NO
+S6,No Change (accept metadata-only),NO,NO,NO,NO,NO
