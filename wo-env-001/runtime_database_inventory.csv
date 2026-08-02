@@ -1,0 +1,4 @@
+env_var,host,project_ref,set,loader_priority,equals_wrfced
+SUPABASE_DB_URL,db.vwlahtguyggrhvslabax.supabase.co:5432,vwlahtguyggrhvslabax,YES,1_PRIMARY,NO
+RTM_DATABASE_URL,,,NO,2_fallback,N/A
+DATABASE_URL,aws-1-ap-northeast-2.pooler.supabase.com:5432,wrfcedzgdrfupenzqhur,YES,not_used_by_RTM_loader,YES
