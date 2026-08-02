@@ -1,0 +1,8 @@
+dimension,impact,evidence
+Atom firing,NO IMPACT,"327/327 atoms fire correctly (presence match 300/300, verified STEP5)"
+Applicability,NO IMPACT,all APPLICABLE (non-APPLICABLE=0)
+Evidence,NO IMPACT,evidence present & correct-law text (empty=0); evidence contradicts wrong label
+Article,NO IMPACT,law_article correct for all (mismatch vs true=0)
+Law label,IMPACT (23 atoms),23 atoms show 산안기준규칙 instead of true specific law; 292 blank-default happen correct; 12 preserved
+User display,IMPACT,user sees wrong law_name for 23-atom obligations (right article/evidence)
+Legal misattribution risk,IMPACT (23),citing 산안기준규칙 제X for a clause that is actually 어린이놀이시설법/수도법/화학물질관리법 etc.
