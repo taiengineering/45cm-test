@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""WO-E2E-LEG-002 — 300 Profile /rtm/evaluate Runner (A/B/C).
+"""WO-E2E-LEG-002 / 002A — 300 Profile /rtm/evaluate Runner (A/B/C).
 
 운영자 맥 터미널 실행 (클라우드 세션은 Railway 도달 불가):
     cd ~/45cm-test/wo-e2e-leg-002 && python3 e2e_300_runner.py A
     python3 e2e_300_runner.py B
     python3 e2e_300_runner.py C     # 병렬(승인 조건)
 
-입력: e2e_300_profile_universe.csv  (컬럼 input_payload = {"facility":{...}} JSON)
+입력: e2e_300_profile_universe_v2.csv  (컬럼 input_payload = {"facility":{...}} JSON)
 출력: e2e_300_run_<X>.json  (profile별 provenance/raw_response/trace/timing 보존)
       e2e_300_execution_log.csv
 
@@ -18,10 +18,14 @@ import urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
 API = os.getenv("LEG_RTM_URL", "https://leg-runtime-production.up.railway.app/rtm/evaluate")
-UNIVERSE = os.getenv("UNIVERSE_CSV", "e2e_300_profile_universe.csv")
+UNIVERSE = os.getenv("UNIVERSE_CSV", "e2e_300_profile_universe_v2.csv")
 EXPECT = {"release_version":"SEMREPO-RC1-2026.07.20",
           "freeze_signature":"15cd17e871b6885d34214c84a58adf47",
           "repository_size":337}
+
+def checksum_of(row):
+    # v2 universe uses 'runtime_input_checksum'; v1 used 'input_checksum'
+    return row.get("runtime_input_checksum") or row.get("input_checksum") or ""
 
 def call(payload, timeout=40):
     data = json.dumps(payload).encode("utf-8")
@@ -50,8 +54,8 @@ def one(row, run_ts):
     res = call(payload)
     body = res["body"] if res["ok"] else None
     pv = prov(body)
-    rec = {"profile_id":row["profile_id"],"anchor_or_new":row["anchor_or_new"],
-           "request_payload":row["input_payload"],"input_checksum":row["input_checksum"],
+    rec = {"profile_id":row["profile_id"],"anchor_or_new":row.get("anchor_or_new"),
+           "request_payload":row["input_payload"],"input_checksum":checksum_of(row),
            "response_status":("OK" if res["ok"] else "FAIL"),"http_status":res["http"],
            "trace_id":(body.get("trace_id") if isinstance(body,dict) else None),
            "provenance":pv,"duration_ms":res["ms"],"error":res.get("error"),
@@ -62,7 +66,9 @@ def one(row, run_ts):
 def main():
     run = (sys.argv[1] if len(sys.argv)>1 else "A").upper()
     rows = list(csv.DictReader(open(UNIVERSE, encoding="utf-8")))
-    assert len(rows)==300, f"universe must be 300, got {len(rows)}"
+    assert len(rows)==300, f"universe must be 300, got {len(rows)} (UNIVERSE_CSV={UNIVERSE})"
+    cks = [checksum_of(r) for r in rows]
+    assert len(set(cks))==300, f"universe must have 300 unique runtime checksums, got {len(set(cks))}"
     run_ts = datetime.now(timezone.utc).isoformat()
     parallel = (run=="C")
     if parallel:
@@ -76,8 +82,8 @@ def main():
             time.sleep(float(os.getenv("PAUSE_S","0.3")))
     prov_set = {(x["provenance"].get("release_version"),x["provenance"].get("freeze_signature"),
                  x["provenance"].get("repository_size")) for x in recs if x["response_status"]=="OK"}
-    out = {"wo":"WO-E2E-LEG-002","run":run,"run_at":run_ts,"endpoint":API,"expected_provenance":EXPECT,
-           "total":len(recs),"ok":sum(x["response_status"]=="OK" for x in recs),
+    out = {"wo":"WO-E2E-LEG-002A","run":run,"run_at":run_ts,"endpoint":API,"expected_provenance":EXPECT,
+           "universe":UNIVERSE,"total":len(recs),"ok":sum(x["response_status"]=="OK" for x in recs),
            "http_fail":sum(x["response_status"]!="OK" for x in recs),
            "distinct_provenance":[list(t) for t in prov_set],"parallel":parallel,
            "workers":(int(os.getenv("WORKERS","8")) if parallel else 1),"records":recs}
