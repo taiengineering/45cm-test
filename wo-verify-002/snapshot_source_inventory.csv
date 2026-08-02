@@ -1,0 +1,12 @@
+candidate,target,role,verdict,evidence
+rtm/production_repository.py,public.production_semantic_repository,SELECT read,NOT_BUILDER,PRODUCTION_QUERY select-only (WO-VERIFY-001)
+norm_creation_v3/tools/load_v3.py,staging.requirement_atom_v3(31434),INSERT,NOT_BUILDER,different table
+norm_creation_v3/tools/run_full.py,in-memory generator(31407),no DB write,NOT_BUILDER,no write + different dataset
+norm_creation_v3/baseline/RUNBOOK_STAGE-B_deployment_v1.md,staging.requirement_atom_v3,deploy runbook,NOT_BUILDER,different pipeline; confirms no deploy build
+.github/workflows/rtm-tests.yml,rtm_tests pytest,CI test (reads via SUPABASE_DB_URL),NOT_BUILDER,tests only no write
+development/engine/Procfile,uvicorn api.server:app,web start,NOT_BUILDER,no build/migration step at deploy
+docs/history/LEG_Runtime_Release_Baseline_v1.0.md,runtime code layer,code freeze v1.0,NOT_BUILDER,code freeze not data snapshot
+github_code_search production_semantic_repository,-,search,NO_RESULT,total_count 0 (private repo not indexed)
+filename_grep freeze/release/snapshot/build,-,tree scan,NO_WRITER,no production_semantic_repository writer file
+production_repository.py docstring origin,WO-DEPLOY-002/WO-QA-INT-001,cited origin,NOT_IN_REPO,no executable build code committed
+production_semantic_repository builder,public.production_semantic_repository(337 freeze15cd17e8 RC1),BUILD/WRITE,NOT_FOUND,not locatable in available sources
