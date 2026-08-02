@@ -1,0 +1,14 @@
+step,item,file,symbol,evidence,value
+STEP2,input_source_type,rtm_engine/rtm/production_repository.py,PRODUCTION_QUERY,"SELECT ... FROM public.production_semantic_repository ORDER BY atom_id",Live_Postgres_DB
+STEP2,input_NOT,-,-,"no json/yaml/csv/pickle/embedded artifact read anywhere in loader path",none_embedded
+STEP3,fetch_callable,api/rtm_router.py,_fetch_rows,"psycopg2.connect(dsn); cur.execute(PRODUCTION_QUERY)",psycopg2_live_query
+STEP3,dsn_source,api/rtm_router.py,_fetch_rows,"os.environ.get('SUPABASE_DB_URL') or os.environ.get('RTM_DATABASE_URL')",env_SUPABASE_DB_URL_primary_or_RTM_DATABASE_URL
+STEP3,dsn_note,api/rtm_router.py,_fetch_rows,"legacy /evaluate path uses DATABASE_URL (server.py docstring); RTM path uses SUPABASE_DB_URL/RTM_DATABASE_URL - different env vars",distinct_env_var
+STEP3,loader_fn,rtm_engine/rtm/production_repository.py,load_production_repository,"rows=fetch_rows(); integrity checks; return ProductionRepository(rows,provenance)",input=fetch_rows_callable
+STEP3,engine_wire,rtm_engine/rtm/engine.py,RuntimeMatchingEngine.from_production,"repo=load_production_repository(fetch_rows); return cls(repo)",wires_fetch_to_loader
+STEP3,return_object,rtm_engine/rtm/production_repository.py,ProductionRepository,"source='PRODUCTION_SEMANTIC_REPOSITORY'; provenance from rows[0]",ProductionRepository
+STEP3,query_table,rtm_engine/rtm/production_repository.py,PRODUCTION_QUERY,"public.production_semantic_repository (cols: atom_id,mapped_field,semantic_clause_id,law_name,law_article,evidence,repository_version,release_version,freeze_signature)",public.production_semantic_repository
+STEP4,creation_time,api/rtm_router.py,_get_engine,"global _engine; if _engine is None -> build once",lazy_singleton_process_global
+STEP4,warmup_note,api/server.py,_warmup,"startup warmup builds LEGACY RuntimeService only; RTM _engine built on first /rtm request",rtm_engine_not_at_startup
+STEP5,repository_type,-,-,"psycopg2 SELECT at engine init; no snapshot file / embedded resource / generated artifact",Live_DB
+STEP5,pending_env_value,-,-,"physical DB that SUPABASE_DB_URL/RTM_DATABASE_URL resolves to = environment value, NOT determined by code (env read = next WO)",UNRESOLVED_env_value
