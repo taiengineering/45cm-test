@@ -1,0 +1,328 @@
+atom_id,mapped_field,repo_law_name,joined_law_name,law_article,runtime_law_name,rca_class,label_correct
+006c122a-8b95-5c40-b225-b8c4639280c4,has_hazardous_material,,산업안전보건기준에 관한 규칙,507,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0191cd5b-354c-532a-b736-93eafbddec89,has_elevator,,산업안전보건기준에 관한 규칙,159,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+033cb37c-c9de-5bba-b1cf-6903232cb47b,has_hazardous_material,,산업안전보건기준에 관한 규칙,430,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0415c8d6-c13f-5349-96af-efbafa73578e,is_multi_use,실내공기질법,실내공기질법,5,실내공기질법,NONBLANK_INHERITED,YES(short_form)
+0602ed57-3b3c-5e59-8f78-d48e8f09f5f2,has_hazardous_material,,산업안전보건기준에 관한 규칙,448,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+06ad60a2-1493-596b-acf8-68cfd18e4834,has_scaffold,,산업안전보건기준에 관한 규칙,70,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+08e19d7f-7500-521c-ba7d-39294efb9dff,has_confined_space,,산업안전보건기준에 관한 규칙,623,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0926e004-422d-544f-8a09-0edb3f0d65a0,has_concrete_work,,산업안전보건기준에 관한 규칙,330,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+097b5adb-9e20-5f01-ac7d-dc306e6c83e1,has_grinding,,산업안전보건기준에 관한 규칙,122,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+09a926ec-20b9-5116-9763-9a8ca1c34c9e,has_dust_work,,산업안전보건기준에 관한 규칙,617,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+09ea181e-986d-5c79-a7bc-caba5afc9de7,has_hazardous_material,,산업안전보건기준에 관한 규칙,511,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0b9f7cd0-8b10-57e5-9035-0ca9d952ac2f,has_conveyor,,산업안전보건기준에 관한 규칙,86,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0bf218bc-d204-5ddd-a20f-75f1281c07fe,has_steel_frame,,산업안전보건기준에 관한 규칙,380,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0cf88fa3-e991-5c68-b82f-fa93f235cb79,has_pile_work,,산업안전보건기준에 관한 규칙,217,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0d3edc62-ea31-5972-b22d-1f5390dbd084,has_boiler,,산업안전보건기준에 관한 규칙,117,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0d48eec5-0461-5e3e-b27b-4dcd5f975ae0,has_dust_work,,산업안전보건기준에 관한 규칙,78,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0d50545f-8237-59e8-a012-12e34d0de950,has_diving,,산업안전보건기준에 관한 규칙,545,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+0d93e2f8-880d-58d8-acec-2dae8b5023ad,has_scaffold,,산업안전보건기준에 관한 규칙,54,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+10b85d0a-9091-5a3c-9d5c-a1ba88b2b8f3,has_dust_work,,산업안전보건기준에 관한 규칙,76,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+121eef87-844d-5682-809b-c312b1bc9930,has_high_place_work,,산업안전보건기준에 관한 규칙,186,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1310878d-5959-50d3-aa4e-9bc28798d198,has_excavation,,산업안전보건기준에 관한 규칙,338,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1326bd60-dfaf-59bc-8df1-00cfc9b8d47c,has_confined_space,,산업안전보건기준에 관한 규칙,619,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1511cbc1-44e0-5fcc-9005-372b43b696c4,has_diving,,산업안전보건기준에 관한 규칙,530,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+15593878-aabc-5034-bd57-a9eecae5e3dc,has_diving,,산업안전보건기준에 관한 규칙,536,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+16ce5107-52c3-5e80-80b7-8c54ca0caf94,has_crane,,산업안전보건기준에 관한 규칙,86,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+17b44c74-9e68-5b7a-9b5c-216cb3c86ed2,has_crane,,산업안전보건기준에 관한 규칙,150,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+17d3df9e-410d-5799-9190-270ea4f50291,has_dust_work,,산업안전보건기준에 관한 규칙,615,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+18772bd6-266e-58d8-91ab-3aa29b44b5a9,has_blasting,,산업안전보건기준에 관한 규칙,541,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+190eb18b-21c7-5e67-8ce1-8c658fd50429,has_scaffold,,산업안전보건기준에 관한 규칙,66,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+198afd27-7dc6-5109-ac71-b7bdf8e854c3,has_welding,,산업안전보건기준에 관한 규칙,233,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1a1a3ab6-9c3a-5229-b903-56e03d9d84a8,has_hazardous_material,,산업안전보건기준에 관한 규칙,445,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1ba2c57e-8685-524d-983f-9a1293afda8d,has_gas,,도시가스사업법,30,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+1c60b858-0cf7-5777-a64b-31c9b7334b48,has_emergency_broadcast,,산업안전보건기준에 관한 규칙,434,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1cd97c32-59b8-5c8b-84fa-98c1315fe3c9,has_hazardous_material,,산업안전보건기준에 관한 규칙,435,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1d248a2e-cf88-5822-b51c-9075d72ca1cd,has_gas,,도시가스사업법,12,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+1d52f4d3-bbb8-522f-8e4b-096fa151ab7c,has_radiation,,산업안전보건기준에 관한 규칙,591,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1e0ae9bf-528e-5558-9b9c-232d3bbe1e5f,has_dust_work,,산업안전보건기준에 관한 규칙,4,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1e7527a6-2e7e-5b9e-81b0-bcc4562e9644,has_crane,,산업안전보건기준에 관한 규칙,148,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+1f06c425-e252-55d2-8cae-91e044392e46,has_elevator,승강기법,승강기법,32,승강기법,NONBLANK_INHERITED,YES(short_form)
+1f2b6b23-2341-55a0-8005-0386150f3b03,has_asbestos,,산업안전보건기준에 관한 규칙,486,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+21d45eb4-29a7-50d1-9834-515e7705bac6,has_demolition,,어린이놀이시설 안전관리법,16,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+22d226aa-3860-5d6d-bdab-664f7cec6843,has_welding,,산업안전보건기준에 관한 규칙,234,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+22d62580-953c-521b-8b85-e03cb9aa5f5a,has_high_place_work,,산업안전보건기준에 관한 규칙,186,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2437c873-e072-5c12-9257-21ee2a4a5a30,has_crane,,산업안전보건기준에 관한 규칙,138,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+24eb5f44-f31c-5c7a-a7a1-e953871bbd0f,has_scaffold,,산업안전보건기준에 관한 규칙,59,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2577ab45-322d-587f-8cb9-7a91e92575d0,has_dust_work,,산업안전보건기준에 관한 규칙,353,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+264c4206-dceb-5eb3-a2b9-36885d26b31a,has_elevator,,산업안전보건기준에 관한 규칙,86,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2682db5c-1353-5050-aa7b-1cbc5424079b,has_asbestos,,산업안전보건기준에 관한 규칙,495,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+274f72ca-8a26-5da6-8937-c1b5e340dcee,has_elevator,승강기법,승강기법,31,승강기법,NONBLANK_INHERITED,YES(short_form)
+2763d5f4-ee9b-522e-9963-b8e786c1dc1f,has_hazardous_material,,산업안전보건기준에 관한 규칙,431,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+286ee5b4-8022-5924-ad6d-3feffc1112ac,has_dust_work,,산업안전보건기준에 관한 규칙,73,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+28e41e91-a265-507c-82b5-93ffd9ec7b55,has_dust_work,,산업안전보건기준에 관한 규칙,75,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+28fb4afb-9ef4-5ed3-8166-c1939c12725e,has_scaffold,,산업안전보건기준에 관한 규칙,58,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+29800eea-2fc1-58c2-9598-1fd46297c409,has_excavation,,산업안전보건기준에 관한 규칙,375,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2b930633-d1a5-5479-85d0-5c8fef0dda09,has_concrete_work,,산업안전보건기준에 관한 규칙,329,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2c47ff62-0d89-5c22-b401-b94b3c52aca0,has_dust_work,,산업안전보건기준에 관한 규칙,232,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2d715d53-381a-5eb9-86e5-c56c7495736b,has_forklift,,산업안전보건기준에 관한 규칙,179,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2d8989b7-7d0a-5234-b42a-423017e88b58,has_conveyor,,산업안전보건기준에 관한 규칙,195,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2dc19f8a-7209-58ca-abcf-9a506b6140fd,has_confined_space,,산업안전보건기준에 관한 규칙,621,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2ee0a11f-1fa1-52e8-98a7-589fd84f57d9,has_dust_work,,산업안전보건기준에 관한 규칙,422,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+2fa3c8e3-7490-55ce-8c95-9542676ff54c,has_forklift,,산업안전보건기준에 관한 규칙,182,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+303b02e1-e853-5912-b38a-b00ad9c117af,has_excavation,,산업안전보건기준에 관한 규칙,344,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+3085ff45-4601-5a3e-9dfb-da998e6371fb,has_elevator,,산업안전보건기준에 관한 규칙,151,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+319cf065-e615-52f9-824a-df049f5a44f0,has_hazardous_material,,산업안전보건기준에 관한 규칙,433,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+31f021e1-49a2-5ff2-80ae-b258d29e7d85,has_diving,,산업안전보건기준에 관한 규칙,552,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+32d4a3f4-accf-541c-9ccc-a3b683cc40e6,has_excavation,,산업안전보건기준에 관한 규칙,342,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+334dd3e9-0903-5c81-a165-293d8bc7fd80,has_hazardous_material,,산업안전보건기준에 관한 규칙,446,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+338d7c90-77ba-52c3-b7e6-8eb2cd5c3866,has_concrete_work,,산업안전보건기준에 관한 규칙,335,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+33c49f8f-e40f-54b9-8f82-46dfa0706ae5,has_hazardous_material,,산업안전보건기준에 관한 규칙,457,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+34f85217-9138-5c96-b51c-ccc8fc663da6,has_welding,,산업안전보건기준에 관한 규칙,306,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+35ec571a-3bd2-5b35-8f6d-8ddcad9cae09,has_forklift,,산업안전보건기준에 관한 규칙,180,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+363d24b7-a2e1-5f4e-a55b-2b96679fbc32,has_confined_space,,산업안전보건기준에 관한 규칙,301,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+37c0610e-e441-5f0c-a343-57934c7b2ea1,has_confined_space,,산업안전보건기준에 관한 규칙,622,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+37e6a05e-2ef4-5ac3-bf17-8811889bcf49,has_concrete_work,,산업안전보건기준에 관한 규칙,334,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+38c8d472-6654-5570-8253-aafbc70bce07,has_elevator,,산업안전보건기준에 관한 규칙,152,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+3c8a09fa-c9e7-5e64-b2d4-4d27be9b4091,has_subcontractor,,건설산업기본법,38,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+3cba4975-b5f5-5b12-a535-66d2737895ef,has_hazardous_material,,산업안전보건기준에 관한 규칙,506,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+3d85c0bb-85f9-51cc-8090-5baf3d9948ea,has_elevator,승강기법,승강기법,31,승강기법,NONBLANK_INHERITED,YES(short_form)
+3e74c268-dfc0-5426-b1db-191e7d2bcd85,has_hazardous_material,,산업안전보건기준에 관한 규칙,451,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+3f516bae-6fc3-528d-ab7b-e7a12362b14b,has_radiation,,산업안전보건기준에 관한 규칙,579,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+3faf1cad-d998-59da-8925-345c2b06bdb7,has_radiation,,산업안전보건기준에 관한 규칙,575,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+41d2423c-456a-5604-a2a8-12f8b2f82080,has_diving,,산업안전보건기준에 관한 규칙,535,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+42534b05-d3b1-56f3-bb2e-b3e8071ba7a9,has_welding,,산업안전보건기준에 관한 규칙,294,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+440d4db1-232c-50b7-8971-6409629728e0,has_crane,,산업안전보건기준에 관한 규칙,144,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+44373434-72dd-502d-8ad4-fb7672a7fc58,has_conveyor,,산업안전보건기준에 관한 규칙,192,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+44b2d064-d1f1-52a8-9c2a-ccbcc17ac3bc,has_crane,,산업안전보건기준에 관한 규칙,139,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+44e26c72-4397-5592-9dd4-5005e51ef221,has_concrete_work,,산업안전보건기준에 관한 규칙,333,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+450da32a-c7f3-571b-8c66-45a2c204b30b,has_excavation,,산업안전보건기준에 관한 규칙,377,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+45933ee2-6543-5b8e-98b9-7efe0c605290,has_elevator,승강기법,승강기법,32,승강기법,NONBLANK_INHERITED,YES(short_form)
+4594b613-0d20-54a7-b66f-7aba176dc7b4,has_conveyor,,산업안전보건기준에 관한 규칙,194,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+465df879-b297-5cfc-ba55-2a72d097269f,has_hazardous_material,,산업안전보건기준에 관한 규칙,436,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+46924c56-0230-57ff-8faf-980aaa819bf4,has_confined_space,,산업안전보건기준에 관한 규칙,636,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+46a22f0c-a237-581a-b61d-c5c89262ad76,has_dust_work,,산업안전보건기준에 관한 규칙,670,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+46c2d850-1004-56b7-9de6-9e9e9dcf11fc,has_hazardous_material,,산업안전보건기준에 관한 규칙,432,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+4710d734-c7dd-5ee0-a468-f550dfbcfdbe,has_asbestos,,산업안전보건기준에 관한 규칙,493,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+47a1677e-0c73-51d6-bcc8-41bb60e434ea,has_hazardous_material,,산업안전보건기준에 관한 규칙,505,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+47b2c64e-1d6c-55d2-a1eb-b4c30e9234ca,has_pile_work,,산업안전보건기준에 관한 규칙,211,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+480d040c-c133-5e90-bff4-bdd091de4ca0,has_grinding,,산업안전보건기준에 관한 규칙,122,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+483ab7fa-64e8-5f1e-af28-99a9018e9318,has_diving,,산업안전보건기준에 관한 규칙,532,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+483b8a66-36ad-54d0-a07b-28004d6f1451,has_high_pressure_gas,고압가스법,고압가스법,23,고압가스법,NONBLANK_INHERITED,YES(short_form)
+48d8b121-456d-587d-8369-7b76e4f590c5,has_dust_work,,산업안전보건기준에 관한 규칙,653,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+4984aeca-51f3-5073-bb76-e1da0f24fc68,has_excavation,,산업안전보건기준에 관한 규칙,221,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+4a63de61-8d0d-58ca-8a89-7df22bde9c5b,has_subcontractor,,소방시설공사업법,22,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+4aa68025-0522-5207-9c57-21595543c3c9,has_crane,,산업안전보건기준에 관한 규칙,141,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+4b712c96-f28a-5dde-97e5-0b70298db328,has_blasting,,산업안전보건기준에 관한 규칙,348,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+4de3e896-670f-5a16-bac0-d7686fefdfc2,has_high_pressure_gas,고압가스법,고압가스법,11,고압가스법,NONBLANK_INHERITED,YES(short_form)
+4edd3f5d-a74d-5e3f-92eb-c5e0b5d8cae3,has_scaffold,,산업안전보건기준에 관한 규칙,60,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+50760cff-c7d5-51b1-92cd-47b5974af31a,has_elevator,,산업안전보건기준에 관한 규칙,153,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+50887c61-32a9-527a-94c5-dfc96959cf2f,has_demolition,,산업안전보건기준에 관한 규칙,384,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5099783e-26b1-5e0d-9114-38bb15fb142f,has_excavation,,산업안전보건기준에 관한 규칙,198,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+50f40032-855f-52eb-ae90-ebf8a319582a,has_excavation,,산업안전보건기준에 관한 규칙,375,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5152a757-7d99-5bce-987a-19d7cb7a84ac,is_multi_use,실내공기질법,실내공기질법,12,실내공기질법,NONBLANK_INHERITED,YES(short_form)
+51b97a12-0491-526d-8740-4a8816c73b8b,has_confined_space,,산업안전보건기준에 관한 규칙,625,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+526ad0d8-1012-5798-adfc-51fe03d74fb4,has_steel_frame,,산업안전보건기준에 관한 규칙,382,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+535cb485-4509-5179-9c52-044ee6d0540f,has_welding,,산업안전보건기준에 관한 규칙,285,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+539cf8f8-5e85-5a57-ae4d-603cfd05d36e,has_pile_work,,산업안전보건기준에 관한 규칙,213,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+54830547-155f-5e71-8eac-6760ea24708c,has_painting,,산업안전보건기준에 관한 규칙,231,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+54e80fdd-5aed-58f4-8f70-ea047317a1b4,has_pile_work,,산업안전보건기준에 관한 규칙,217,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+561a8667-7f12-5cd4-8e56-e94e39eacba0,has_dust_work,,산업안전보건기준에 관한 규칙,476,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+561bc218-1dfa-5b86-a770-4f5340202a24,has_diving,,산업안전보건기준에 관한 규칙,545,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5792aae3-bbc9-5448-a4d4-b509690dadf0,has_scaffold,,산업안전보건기준에 관한 규칙,56,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+590c9c1c-e1f0-543b-9ef7-f2671fdcac5c,has_grinding,,산업안전보건기준에 관한 규칙,87,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5924d5bf-dd34-5945-a08f-cdd793f70152,has_press,,산업안전보건기준에 관한 규칙,103,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+59fe3986-f7d4-5c53-96f0-56f62994c3f7,has_pile_work,,산업안전보건기준에 관한 규칙,220,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5aec15bb-9ba9-5d54-87db-13dcacf41cf9,has_crane,,산업안전보건기준에 관한 규칙,37,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5b9a8f66-4e0f-58bb-acdf-23c80b3b6c63,has_crane,,산업안전보건기준에 관한 규칙,168,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5d324d61-1169-5d71-8c5f-8edc907f1e96,has_steel_frame,,산업안전보건기준에 관한 규칙,381,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5d5b28af-1f4a-5c18-98d5-ac881947e442,has_excavation,,산업안전보건기준에 관한 규칙,341,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5e4057a7-12e1-59f8-9911-afc73696e1b0,has_gas,,도시가스사업법,17,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+5e6baf99-abb0-58c8-8c20-44166c4e340b,has_diving,,산업안전보건기준에 관한 규칙,545,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5f090456-21cd-58c0-8e3a-fce10c4c91a9,has_scaffold,,산업안전보건기준에 관한 규칙,66,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+5f8be6de-9804-5792-8428-1b8c70720456,has_elevator,승강기법,승강기법,28,승강기법,NONBLANK_INHERITED,YES(short_form)
+601cfab4-71a1-5b36-aa0d-d7b0a8f192f9,has_scaffold,,산업안전보건기준에 관한 규칙,63,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+61348bad-4346-5833-a0a7-2ebe9c07039b,has_hazardous_material,,산업안전보건기준에 관한 규칙,467,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+61d2827e-6f52-5bdc-8bc0-18696a7f6ddb,has_excavation,,산업안전보건기준에 관한 규칙,376,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+61da44e5-6c64-59dd-be64-c2967b6313ed,has_scaffold,,산업안전보건기준에 관한 규칙,65,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6256af69-a79f-5509-a8bf-bfe3f63f7557,has_rolling,,산업안전보건기준에 관한 규칙,123,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+625a3cd5-4172-5e3a-bb12-cf2c26c5b16a,has_hazardous_material,,산업안전보건기준에 관한 규칙,502,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+625e6e77-6c76-5231-b707-f5155824a67a,has_elevator,승강기법,승강기법,30,승강기법,NONBLANK_INHERITED,YES(short_form)
+6280a01a-e014-56ef-9efc-0e136c08034f,has_scaffold,,산업안전보건기준에 관한 규칙,62,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+62a728f8-9308-56fa-a240-770f6073f42d,has_forklift,,산업안전보건기준에 관한 규칙,178,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+63092974-a3c8-556a-b855-cbe3be96dee5,has_crane,,산업안전보건기준에 관한 규칙,137,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+64015854-bd3f-5e6f-b0bc-3518e78d980a,has_elevator,,산업안전보건기준에 관한 규칙,155,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+65832844-ca6a-5cb4-8884-bfa2481b59a6,has_hazardous_material,,산업안전보건기준에 관한 규칙,510,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+65880d8f-9cea-5dff-bc74-eaccb51878f6,has_boiler,,산업안전보건기준에 관한 규칙,116,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+67279680-f2b7-59ad-9db0-3056d8d589cc,has_hazardous_material,,산업안전보건기준에 관한 규칙,461,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6943a162-547b-590c-8629-bcf3fb313c91,has_hazardous_material,,산업안전보건기준에 관한 규칙,438,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6b214890-f9a0-5aed-83f8-ff5b4da478e0,has_asbestos,,산업안전보건기준에 관한 규칙,497,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6b32babc-5e32-5a56-a8b0-d7cb354aca1b,has_dust_work,,산업안전보건기준에 관한 규칙,607,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6c304cd5-8020-5eea-a010-da165e97afc7,has_diving,,산업안전보건기준에 관한 규칙,545,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6c908096-9793-507a-95f2-198ab7bc1db7,has_excavation,,산업안전보건기준에 관한 규칙,340,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6cc3cf53-74a9-5662-8e90-53e8f1228fdd,has_dust_work,,산업안전보건기준에 관한 규칙,72,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+6e0ca1a7-661d-5075-8887-617c08a5f1db,has_radiation,,산업안전보건기준에 관한 규칙,586,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+71238626-7631-5c39-a9d8-55dc25875cec,has_scaffold,,산업안전보건기준에 관한 규칙,68,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+71a5f48d-2e5e-50f3-b12a-e878d0552a8b,has_steel_frame,,산업안전보건기준에 관한 규칙,383,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+720cb9dc-fdaa-585b-84fb-e33c1ccd9865,has_hazardous_material,,산업안전보건기준에 관한 규칙,451,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7397246c-c0c2-50d8-9868-d5aeac8e1740,has_diving,,산업안전보건기준에 관한 규칙,557,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+74d18db0-c9d5-566b-bcf7-158f77a2c1f4,has_excavation,,산업안전보건기준에 관한 규칙,374,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7551ecd0-933d-5a84-a852-acd958e13598,has_diving,,산업안전보건기준에 관한 규칙,545,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+765d60f1-3afe-5fc0-828a-7b7f7c1e162c,has_welding,,산업안전보건기준에 관한 규칙,289,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+78e018e5-243b-5355-91f6-1da0d6026318,has_welding,,산업안전보건기준에 관한 규칙,290,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7993fa9a-0378-5ccd-9049-b7d476eebac9,has_hazardous_material,,산업안전보건기준에 관한 규칙,457,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7a128a62-1e53-5afc-b945-8c485e0571fe,has_hazardous_material,,산업안전보건기준에 관한 규칙,465,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7aba6710-c0d6-5262-93bc-4331b31ad022,has_excavation,,산업안전보건기준에 관한 규칙,378,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7ccc8ac6-a2f9-5f67-8691-5226585420fb,has_pressure_vessel,,산업안전보건기준에 관한 규칙,87,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7d21e569-2d76-56a0-b88f-0aa7885247b7,has_dust_work,,산업안전보건기준에 관한 규칙,230,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7d95a6b0-e4dc-517f-8818-90867877c8a4,has_blasting,,산업안전보건기준에 관한 규칙,371,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7dfec312-401f-5891-8510-ed35314431e2,has_confined_space,,산업안전보건기준에 관한 규칙,624,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+7f86633d-4fec-5d90-8762-8dc9d842699a,has_hazardous_material,,산업안전보건기준에 관한 규칙,447,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+807f9fc5-0291-509b-a103-122e89a6a5f1,has_hazardous_material,,산업안전보건기준에 관한 규칙,443,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+83ceae6d-df00-5016-a21e-b4db3bc92482,has_hazardous_material,,산업안전보건기준에 관한 규칙,437,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+83f24a15-33cb-5d70-8a29-7a682d49fffc,has_diving,,산업안전보건기준에 관한 규칙,546,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+84001932-7ef6-5789-885f-34913213e810,has_crane,,산업안전보건기준에 관한 규칙,136,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+857ffe6d-58a8-5b7c-927c-42406decc19c,has_excavation,,산업안전보건기준에 관한 규칙,221,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+86b34dce-6032-5db3-b404-74e2e8996c09,has_hazardous_material,,산업안전보건기준에 관한 규칙,446,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+8758e50f-0755-574f-98a3-3bc91c5d54d6,has_excavation,,산업안전보건기준에 관한 규칙,339,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+87e678d2-af34-5e41-b5fa-435ffd24cbdb,has_pile_work,,산업안전보건기준에 관한 규칙,216,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+87f8da46-6f44-5078-868d-74250e8dbbb5,has_emergency_gen,,산업안전보건기준에 관한 규칙,308,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+8802a9d1-d12f-5e02-808d-f18a1ddf60f1,has_subcontractor,,정보통신공사업법,26,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+881b8338-fa22-5d87-bf33-f51572bcfb9d,has_forklift,,산업안전보건기준에 관한 규칙,183,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+884cb306-79bd-58ba-801b-1ab412986d64,has_diving,,산업안전보건기준에 관한 규칙,527,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+886a5841-9a6d-5805-aa00-bfb648df0464,has_asbestos,,석면안전관리법,22,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+896917cf-a293-5f72-a840-8a7488e1b381,has_concrete_work,,산업안전보건기준에 관한 규칙,332,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+89f58369-c3f0-522f-911d-a982d32f993f,has_confined_space,,산업안전보건기준에 관한 규칙,622,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+8a96841f-b5ec-5eff-a8ed-7b28a75a1afc,has_pile_work,,산업안전보건기준에 관한 규칙,207,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+8cfa805e-0037-58fc-8bcb-bbad580e3611,has_asbestos,,산업안전보건기준에 관한 규칙,494,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+8ed03657-b242-5ae8-a54c-c2414ab51793,has_boiler,,산업안전보건기준에 관한 규칙,629,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+8ef051b2-e0d7-5106-8769-081d84b0d233,has_elevator,,산업안전보건기준에 관한 규칙,162,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+913710ef-9158-5302-ac31-50f98b68b6df,has_pile_work,,산업안전보건기준에 관한 규칙,221,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+91a6f6b2-353a-5685-b3e3-ce65c311dead,has_hazardous_material,,산업안전보건기준에 관한 규칙,458,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+93ffb254-62cf-528e-9980-9681aea75c1c,has_elevator,승강기법,승강기법,4,승강기법,NONBLANK_INHERITED,YES(short_form)
+95739a34-3ae9-579e-a2e0-b02a92fbe9f9,has_high_pressure_gas,고압가스법,고압가스법,16,고압가스법,NONBLANK_INHERITED,YES(short_form)
+95bdc756-b7c7-5839-84a7-ee1688be09aa,has_crane,,산업안전보건기준에 관한 규칙,146,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+95c4da9d-f361-5614-a689-b80f2efd4f5c,has_concrete_work,,산업안전보건기준에 관한 규칙,367,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9830c2b6-fac9-51b7-bc37-6407c2352933,has_noise_work,,산업안전보건기준에 관한 규칙,516,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9a262273-acc9-51e4-b538-6216a80f3e63,has_conveyor,,산업안전보건기준에 관한 규칙,195,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9ad558b4-f8f1-5e2c-becf-22862ec91807,has_diving,,산업안전보건기준에 관한 규칙,537,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9ad86067-10a4-560e-8a5f-378a6e0cac32,has_hazardous_material,,산업안전보건기준에 관한 규칙,463,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9c66dac6-43fc-5c76-8f55-8e508b444c22,has_gas,,도시가스사업법,41,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+9ca77a21-6643-5299-8663-abe94c059cb7,has_concrete_work,,산업안전보건기준에 관한 규칙,365,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9e7b8a85-90e0-59cb-a757-a549a8905405,has_welding,,산업안전보건기준에 관한 규칙,289,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9ec69d2c-fce9-5d2f-8815-1570cd6d37b8,has_crane,,산업안전보건기준에 관한 규칙,142,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+9f621f8c-0ed5-5fe0-8abe-926ad4a5efad,has_casting,,산업안전보건기준에 관한 규칙,121,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a0098d92-a822-56f5-91e1-6be333979e2a,has_chemical,,화학물질관리법,44,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+a093685e-74ca-5de3-af54-ef978e730ef5,has_diving,,산업안전보건기준에 관한 규칙,525,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a186d369-a776-517a-a7ee-a70e5f688dfa,has_dust_work,,산업안전보건기준에 관한 규칙,83,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a1a6a96f-fee2-5852-9741-a4dc17da47da,has_hazardous_material,,산업안전보건기준에 관한 규칙,435,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a20d913d-52a7-5425-bb2c-8c2d91b1b5a8,has_crane,,산업안전보건기준에 관한 규칙,146,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a233cece-0af7-553d-a6c4-b8f51264e0f4,has_gas,,도시가스사업법 시행규칙,15,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+a349abe5-aabc-5393-9915-9f99d6265856,has_diving,,산업안전보건기준에 관한 규칙,552,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a491323c-36ff-58a0-946e-502cc309c0ef,has_elevator,,산업안전보건기준에 관한 규칙,152,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a4b8422b-fb0b-5984-996d-cc6d90920df4,has_subcontractor,,정보통신공사업법,31,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+a4fe2bf5-9bc3-594c-8e0c-9f7d250d713c,has_welding,,산업안전보건기준에 관한 규칙,288,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a53121b4-ca61-5c9f-85dc-a2a568f1eb90,has_scaffold,,산업안전보건기준에 관한 규칙,57,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a6982f6c-2e2f-5f5b-b5a1-7772b28098d9,has_pile_work,,산업안전보건기준에 관한 규칙,216,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a7511d1f-5850-58b2-90d3-9bb5485e30e8,has_diving,,산업안전보건기준에 관한 규칙,547,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a7ea138f-6d3d-5636-ad3f-72dd6794e34a,has_noise_work,,산업안전보건기준에 관한 규칙,513,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a80efdde-0537-55a4-a93d-efcc35f73b4c,has_demolition,,산업안전보건기준에 관한 규칙,51,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a9346820-f627-5968-825c-54f618e20e2e,has_elevator,,산업안전보건기준에 관한 규칙,86,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a965627c-ddf7-5bda-8018-23f4b4538266,has_elevator,,산업안전보건기준에 관한 규칙,156,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a96aa3bb-993c-500f-b9e0-9377d08b3270,has_crane,,산업안전보건기준에 관한 규칙,142,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+a9c55676-765d-5e7e-953a-aa0e24472e1e,has_high_place_work,,산업안전보건기준에 관한 규칙,186,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+aa3dac20-cdfc-5364-9c73-837739f4374a,has_confined_space,,산업안전보건기준에 관한 규칙,640,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+aa7927b5-ecdc-5c2e-96a7-1355d9244675,has_dust_work,,산업안전보건기준에 관한 규칙,77,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+aa81006b-cb25-5c75-891d-4e6de421375f,has_hazardous_material,,산업안전보건기준에 관한 규칙,469,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ab450cb1-1829-5e62-9923-891f0b5a3435,has_concrete_work,,산업안전보건기준에 관한 규칙,331,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ac22a5d8-5735-537d-a3eb-03d1bad2387a,has_diving,,산업안전보건기준에 관한 규칙,545,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+acb6ea7f-b18a-5db9-91fa-b3289fae5b82,has_diving,,산업안전보건기준에 관한 규칙,544,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+acd89e25-fc5c-57e3-9ce5-a02a563d9a2b,has_hazardous_material,,산업안전보건기준에 관한 규칙,464,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ae0a74ad-9452-5677-8080-37d603eb0645,has_crane,,건설기계 안전기준에 관한 규칙,125,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+af5675b5-05fc-55e6-93c5-738281829cdb,has_hazardous_material,,산업안전보건기준에 관한 규칙,451,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+b087811b-160c-5238-b105-d77d2721a173,has_hazardous_material,,산업안전보건기준에 관한 규칙,459,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+b16457c9-6564-5b00-a084-2ccc6c1ba55a,has_concrete_work,,산업안전보건기준에 관한 규칙,328,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+b3cf2e5c-10a9-5fe2-9d08-fdbe7535afd9,has_excavation,,산업안전보건기준에 관한 규칙,221,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+b7eca4bf-de46-54c6-9818-1cbbc7436a38,has_confined_space,,산업안전보건기준에 관한 규칙,643,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+b84742ef-4ce9-5c82-b147-e45fbc3cce28,has_forklift,,산업안전보건기준에 관한 규칙,181,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ba62bba0-441e-5ac5-ad99-4029af8b59b2,has_excavation,,산업안전보건기준에 관한 규칙,362,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+badb9ea0-f5d3-511c-8525-f951e187594c,has_dust_work,,산업안전보건기준에 관한 규칙,614,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+bb918aa7-4e6d-5f18-aff2-221a0ce816c6,has_rolling,,산업안전보건기준에 관한 규칙,87,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+be1345bf-df99-5bb6-9b84-5b098333addc,has_gondola,,산업안전보건기준에 관한 규칙,86,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c0747d4e-0a50-530a-90f1-0c649cf54e61,has_diving,,산업안전보건기준에 관한 규칙,533,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c276bfff-4945-594f-8324-0716ea8742c1,has_pile_work,,산업안전보건기준에 관한 규칙,207,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c53320d7-350b-5ec3-93fc-5f4ada6574cb,has_boiler,,산업안전보건기준에 관한 규칙,630,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c5be1b14-2540-53b7-aed5-4836a2f4e225,has_confined_space,,산업안전보건기준에 관한 규칙,639,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c5e81202-dcd3-5884-a70d-306ed0978ab1,has_subcontractor,,건설산업기본법,35,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+c60f79f2-4cb5-5b08-9a4b-acca62fc3acb,has_rolling,,산업안전보건기준에 관한 규칙,108,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c68c9721-0dde-5239-a53c-b825c1200a54,has_welding,,산업안전보건기준에 관한 규칙,286,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c6c9c933-a665-57d0-b762-4e9f2129b333,has_asbestos,,산업안전보건기준에 관한 규칙,487,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c7c636bd-8c70-5c35-a1e2-b14c560b4c4f,has_hazardous_material,,산업안전보건기준에 관한 규칙,455,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c8b14c87-490f-519d-84b2-bac1b2f5e005,has_hazardous_material,,산업안전보건기준에 관한 규칙,505,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c924dad5-4d8f-5f2d-b0e8-6d537f75a087,has_crane,,산업안전보건기준에 관한 규칙,86,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c93409b1-8010-5b1b-812f-7807022f656d,has_hazardous_material,,산업안전보건기준에 관한 규칙,442,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+c9e0c957-e4f4-5ca2-bb61-6cc3ddf9771a,has_hazardous_material,,산업안전보건기준에 관한 규칙,464,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+cacdac8d-39b8-5290-9d32-6b17e607e73b,has_gas,,도시가스사업법 시행규칙,20,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+cb18705e-c855-50a0-820d-b3d3da92b88b,has_radiation,,산업안전보건기준에 관한 규칙,574,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+cb64ba11-f66c-5cea-a395-1237bd07f99d,has_radiation,,산업안전보건기준에 관한 규칙,580,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+cdd61d9c-0264-59d2-b805-e0771b48b8a4,has_hazardous_material,,산업안전보건기준에 관한 규칙,504,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ce59b35c-84bf-55ba-b58e-0902fd50b713,has_water_tank,,수도법 시행규칙,22,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+ce9ed68c-6764-5e83-8bbb-e002432ca969,has_crane,,산업안전보건기준에 관한 규칙,142,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d018d484-e92a-5588-b8b2-44e6b7e70955,has_crane,,산업안전보건기준에 관한 규칙,149,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d08d94bb-b971-5c31-8bbe-9aab36d566f3,has_confined_space,,산업안전보건기준에 관한 규칙,619,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d1521325-6401-5729-a58e-67134e77c695,has_hazardous_material,,산업안전보건기준에 관한 규칙,460,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d37a6376-79f8-5d67-86a1-e6b8eee267e2,has_pile_work,,산업안전보건기준에 관한 규칙,38,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d4a5bfac-eabc-532a-b484-679723792e60,has_crane,,산업안전보건기준에 관한 규칙,146,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d587ea03-2281-529d-8d5f-25deafa5c2d2,has_diving,,산업안전보건기준에 관한 규칙,531,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d62a3f84-3004-55ca-821e-ec86dae4b603,has_noise_work,,산업안전보건기준에 관한 규칙,515,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d6697679-5c37-5bca-8e2e-b96bbbd2e0b5,has_elevator,,산업안전보건기준에 관한 규칙,154,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d6711899-cab1-5b9e-a1e9-aa8be698a5c0,has_blasting,,산업안전보건기준에 관한 규칙,349,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d72f3df3-0359-5973-aab6-5dd4acad87c8,has_grinding,,산업안전보건기준에 관한 규칙,122,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d788dd1e-8b22-5328-ad28-849a3b5ce3ab,has_crane,,산업안전보건기준에 관한 규칙,147,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+d7be3706-e0a3-56c6-8664-285169cf342d,has_excavation,,산업안전보건법,38,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+d9d2ea3c-a127-56e8-b79d-38b02da3d4a8,has_pile_work,,산업안전보건기준에 관한 규칙,218,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+da08cdd2-6a4e-5f3e-906c-a96ce447fe67,has_conveyor,,산업안전보건기준에 관한 규칙,191,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+dc7bfaec-e2f6-5d2a-b161-542782302deb,has_asbestos,,산업안전보건기준에 관한 규칙,491,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+dd1988a7-7efb-51ee-a552-b7f85142c898,has_welding,,산업안전보건기준에 관한 규칙,295,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+dd5c7383-3d01-5565-8ef8-32e1d94cb350,has_excavation,,도시가스사업법,30,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+de1755ec-6cce-51da-af88-a1747995681c,has_pile_work,,산업안전보건기준에 관한 규칙,209,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+df224a68-4bc6-5b34-af07-34e0dc2ec91b,has_scaffold,,산업안전보건기준에 관한 규칙,57,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e10a547f-0c17-55f7-99cd-8f6ac8613c42,has_hazardous_material,,산업안전보건기준에 관한 규칙,501,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e12914c4-0875-5b3d-a6f1-d3dd8aa58aa0,has_excavation,,산업안전보건기준에 관한 규칙,221,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e16a2391-a0df-5b6f-ab28-15d8bf5286b5,has_subcontractor,,건설산업기본법,36,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+e1b40ae4-4855-5923-ba40-c3ca7718ea5a,has_concrete_work,,산업안전보건기준에 관한 규칙,331,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e2007579-f621-555f-9485-457bc68fa095,has_noise_work,,산업안전보건기준에 관한 규칙,514,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e2534765-b8d2-54f4-a2a9-7aeb5ccc009e,has_forklift,,산업안전보건기준에 관한 규칙,179,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e29e837f-9578-5cbc-b258-518faefeae57,has_diving,,산업안전보건기준에 관한 규칙,535,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e2c0609d-2410-5377-9db4-c4a9a407e356,has_asbestos,,산업안전보건기준에 관한 규칙,497,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e2c53ed7-069c-54ea-bb50-6589461f0a47,has_gondola,,산업안전보건기준에 관한 규칙,160,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e35c3112-211b-5dbe-9ebf-3ab1a6133c67,has_concrete_work,,산업안전보건기준에 관한 규칙,332,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e408aee5-e825-58ef-b467-61f9e84f57da,has_diving,,산업안전보건기준에 관한 규칙,530,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e4140e0c-379f-591c-9c5c-223b9eff9518,has_scaffold,,산업안전보건기준에 관한 규칙,55,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e4d3146b-ceed-5cfa-86c7-21e0a34dc843,has_welding,,산업안전보건기준에 관한 규칙,542,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e6943a31-c52f-5371-aa0f-26a00d38ef44,has_high_place_work,,산업안전보건기준에 관한 규칙,186,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e724d5a2-bebc-5645-b41a-4a60e846396b,has_boiler,,산업안전보건기준에 관한 규칙,119,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e843bdd4-1c07-5bc1-9a85-e3f92b7c5c16,has_chemical,,화학물질관리법,31,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+e8ff59ed-a77d-5034-bb89-1d80dcf0205c,has_excavation,,산업안전보건기준에 관한 규칙,339,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+e9d30d8e-5a55-5467-ba50-8ee833e4b512,has_confined_space,,산업안전보건기준에 관한 규칙,626,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ea92a57d-be66-5d07-bdab-eb032faac006,has_crane,,산업안전보건기준에 관한 규칙,170,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ebe04e57-e3c9-53fe-91f2-f57b87ebda19,has_rolling,,산업안전보건기준에 관한 규칙,9,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ee0fc81e-b6c4-58d3-be82-630f4297aaf4,has_hazardous_material,,산업안전보건기준에 관한 규칙,470,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ee4b00ba-c483-5013-9425-1c6d2a8645ad,has_welding,,산업안전보건기준에 관한 규칙,293,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+efb5e944-745d-5d48-877c-5f6aa3bf5101,has_pile_work,,산업안전보건기준에 관한 규칙,212,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f0c48a29-185c-5511-a975-bc30f55df7b4,has_pressure_vessel,,산업안전보건기준에 관한 규칙,528,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f13a858e-0414-51a8-8aac-f0cf6892c551,has_excavation,,건축법,41,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+f1b39cc7-e4de-5abf-846e-cbec5caa93cb,has_grinding,,산업안전보건기준에 관한 규칙,122,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f3576528-3dd6-5dff-8bc5-bea300b9fa68,has_hazmat_storage,,산업안전보건기준에 관한 규칙,628,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f4e8c393-ca91-52f0-843c-a7292df8384a,has_radiation,,산업안전보건기준에 관한 규칙,576,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f52755f3-2e1d-5730-bd32-cb92dd0beb03,has_hazardous_material,,산업안전보건기준에 관한 규칙,503,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f5807001-f1ce-5b72-b338-671a19084a3e,has_pressure_vessel,,산업안전보건기준에 관한 규칙,120,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f5f4f288-1c1b-5f12-92c6-7040c6e8cada,has_elevator,,산업안전보건기준에 관한 규칙,158,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f7bb266f-d965-5675-ba2e-972ab1af5127,has_subcontractor,,건설산업기본법,37,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+f8d12420-58b3-593f-84f9-710acc3a1fb5,has_scaffold,,산업안전보건기준에 관한 규칙,67,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f90976a7-4259-520e-8789-2e58f0fe807e,has_welding,,산업안전보건기준에 관한 규칙,356,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+f935ab17-1bca-5b58-9558-ab626a06693c,has_concrete_work,,산업안전보건기준에 관한 규칙,368,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fae1bc9c-2f7a-5f1d-9344-9f162d7863b2,has_scaffold,,산업안전보건기준에 관한 규칙,69,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fb2051fb-20c3-5b53-af7f-f2090fe7cca2,has_confined_space,,산업안전보건기준에 관한 규칙,620,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fb8b07c8-9019-5066-9171-8327907ed451,has_diving,,산업안전보건기준에 관한 규칙,538,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fbb3fcea-e207-5bd5-8e85-18c94008a263,has_hazardous_material,,산업안전보건기준에 관한 규칙,466,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fbe658d7-8c43-5da9-b89d-4b001d06dc2a,has_welding,,산업안전보건기준에 관한 규칙,306,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fd6d8b7d-6988-5566-a145-58205ce2ac77,has_subcontractor,,소방시설공사업법,21,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_INCORRECT,NO
+fda3de28-2781-5f91-8e75-4894579b7569,has_gondola,,산업안전보건기준에 관한 규칙,63,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fe009ad8-5550-5d11-ade0-6ed78a9e7cb4,has_scaffold,,산업안전보건기준에 관한 규칙,54,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fe36e99a-0588-5df1-9cc4-ff829c2a899f,has_excavation,,산업안전보건기준에 관한 규칙,221,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fe3e0cc8-27b3-5b3c-84f6-9d233c43e029,has_diving,,산업안전보건기준에 관한 규칙,547,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fe6b3d20-3abd-5620-bdea-8153a5fee962,has_dust_work,,산업안전보건기준에 관한 규칙,613,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+fe7a74bc-57a2-5b05-b489-360b08ba92b5,has_crane,,산업안전보건기준에 관한 규칙,139,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ff0580c6-1de4-5253-a385-1f9939eb4d98,has_asbestos,,산업안전보건기준에 관한 규칙,496,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
+ffb9ccc6-fa84-5b1b-9871-3a8d49df9c0a,has_hazardous_material,,산업안전보건기준에 관한 규칙,449,산업안전보건기준에 관한 규칙,BLANK_DEFAULT_CORRECT,YES
