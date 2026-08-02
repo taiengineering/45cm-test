@@ -1,0 +1,10 @@
+atom_id,law_name,article,mapped_field,actual_legal_trigger,correct_field_hint,classification
+1d6a70e6-40dc-59d7-99b8-62597635762b,근로기준법,56,worker_count,야간근로 가산임금(근로조건·상시적용),always/labor,RULE_DESIGN(mismapped)
+cfbfa1fb-04f2-5145-a903-acd516d11c41,근로기준법,60,worker_count,1년미만 근로자 유급휴가,always/labor,RULE_DESIGN(mismapped)
+bca5d9ca-ae60-5013-aa62-0391b2a14909,근로기준법,60,worker_count,연차 15일 유급휴가,always/labor,RULE_DESIGN(mismapped)
+acc26661-9fe3-597f-82af-9ab6db9d2374,근로기준법,75,worker_count,육아 수유시간,always/labor,RULE_DESIGN(mismapped)
+961c0ec1-183f-5d8a-a9cd-2cf57c964973,산업안전보건기준에 관한 규칙,49,worker_count,높이 2m 이상 작업,has_height_work,RULE_DESIGN(mismapped)
+4b663c8e-3b31-5b65-95f2-8a26009f3fde,산업안전보건기준에 관한 규칙,187,worker_count,2m 이상 화물차 상하차,has_height_work/loading,RULE_DESIGN(mismapped)
+e665bb81-e70c-54be-99c6-cf6dfb5b35f1,산업안전보건기준에 관한 규칙,665,worker_count,5kg 이상 중량물 인력,has_lifting,RULE_DESIGN(mismapped)
+5b849b3e-a3ae-52ae-81e7-3eb4858230ab,산업안전보건기준에 관한 규칙,524,worker_count,기압조절실 1인당 면적(잠함/기압),has_high_pressure/diving,RULE_DESIGN(mismapped)
+fdb63aa2-8f18-51d4-b141-a36c6d6bea2a,응급의료에 관한 법률,8,worker_count,응급환자 2명 이상 우선순위,emergency,RULE_DESIGN(mismapped)
