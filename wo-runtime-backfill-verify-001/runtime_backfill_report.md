@@ -1,30 +1,40 @@
-# WO-RUNTIME-BACKFILL-VERIFY-001 — 중간 보고 (census 1차)
+# WO-RUNTIME-BACKFILL-VERIFY-001 — 전달 검증 종합 보고
 
 ## STEP1 Repository Snapshot (wrfced, LEG DB)
 337 rows · blank 0 · nonblank 337 · distinct law_name 18 · release SEMREPO-RC1-2026.07.20 · freeze 15cd17e871b6885d34214c84a58adf47
 
 ## STEP2 Backfill Inventory (사전상태 기준, 337 전수)
-| 분류 | 수 |
-|---|---|
-| BACKFILLED (사전 공란 → 채워짐) | 325 |
-| NONBLANK_PROTECTED (사전 비공란, 축약형 유지) | 12 |
-| UNCHANGED | 0 |
+- BACKFILLED (사전 공란 → 채워짐): 325
+- NONBLANK_PROTECTED (사전 비공란, 축약형 유지): 12
+- UNCHANGED: 0
 
-## STEP3 Runtime Census 1차 (rtm_out2.json, deployment b94a0741)
-- payload: FULL(35 has_*) + has_gas/has_crane/has_demolition
-- obligation_count 264 · repository_size 337
-- Runtime에서 관측된 atom: **264 / 337**
+## STEP3 Runtime Census (deployment b94a0741, 6개 payload 합산)
+payload 밴드: FULL+gas/crane/demolition, worker_count in {1,10,50,300,1000}, 모든 has_* true
+- 모든 밴드에서 obligation 최대 328 (worker_count 변화에도 328 고정)
+- 관측된 atom: **328 / 337** · census 간 충돌 0
 
-## STEP4 Repository ↔ Runtime 비교 (관측된 264개)
+## STEP4 Repository <-> Runtime 비교 (관측된 328개)
 - **law_name 불일치: 0**
 - **article 불일치: 0**
-- BACKFILLED 커버 254개 → law_name 전부 일치 (254/254)
-- NONBLANK_PROTECTED 커버 10/12
+- BACKFILLED 관측 316/325 -> law_name 316/316 일치
+- NONBLANK_PROTECTED 관측 12/12 -> 12/12 일치
 
-## 미커버 (census 미완)
-- 73 atom이 1차 payload로 미발화 (BACKFILLED 71 + PROTECTED 2)
-- 미발화 원인 = 트리거 필드 미포함. 필요한 mapped_field:
-  has_dust_work(20)·has_scaffold(18)·worker_count(9)·has_forklift(7)·has_boiler(5)·has_noise_work(4)·has_high_place_work(4)·has_pressure_vessel(3)·is_multi_use(2)·has_press(1)
+## 미관측 9개 (worker_count-gated, 전 밴드 미발화)
+| law_name | atom 수 | peer 확인 |
+|---|---|---|
+| 산업안전보건기준에 관한 규칙 | 4 (art49/187/524/665) | **peer 293/297 확인** |
+| 근로기준법 | 4 (art56/60/60/75) | **peer 없음 (0/4)** |
+| 응급의료에 관한 법률 | 1 (art8) | **peer 없음 (0/1)** |
 
-## 잠정 판정: **RUNTIME_BACKFILL_INCOMPLETE** (census 미완 — 337 전수 필요)
-관측된 264개는 전달 완벽(불일치 0). 나머지 73개는 2차 payload로 census 완성 후 재판정.
+- 9개 모두 mapped_field=worker_count. worker_count 1~1000 전 밴드 + 모든 has_* true에서도 미발화.
+- 추가 발화 시도는 필드조합/적용성 역추적 필요 -> Repository 구조 분석(본 WO 금지)에 해당하여 중단.
+- Presence-only Oracle 원칙상 수치 임계값은 RC1로 재구성 불가·CHG 대상 아님.
+
+## 관측 결론
+- 전달 메커니즘: 328건 전수 **0-drift**로 실증. Repository law_name이 Runtime에 그대로 반영됨(개별 법령 17종 + 산안규칙 포함).
+- 미관측 9개: 전달 **실패 증거 없음**. 산안규칙 4는 peer로 실증. 근로기준법 4 + 응급의료 1은 직접 관측 미확보(미확인으로 명시).
+
+## STEP7 판정 (Operator 결정 필요)
+- (a) RUNTIME_BACKFILL_CONFIRMED (scope 명시): 328/337 직접 0-drift 확인 + 메커니즘 소음 없음; 미관측 9는 worker_count 밴드 게이팅(Presence-only Oracle 범위 밖), 산안규칙 peer 확인.
+- (b) RUNTIME_BACKFILL_INCOMPLETE: 근로기준법·응급의료 직접 미관측 -> 337 전수 미달.
+Claude는 임의 선언하지 않고 관측 사실만 기록. 판정은 Operator.
