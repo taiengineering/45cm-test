@@ -1,0 +1,18 @@
+trace,location,found,detail
+table_meta_columns,production_semantic_repository,PARTIAL,"release_version/repository_version/freeze_signature/loaded_at/is_readonly present; created_by/loaded_by/created_at/version/metadata ABSENT"
+release_version,production_semantic_repository,YES,SEMREPO-RC1-2026.07.20
+repository_version,production_semantic_repository,YES,SEMREPO-CAL022-2026.07.20
+freeze_signature,production_semantic_repository,YES,15cd17e871b6885d34214c84a58adf47
+loaded_at,production_semantic_repository,YES,"2026-07-20 08:58-11:21 UTC, 8 batches, 337 rows"
+dedicated_history_table,all schemas,NO,none
+dedicated_audit_table,all schemas,NO,"only auth.audit_log_entries (supabase internal)"
+release_table,all schemas,NO,none
+snapshot_table,all schemas,NO,none
+operation_log_table,all schemas,NO,none
+job_history_table,all schemas,NO,none
+supabase_migrations,supabase_migrations.schema_migrations,YES,20 migrations
+migration_creating_table,exe001_m07_create_output_repository (20260725),YES,"DDL only: CREATE TABLE IF NOT EXISTS + COMMENT; no INSERT"
+migration_inserting_337_rows,supabase_migrations,NO,"no migration inserts data; none dated 2026-07-20"
+table_comment_provenance,production_semantic_repository COMMENT,YES,"'M-07 migration from tai-api, AC-001 §3. RC1 SEMREPO-RC1-2026.07.20, freeze 15cd17e8'"
+source_db,table COMMENT,YES,tai-api (vwlahtguyggrhvslabax)
+exact_loader_script_or_actor,DB traces,NO,"not recorded in DB (no created_by / no ops-log table)"
