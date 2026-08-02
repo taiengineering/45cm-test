@@ -1,0 +1,7 @@
+obs_id,type,observation,occurrence,scope
+OBS-R-01,Label,runtime law_name vocabulary collapsed to 4 distinct values across 5232 obligations (catalog has ~14 laws; 산업안전보건기준에 관한 규칙 4956obl/316atoms, 승강기법 196/7, 고압가스법 78/3, 실내공기질법 2/2),4 distinct / 5232 obligations,300/300 profiles
+OBS-R-02,Label,runtime law_name differs from evidence-corroborated catalog for specific atoms (=prior OBS-004),301 instances,"109/300 profiles, 23 distinct atoms"
+OBS-R-03,Numeric,total_floor_area(numeric-mapped) atom fired in outputs,271 instances,271/300 profiles
+OBS-R-04,Unknown Contract,contract.unknown_fields present (non-repo input codes: has_sprinkler/has_high_work/has_chemical_substance/has_mech_parking/boiler_capacity_kw),37 instances,33/300 profiles
+OBS-R-05,Evidence,obligation evidence length capped at 80 chars (max=80; runtime output characteristic),exactly-80: 751 obligations,of 5232 obligations
+CLEAN,-,"evidence_empty 0, law_article_blank 0, applicability!=APPLICABLE 0, obligation_count mismatch 0, A/B/C atomset inconsistency 0, expected_atom_missing 0, unexpected_boolean_atom 0, contract.invalid 0, source_atom_ids multi/empty 0, triggered_by multi 0",0,300/300 clean
