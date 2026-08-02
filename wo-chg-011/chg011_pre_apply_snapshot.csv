@@ -1,0 +1,13 @@
+metric,value
+target_db,vwlahtguyggrhvslabax
+total_rows,337
+distinct_atom_id,337
+blank_law_name,325
+nonblank_law_name,12
+distinct_release,1
+release_version,SEMREPO-RC1-2026.07.20
+distinct_freeze,1
+freeze_signature,15cd17e871b6885d34214c84a58adf47
+content_checksum_before,5b4669a39bcda241c09a22679872709a
+broken_lineage_total,0
+broken_lineage_blank,0
