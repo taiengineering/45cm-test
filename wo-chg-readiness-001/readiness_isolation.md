@@ -6,7 +6,7 @@
 | 항목 | 값 | 판정 |
 |---|---|---|
 | WHERE atom_id=5b849b3e 매칭 행 | **1** | 단건 격리 |
-| 현재 mapped_field | worker_count | 예상 일치
+| 현재 mapped_field | worker_count | 예상 일치 |
 | law_article | 524 | 확인 |
 | semantic_clause_id | 7509bca1-0700-466c-849b-de465134b186 | 확인 |
 | distinct atom_id / total rows | 337 / 337 | atom_id 유일(PK) |
