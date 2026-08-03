@@ -1,4 +1,4 @@
-atom_id,law,article,law_meaning,candidate_field,field_actual_usage,meaning_match,proposed_decision,caveat
-5b849b3e-a3ae-52ae-81e7-3eb4858230ab,산안규칙,524,기압조절실 1인당 바닥면적/공기부피 규격(가압·감압),has_diving,잠수작업+기압조절실/고압작업(art525/532/533),ACCEPTABLE_MATCH,CONFIRMED_TARGET_FIELD,기압조절실이 has_diving과 has_pressure_vessel에 분산되어 있으나 has_diving이 기압조절실 다수 포함(우세)
-961c0ec1-183f-5d8a-a9cd-2cf57c964973,산안규칙,49,높이 2m 이상에서 작업(추락위험),has_high_place_work,art186 고소작업대(설치/사용/이동),ACCEPTABLE_MATCH,CONFIRMED_TARGET_FIELD,필드명은 고소작업 일반이나 기존 사용은 고소작업대 장비 - 필드 정의가 repo에 없어 name+usage 기반 추론(입력모델 정의로 최종확인 권장)
-4b663c8e-3b31-5b65-95f2-8a26009f3fde,산안규칙,187,2m 이상 화물차 짐 상하차,has_high_place_work,art186 고소작업대(설치/사용/이동),PARTIAL_MATCH,OPERATOR_DECISION,실질은 2m 높이 추락위험이나 트리거는 특정 하역작업 - 고소작업대와 의미 거리 있음; 대체 필드 부재. CONFIRMED(느슨) 또는 REJECTED(별도 필요) 중 Operator 판단
+atom_id,law,article,candidate_field,meaning_match,final_decision,confirmed_field,disposition
+5b849b3e-a3ae-52ae-81e7-3eb4858230ab,산안규칙,524,has_diving,ACCEPTABLE_MATCH,CONFIRMED_TARGET_FIELD,has_diving,기압조절실 obligation이 has_diving에 다수 매핑(art525/532/533) → 확정
+961c0ec1-183f-5d8a-a9cd-2cf57c964973,산안규칙,49,has_high_place_work,ACCEPTABLE_MATCH,REJECTED,,필드 실사용이 art186 고소작업대 장비에 한정 → 일반 높이작업으로 확장 증거 부족 → Track B 이관
+4b663c8e-3b31-5b65-95f2-8a26009f3fde,산안규칙,187,has_high_place_work,PARTIAL_MATCH,REJECTED,,필드 실사용이 고소작업대 장비에 한정 → 화물차 상하차로 확장 증거 부족 → Track B 이관
