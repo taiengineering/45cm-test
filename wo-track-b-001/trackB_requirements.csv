@@ -1,0 +1,9 @@
+atom_id,law,article,actual_trigger,expressible_now,why_not,req_class,shortfall_cause,impact_engine,impact_repository,impact_runtime,impact_ui,status
+1d6a70e6-40dc-59d7-99b8-62597635762b,근로기준법,56,야간근로(22~06시) 가산임금,NO,현재 입력모델에 근로정책(야간근로 여부) 필드 없음,NEW_BOOLEAN,근로정책 입력 부족,Y,Y,Y,Y,BACKLOG_CONFIRMED
+cfbfa1fb-04f2-5145-a903-acd516d11c41,근로기준법,60,1년미만 근로자 유급휴가,NO,상시적용 근로권리 - 트리거 조건형이 아닌 baseline이라 표현 불가,INPUT_MODEL_CHANGE,근로정책 입력 부족,Y,Y,Y,Y,BACKLOG_CONFIRMED
+bca5d9ca-ae60-5013-aa62-0391b2a14909,근로기준법,60,연차 15일 유급휴가,NO,상시적용 근로권리 - baseline 표현 개념 부재,INPUT_MODEL_CHANGE,근로정책 입력 부족,Y,Y,Y,Y,BACKLOG_CONFIRMED
+acc26661-9fe3-597f-82af-9ab6db9d2374,근로기준법,75,생후1년미만 유아 여성근로자 수유시간,NO,근로자 구성(수유 여성근로자) 입력 없음,NEW_BOOLEAN,근로정책 입력 부족,Y,Y,Y,Y,BACKLOG_CONFIRMED
+fdb63aa2-8f18-51d4-b141-a36c6d6bea2a,응급의료법,8,응급환자 2명 이상 우선순위,NO,OSH 사업장 모델과 다른 응급의료 도메인,INPUT_MODEL_CHANGE,도메인 확장 필요,Y,Y,Y,Y,BACKLOG_CONFIRMED
+e665bb81-e70c-54be-99c6-cf6dfb5b35f1,산안규칙,665,5kg 이상 중량물 인력취급,NO,수동 중량물취급(근골격계) 필드 없음(기계필드만),NEW_BOOLEAN,Hazard 입력 부족,Y,Y,Y,Y,BACKLOG_CONFIRMED
+961c0ec1-183f-5d8a-a9cd-2cf57c964973,산안규칙,49,높이 2m 이상 작업(일반),NO,has_high_place_work 실사용이 고소작업대 장비 한정 - 일반 고소작업 표현 필드 없음,NEW_BOOLEAN,Hazard 입력 부족,Y,Y,Y,Y,BACKLOG_CONFIRMED
+4b663c8e-3b31-5b65-95f2-8a26009f3fde,산안규칙,187,2m 이상 화물차 상하차,NO,화물차 상하차(하역 작업환경) 필드 없음,NEW_BOOLEAN,작업환경 입력 부족,Y,Y,Y,Y,BACKLOG_CONFIRMED
